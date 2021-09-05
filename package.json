@@ -6,6 +6,15 @@
   "author": "gabrieldvpereira <gdavi.gd@gmail.com>",
   "license": "MIT",
   "scripts": {
+    "orm:create": "sequelize migration:create --name",
+    "orm:run": "sequelize db:migrate",
+    "orm:revert": "sequelize db:migrate:undo",
+    "orm:revertAll": "sequelize db:migrate:undo:all",
+    "orm:runAll": "sequelize db:migrate && sequelize db:seed:all",
+    "seed:create": "sequelize seed:generate --name",
+    "seed:run": "sequelize db:seed:all",
+    "seed:revert": "sequelize db:seed:undo",
+    "seed:revertAll": "sequelize db:seed:undo:all",
     "start": "sequelize db:migrate && nodemon --exec sucrase-node src/server.js",
     "test": "jest",
     "lint": "eslint --ext .js,.ts,.tsx src/"
@@ -26,6 +35,7 @@
     "jest": "^27.1.0",
     "nodemon": "^2.0.12",
     "prettier": "^2.3.2",
+    "sequelize-cli": "^6.2.0",
     "sucrase": "^3.20.1"
   }
 }
