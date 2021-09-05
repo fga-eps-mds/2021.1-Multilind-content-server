@@ -54,6 +54,8 @@ POSTGRES_DB=test
 make build
 ```
 
+ou 
+
 ```bash
 sudo docker-compose up --build
 ```
