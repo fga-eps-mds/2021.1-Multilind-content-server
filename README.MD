@@ -8,12 +8,12 @@
 
 # Índice
 
-- [Rode o Backend com Docker](#rode-o-backend-com-docker)
+- [Rode o Servidor com Docker](#rode-o-servidor-com-docker)
   - [Dependências](#dependências)
   - [Arquivos de Configuração](#arquivos-de-configuração)
   - [Inicialização do Projeto](#inicialização-do-projeto)
 
-## Rode o Backend com Docker
+## Rode o Servidor com Docker
 
 ### Dependências
 
