@@ -1,12 +1,17 @@
-const express = require('express');
+import express from "express";
 const router = express.Router();
-const controllerEtnia = require('../../controllers/Etnia');
+import {
+  getOne,
+  create,
+  getAll,
+  update,
+  deleteOne,
+} from "../../controllers/Etnia";
 
+router.get("/etnia/:id_etnia", getOne);
+router.get("/etnia", getAll);
+router.post("/etnia", create);
+router.put("/etnia/:id_etnia", update);
+router.delete("/etnia/:id_etnia", deleteOne);
 
-//router.get('/etnia', () => { console.log('get one etnia') });
-//router.get('', () => {console.log('get all etnias')});
-router.post('/etnia', controllerEtnia.create);
-//router.put('', () => {console.log('edit one etnia')});
-//router.delete('', () => {console.log('delete one etnia')});
-
-module.exports = router;
+export default router;
