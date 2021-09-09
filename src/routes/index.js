@@ -1,4 +1,4 @@
-import etniaRouters from "./etnia/etnia.routes";
+import etniaRouters from "./Etnia/etnia.routes";
 
 export function setUpRoutes(app) {
   app.use(etniaRouters);
