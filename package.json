@@ -16,7 +16,7 @@
     "seed:revert": "sequelize db:seed:undo",
     "seed:revertAll": "sequelize db:seed:undo:all",
     "start": "sequelize db:migrate && nodemon --exec sucrase-node src/server.js",
-    "test": "jest",
+    "test": "sequelize db:migrate:undo:all && sequelize db:migrate && jest --collect-coverage",
     "lint": "eslint --ext .js,.ts,.tsx src/"
   },
   "dependencies": {
@@ -38,6 +38,7 @@
     "nodemon": "^2.0.12",
     "prettier": "^2.3.2",
     "sequelize-cli": "^6.2.0",
-    "sucrase": "^3.20.1"
+    "sucrase": "^3.20.1",
+    "supertest": "^6.1.6"
   }
 }
