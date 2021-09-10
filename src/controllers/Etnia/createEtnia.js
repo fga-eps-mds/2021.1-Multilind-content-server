@@ -1,14 +1,13 @@
 import Etnia from "../../models/Etnia";
 import { HttpException } from "../../error/HttpException";
 
-exports.create = async (request, response) => {
+export async function create(request, response) {
   const { body } = request;
-  const { nome } = body;
-  if (!nome) {
+  if (!body.nome) {
     throw new HttpException(400, "Nome inválido - Etnia");
   }
 
-  const nameAlreadyExists = await Etnia.searchByName(nome);
+  const nameAlreadyExists = await Etnia.searchByName(body.nome);
   if (nameAlreadyExists) {
     throw new HttpException(400, "Nome já existente - Etnia");
   }
@@ -16,4 +15,4 @@ exports.create = async (request, response) => {
   await Etnia.create(body);
 
   response.send(body);
-};
+}
