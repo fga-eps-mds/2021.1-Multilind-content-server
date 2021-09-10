@@ -1,7 +1,7 @@
 import Etnia from "../../models/Etnia";
 import { HttpException } from "../../error/HttpException";
 
-exports.getOne = async (request, response) => {
+export async function getOne(request, response) {
   const { id_etnia } = request.params;
 
   if (!id_etnia) {
@@ -14,4 +14,4 @@ exports.getOne = async (request, response) => {
   }
 
   response.send(etniaEncontrada);
-};
+}

@@ -2,7 +2,7 @@ import Etnia from "../../models/Etnia";
 import { HttpException } from "../../error/HttpException";
 import Conteudo from "../../models/Conteudo";
 
-exports.deleteOne = async (request, response) => {
+export async function deleteOne(request, response) {
   const { id_etnia } = request.params;
   if (!id_etnia) {
     throw new HttpException(400, "ID inválido - Etnia");
@@ -15,4 +15,4 @@ exports.deleteOne = async (request, response) => {
   Conteudo.delete(etniaEncontrada.id_conteudo);
 
   response.send("Deletado com sucesso!");
-};
+}
