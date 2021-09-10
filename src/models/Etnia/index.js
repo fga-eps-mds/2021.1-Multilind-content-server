@@ -1,4 +1,5 @@
 import EtniaModel from "./Etnia";
+import Conteudo from "../Conteudo";
 
 exports.getAll = async () => {
   return await EtniaModel.findAll({
@@ -13,6 +14,8 @@ exports.searchByName = async (nome) => {
   });
 };
 exports.create = async (etnia) => {
+  const conteudoCreated = await Conteudo.create();
+  etnia.id_conteudo = conteudoCreated.id_conteudo;
   return await EtniaModel.create(etnia);
 };
 exports.searchById = async (id) => {
