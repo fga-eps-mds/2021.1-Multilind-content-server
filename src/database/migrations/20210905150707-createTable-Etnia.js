@@ -11,6 +11,10 @@ module.exports = {
           primaryKey: true,
           allowNull: false,
         },
+        id_conteudo: {
+          type: Sequelize.DataTypes.INTEGER,
+          allowNull: false,
+        },
         nome: {
           type: Sequelize.DataTypes.STRING,
           allowNull: false,
