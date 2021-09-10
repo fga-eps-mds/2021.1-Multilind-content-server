@@ -8,7 +8,8 @@ describe("Testes Etnia", () => {
       const result = await supertest(app).post("/etnia").send(data);
 
       expect(result.status).toStrictEqual(200);
-      expect(result.body).toStrictEqual(data);
+      const dataResult = { id_conteudo: 1, nome: "tupi" };
+      expect(result.body).toStrictEqual(dataResult);
     });
 
     it("Etnia - 200 - Criado com sucesso - 2", async () => {
@@ -16,7 +17,8 @@ describe("Testes Etnia", () => {
       const result = await supertest(app).post("/etnia").send(data);
 
       expect(result.status).toStrictEqual(200);
-      expect(result.body).toStrictEqual(data);
+      const dataResult = { id_conteudo: 2, nome: "tupi-guarani" };
+      expect(result.body).toStrictEqual(dataResult);
     });
 
     it("Etnia - 400 - Nome Existente", async () => {
@@ -43,7 +45,11 @@ describe("Testes Etnia", () => {
       const result = await supertest(app).get("/etnia/1");
 
       expect(result.status).toStrictEqual(200);
-      expect(result.body).toStrictEqual({ id_etnia: 1, nome: "tupi" });
+      expect(result.body).toStrictEqual({
+        id_conteudo: 1,
+        id_etnia: 1,
+        nome: "tupi",
+      });
     });
 
     it("Etnia - 200 - listando com sucesso - Todos", async () => {
@@ -51,8 +57,8 @@ describe("Testes Etnia", () => {
 
       expect(result.status).toStrictEqual(200);
       expect(result.body).toStrictEqual([
-        { id_etnia: 1, nome: "tupi" },
-        { id_etnia: 2, nome: "tupi-guarani" },
+        { id_conteudo: 1, id_etnia: 1, nome: "tupi" },
+        { id_conteudo: 2, id_etnia: 2, nome: "tupi-guarani" },
       ]);
     });
 
