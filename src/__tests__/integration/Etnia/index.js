@@ -82,9 +82,11 @@ describe("Testes Etnia", () => {
           expect(result.status).toStrictEqual(200);
           expect(result.body).toStrictEqual(data);
 
-          const resultDB = await supertest(app).get("/etnia/1");
-
-          expect(result.body).toStrictEqual({ nome: resultDB.body.nome });
+          supertest(app)
+            .get("/etnia/1")
+            .then((resultDB) => {
+              expect(result.body).toStrictEqual({ nome: resultDB.body.nome });
+            });
         })
         .catch((err) => {
           throw err;
@@ -117,11 +119,13 @@ describe("Testes Etnia", () => {
         .then(async (result) => {
           expect(result.status).toStrictEqual(200);
 
-          const resultDB = await supertest(app).get("/etnia/1");
-
-          expect(resultDB.body).toStrictEqual({
-            error: "Etnia não encontrada - Etnia",
-          });
+          supertest(app)
+            .get("/etnia/1")
+            .then((resultDB) => {
+              expect(resultDB.body).toStrictEqual({
+                error: "Etnia não encontrada - Etnia",
+              });
+            });
         })
         .catch((err) => {
           throw err;
