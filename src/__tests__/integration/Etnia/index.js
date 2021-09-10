@@ -75,14 +75,16 @@ describe("Testes Etnia", () => {
   describe("Testes de atualização de Etnia", () => {
     it("Etnia - 200 - Atualizando com sucesso - Por ID", async () => {
       const data = { nome: "guarani" };
-      const result = await supertest(app).put("/etnia/1").send(data);
+      supertest(app)
+        .put("/etnia/1")
+        .send(data)
+        .then(async (result) => {
+          expect(result.status).toStrictEqual(200);
+          expect(result.body).toStrictEqual(data);
 
-      expect(result.status).toStrictEqual(200);
-      expect(result.body).toStrictEqual(data);
-
-      const resultDB = await supertest(app).get("/etnia/1");
-
-      expect(result.body).toStrictEqual({ nome: resultDB.body.nome });
+          const resultDB = await supertest(app).get("/etnia/1");
+          expect(result.body).toStrictEqual({ nome: resultDB.body.nome });
+        });
     });
 
     it("Etnia - 400 - Nome Existente", async () => {
@@ -106,15 +108,16 @@ describe("Testes Etnia", () => {
 
   describe("Testes de deleção de Etnia", () => {
     it("Etnia - 200 - Deletando com sucesso - Por ID", async () => {
-      const result = await supertest(app).delete("/etnia/1");
+      supertest(app)
+        .delete("/etnia/1")
+        .then(async (result) => {
+          expect(result.status).toStrictEqual(200);
 
-      expect(result.status).toStrictEqual(200);
-
-      const resultDB = await supertest(app).get("/etnia/1");
-
-      expect(resultDB.body).toStrictEqual({
-        error: "Etnia não encontrada - Etnia",
-      });
+          const resultDB = await supertest(app).get("/etnia/1");
+          expect(resultDB.body).toStrictEqual({
+            error: "Etnia não encontrada - Etnia",
+          });
+        });
     });
 
     it("Etnia - 404 - ID Existente", async () => {
