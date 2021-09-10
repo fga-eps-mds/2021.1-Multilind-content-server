@@ -14,6 +14,12 @@ module.exports = {
         id_conteudo: {
           type: Sequelize.DataTypes.INTEGER,
           allowNull: false,
+          references: {
+            model: "Conteudo",
+            key: "id_conteudo",
+          },
+          onUpdate: "CASCADE",
+          onDelete: "CASCADE",
         },
         nome: {
           type: Sequelize.DataTypes.STRING,
