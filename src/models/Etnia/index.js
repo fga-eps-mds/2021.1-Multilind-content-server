@@ -1,5 +1,5 @@
-import EtniaModel from "./Etnia";
-import Conteudo from "../Conteudo";
+const EtniaModel = require("./Etnia");
+const Conteudo = require("../Conteudo");
 
 exports.getAll = async () => {
   return await EtniaModel.findAll({

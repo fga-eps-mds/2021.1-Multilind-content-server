@@ -1,6 +1,5 @@
-import databaseConfig from "../../config/database";
-
-import { Sequelize, DataTypes } from "sequelize";
+const databaseConfig = require("../../config/database");
+const { Sequelize, DataTypes } = require("sequelize");
 const sequelize = new Sequelize(databaseConfig);
 
 const Conteudo = sequelize.define(
@@ -29,4 +28,4 @@ const Conteudo = sequelize.define(
   }
 );
 
-export default Conteudo;
+module.exports = Conteudo;

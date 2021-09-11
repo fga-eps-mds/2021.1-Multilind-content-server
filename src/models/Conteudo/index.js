@@ -1,4 +1,4 @@
-import ConteudoModel from "./Conteudo";
+const ConteudoModel = require("./Conteudo");
 
 exports.getAll = async () => {
   return await ConteudoModel.findAll({

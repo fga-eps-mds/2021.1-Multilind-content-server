@@ -1,7 +1,7 @@
-import databaseConfig from "../../config/database";
-import Conteudo from "../Conteudo/Conteudo";
+const databaseConfig = require("../../config/database");
+const Conteudo = require("../Conteudo/Conteudo");
 
-import { Sequelize, DataTypes } from "sequelize";
+const { Sequelize, DataTypes } = require("sequelize");
 const sequelize = new Sequelize(databaseConfig);
 
 const Etnia = sequelize.define(
@@ -36,4 +36,4 @@ Etnia.hasOne(Conteudo, {
 });
 //Conteudo.belongsTo(Etnia);
 
-export default Etnia;
+module.exports = Etnia;
