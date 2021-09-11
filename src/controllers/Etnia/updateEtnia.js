@@ -19,5 +19,7 @@ export async function update(request, response) {
 
   await Etnia.editById(body, id_etnia);
 
-  response.send(body);
+  const etnia = await Etnia.searchById(id_etnia);
+
+  response.send(etnia);
 }

@@ -12,7 +12,7 @@ export async function create(request, response) {
     throw new HttpException(400, "Nome já existente - Etnia");
   }
 
-  await Etnia.create(body);
+  const etnia = await Etnia.create(body);
 
-  response.send(body);
+  response.send(etnia);
 }
