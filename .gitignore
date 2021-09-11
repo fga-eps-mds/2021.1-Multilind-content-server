@@ -3,3 +3,5 @@ coverage
 build
 .env
 postgres
+yarn.lock
+package-lock.json
