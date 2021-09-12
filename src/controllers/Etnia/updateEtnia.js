@@ -9,12 +9,14 @@ export async function update(request, response) {
 
   const nameAlreadyExists = await Etnia.searchByName(body.nome);
   if (nameAlreadyExists) {
-    throw new HttpException(400, "Nome já existente - Etnia");
+    throw new HttpException(400, `Nome já existente - Etnia - ${body.nome}`);
   }
 
   const { id_etnia } = request.params;
-  if (!id_etnia) {
-    throw new HttpException(400, "ID inválido - Etnia");
+  const idValido = await Etnia.searchById(id_etnia);
+
+  if (!id_etnia || !idValido) {
+    throw new HttpException(400, `ID inválido - Etnia - ID ${id_etnia}`);
   }
 
   await Etnia.editById(body, id_etnia);
