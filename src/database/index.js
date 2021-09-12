@@ -1,5 +1,5 @@
-import Sequelize from "sequelize";
-import databaseConfig from "../config/database";
+const Sequelize = require("sequelize");
+const databaseConfig = require("../config/database");
 
 class Database {
   constructor() {
@@ -11,4 +11,4 @@ class Database {
   }
 }
 
-export default new Database();
+module.exports = new Database();

@@ -1,15 +1,17 @@
 import "dotenv/config";
 import "./database";
+import "express-async-errors";
 import express from "express";
 import cors from "cors";
 import { setUpRoutes } from "./routes";
-import { requestInfo } from "./middlewares";
+import { httpException, requestInfo } from "./middlewares";
 
 class App {
   constructor() {
     this.app = express();
     this.middlewares();
     this.routes();
+    this.exceptionHandler();
   }
 
   middlewares() {
@@ -25,6 +27,9 @@ class App {
 
   routes() {
     setUpRoutes(this.app);
+  }
+  exceptionHandler() {
+    this.app.use(httpException);
   }
 }
 
