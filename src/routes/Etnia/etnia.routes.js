@@ -9,10 +9,12 @@ import {
   deleteOne,
 } from "../../controllers/Etnia";
 
-router.get("/:id_etnia", getOne);
+const id_etnia = "/:id_etnia";
+
+router.get(id_etnia, getOne);
 router.get("/", getAll);
 router.post("/", create);
-router.put("/:id_etnia", update);
-router.delete("/:id_etnia", deleteOne);
+router.put(id_etnia, update);
+router.delete(id_etnia, deleteOne);
 
 export default router;
