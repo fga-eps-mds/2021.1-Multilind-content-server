@@ -1,33 +1,33 @@
 const ConteudoModel = require("./Conteudo");
 
 exports.getAll = async () => {
-  return await ConteudoModel.findAll({
+  return ConteudoModel.findAll({
     raw: true,
   });
 };
 exports.searchByName = async (nome) => {
-  return await ConteudoModel.findOne({
+  return ConteudoModel.findOne({
     where: {
       nome: nome,
     },
   });
 };
 exports.create = async () => {
-  return await ConteudoModel.create({});
+  return ConteudoModel.create({});
 };
 exports.searchById = async (id) => {
-  return await ConteudoModel.findByPk(id);
+  return ConteudoModel.findByPk(id);
 };
 exports.searchAll = async () => {
-  return await ConteudoModel.findAll();
+  return ConteudoModel.findAll();
 };
 exports.delete = async (id) => {
-  return await ConteudoModel.destroy({
+  return ConteudoModel.destroy({
     where: {
       id_conteudo: id,
     },
   });
 };
 exports.editById = async ({ status }, id) => {
-  return await ConteudoModel.update({ status }, { where: { id_conteudo: id } });
+  return ConteudoModel.update({ status }, { where: { id_conteudo: id } });
 };

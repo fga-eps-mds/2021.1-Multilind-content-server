@@ -4,17 +4,17 @@ require("../../../database");
 describe("Testes Etnia", () => {
   describe("Listagem de Etnia", () => {
     it("Listando com metodo searchAll() com banco vazio", async () => {
-      let etnias = await modelEtnia.searchAll();
+      const etnias = await modelEtnia.searchAll();
       expect(etnias.length).toEqual(0);
     });
     it("Listando com metodo searchByID(1) com banco vazio", async () => {
-      let etnia = await modelEtnia.searchById(1);
+      const etnia = await modelEtnia.searchById(1);
       expect(etnia).toEqual(null);
     });
   });
   describe("Criação de Etnia", () => {
     it("Criando etnia com o metodo create() - 1", async () => {
-      let etnias = await modelEtnia.create({ nome: "tupi-guarani" });
+      const etnias = await modelEtnia.create({ nome: "tupi-guarani" });
       expect(etnias.dataValues).toEqual({
         id_conteudo: 1,
         id_etnia: 1,
@@ -22,7 +22,7 @@ describe("Testes Etnia", () => {
       });
     });
     it("Criando etnia com o metodo create() - 2", async () => {
-      let etnias = await modelEtnia.create({ nome: "tupi" });
+      const etnias = await modelEtnia.create({ nome: "tupi" });
       expect(etnias.dataValues).toEqual({
         id_conteudo: 2,
         id_etnia: 2,

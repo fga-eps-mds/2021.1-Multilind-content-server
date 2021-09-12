@@ -1,7 +1,7 @@
 require("dotenv/config");
 
 let config = {};
-if (process.env.ENVIROMENT == "dev") {
+if (process.env.ENVIROMENT === "dev") {
   config = {
     dialect: process.env.DB_DIALECT,
     host: process.env.DB_HOST,
@@ -13,10 +13,10 @@ if (process.env.ENVIROMENT == "dev") {
       timestamps: true,
     },
   };
-} else
+} else {
   config = {
     dialect: "sqlite",
     storage: "./database.sqlite",
   };
-
+}
 module.exports = config;

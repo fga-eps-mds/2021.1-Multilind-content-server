@@ -1,5 +1,6 @@
-import express from "express";
-const router = express.Router();
+import { Router } from "express";
+const router = Router();
+
 import {
   getOne,
   create,
@@ -8,10 +9,10 @@ import {
   deleteOne,
 } from "../../controllers/Etnia";
 
-router.get("/etnia/:id_etnia", getOne);
-router.get("/etnia", getAll);
-router.post("/etnia", create);
-router.put("/etnia/:id_etnia", update);
-router.delete("/etnia/:id_etnia", deleteOne);
+router.get("/:id_etnia", getOne);
+router.get("/", getAll);
+router.post("/", create);
+router.put("/:id_etnia", update);
+router.delete("/:id_etnia", deleteOne);
 
 export default router;

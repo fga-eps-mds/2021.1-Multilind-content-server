@@ -34,6 +34,5 @@ Etnia.hasOne(Conteudo, {
   onUpdate: "CASCADE",
   sourceKey: "id_conteudo",
 });
-//Conteudo.belongsTo(Etnia);
 
 module.exports = Etnia;
