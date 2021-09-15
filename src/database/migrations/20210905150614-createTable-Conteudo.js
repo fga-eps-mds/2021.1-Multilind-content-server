@@ -41,7 +41,7 @@ module.exports = {
   down: async (queryInterface) => {
     await queryInterface.dropTable("Conteudo");
     try {
-      await queryInterface.sequelize.dropEnum("enum_Conteudo_status");
+      await queryInterface.dropEnum("enum_Conteudo_status");
     } catch (e) {
       console.log(e);
     }
