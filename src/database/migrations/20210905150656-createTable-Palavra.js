@@ -11,6 +11,16 @@ module.exports = {
           primaryKey: true,
           allowNull: false,
         },
+        id_lingua: {
+          type: Sequelize.DataTypes.INTEGER,
+          allowNull: false,
+          references: {
+            model: "Lingua",
+            key: "id_lingua",
+          },
+          unUpdate: "CASCADE",
+          onDelete: "CASCADE",
+        },
         id_conteudo: {
           type: Sequelize.DataTypes.INTEGER,
           allowNull: false,
