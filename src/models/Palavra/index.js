@@ -14,15 +14,10 @@ exports.searchByName = async (nome, id_lingua) => {
     },
   });
 };
-exports.create = async (nome, id_lingua, significado) => {
+exports.create = async (body) => {
   const conteudoCreated = await Conteudo.create();
-
-  return PalavraModel.create({
-    nome,
-    id_lingua,
-    significado,
-    id_conteudo: conteudoCreated.id_conteudo,
-  });
+  body.id_conteudo = conteudoCreated.id_conteudo;
+  return PalavraModel.create(body);
 };
 
 exports.searchById = async (id_palavra, id_lingua) => {

@@ -22,7 +22,7 @@ export async function create(request, response) {
     throw new HttpException(400, `Palavra já existente - ${nome}`);
   }
 
-  const palavra = await Palavra.create(nome, id_lingua, significado);
+  const palavra = await Palavra.create({ nome, id_lingua, significado });
 
   response.send(palavra);
 }
