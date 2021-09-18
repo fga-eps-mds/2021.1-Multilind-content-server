@@ -1,0 +1,207 @@
+{
+  "_type": "export",
+  "__export_format": 4,
+  "__export_date": "2021-09-18T02:04:14.880Z",
+  "__export_source": "insomnia.desktop.app:v2021.5.3",
+  "resources": [
+    {
+      "_id": "req_e8aef929ee1c494aacbab14e08d2f129",
+      "parentId": "wrk_5ee1f20e5b1c405499182ede734d5d8f",
+      "modified": 1631930560717,
+      "created": 1631929670540,
+      "url": "localhost:8000/palavra/:id_lingua",
+      "name": "criar palavra em uma lingua",
+      "description": "",
+      "method": "POST",
+      "body": {
+        "mimeType": "application/json",
+        "text": "{\n\t\"nome\": \"palavra\",\n\t\"significado\": \"Palavra significado\"\n}"
+      },
+      "parameters": [],
+      "headers": [
+        {
+          "name": "Content-Type",
+          "value": "application/json",
+          "id": "pair_3703971654dd49a7a1316116495e725c"
+        }
+      ],
+      "authentication": {},
+      "metaSortKey": -1631929866050,
+      "isPrivate": false,
+      "settingStoreCookies": true,
+      "settingSendCookies": true,
+      "settingDisableRenderRequestBody": false,
+      "settingEncodeUrl": true,
+      "settingRebuildPath": true,
+      "settingFollowRedirects": "global",
+      "_type": "request"
+    },
+    {
+      "_id": "wrk_5ee1f20e5b1c405499182ede734d5d8f",
+      "parentId": null,
+      "modified": 1631929392375,
+      "created": 1631929392375,
+      "name": "Palavra",
+      "description": "",
+      "scope": "collection",
+      "_type": "workspace"
+    },
+    {
+      "_id": "req_36dfcd55df7b4c6eba05c29901bcd546",
+      "parentId": "wrk_5ee1f20e5b1c405499182ede734d5d8f",
+      "modified": 1631930557158,
+      "created": 1631929489205,
+      "url": "localhost:8000/palavra/:id_lingua",
+      "name": "Listar uma palavra de uma lingua",
+      "description": "",
+      "method": "GET",
+      "body": {
+        "mimeType": "application/json",
+        "text": "{\n\t\"id_palavra\": 1\n}"
+      },
+      "parameters": [],
+      "headers": [
+        {
+          "name": "Content-Type",
+          "value": "application/json",
+          "id": "pair_2298f34d66fa42ddb569b7685ec81206"
+        }
+      ],
+      "authentication": {},
+      "metaSortKey": -1631929866000,
+      "isPrivate": false,
+      "settingStoreCookies": true,
+      "settingSendCookies": true,
+      "settingDisableRenderRequestBody": false,
+      "settingEncodeUrl": true,
+      "settingRebuildPath": true,
+      "settingFollowRedirects": "global",
+      "_type": "request"
+    },
+    {
+      "_id": "req_0b35b6894ee942c2ad7fb6fb0cb0735c",
+      "parentId": "wrk_5ee1f20e5b1c405499182ede734d5d8f",
+      "modified": 1631930548127,
+      "created": 1631929417871,
+      "url": "localhost:8000/palavra/all/:id_lingua",
+      "name": "Listar todas as palavras de uma lingua",
+      "description": "",
+      "method": "GET",
+      "body": { "mimeType": "application/json", "text": "" },
+      "parameters": [],
+      "headers": [
+        {
+          "name": "Content-Type",
+          "value": "application/json",
+          "id": "pair_59f5ae2fbfc4460a9c0e48a75ca3eea4"
+        }
+      ],
+      "authentication": {},
+      "metaSortKey": -1631929865950,
+      "isPrivate": false,
+      "settingStoreCookies": true,
+      "settingSendCookies": true,
+      "settingDisableRenderRequestBody": false,
+      "settingEncodeUrl": true,
+      "settingRebuildPath": true,
+      "settingFollowRedirects": "global",
+      "_type": "request"
+    },
+    {
+      "_id": "req_749e92f3e70b4bb09c27a7b9a737d93c",
+      "parentId": "wrk_5ee1f20e5b1c405499182ede734d5d8f",
+      "modified": 1631930562944,
+      "created": 1631929730485,
+      "url": "localhost:8000/palavra/:id_lingua",
+      "name": "Atualizar palavra de uma lingua",
+      "description": "",
+      "method": "PUT",
+      "body": {
+        "mimeType": "application/json",
+        "text": "{\n\t\"id_palavra\": 1,\n\t\"nome\": \"palavra\",\n\t\"significado\": \"Palavra significado\"\n}"
+      },
+      "parameters": [],
+      "headers": [
+        {
+          "name": "Content-Type",
+          "value": "application/json",
+          "id": "pair_3144b0daf6634655bc48d662514827d2"
+        }
+      ],
+      "authentication": {},
+      "metaSortKey": -1631929865925,
+      "isPrivate": false,
+      "settingStoreCookies": true,
+      "settingSendCookies": true,
+      "settingDisableRenderRequestBody": false,
+      "settingEncodeUrl": true,
+      "settingRebuildPath": true,
+      "settingFollowRedirects": "global",
+      "_type": "request"
+    },
+    {
+      "_id": "req_5b2ff0f5901f4e148d41ddab4916dee9",
+      "parentId": "wrk_5ee1f20e5b1c405499182ede734d5d8f",
+      "modified": 1631930403358,
+      "created": 1631929865900,
+      "url": "localhost:8000/palavra/:id_lingua",
+      "name": "Deleta uma palavra de uma lingua",
+      "description": "",
+      "method": "DELETE",
+      "body": {
+        "mimeType": "application/json",
+        "text": "{\n\t\"id_palavra\": 1\n}"
+      },
+      "parameters": [],
+      "headers": [
+        {
+          "name": "Content-Type",
+          "value": "application/json",
+          "id": "pair_e2dc56658715496e82036bda99aced50"
+        }
+      ],
+      "authentication": {},
+      "metaSortKey": -1631929865900,
+      "isPrivate": false,
+      "settingStoreCookies": true,
+      "settingSendCookies": true,
+      "settingDisableRenderRequestBody": false,
+      "settingEncodeUrl": true,
+      "settingRebuildPath": true,
+      "settingFollowRedirects": "global",
+      "_type": "request"
+    },
+    {
+      "_id": "env_8d5a5319376965de480b741ad43859a03214c78e",
+      "parentId": "wrk_5ee1f20e5b1c405499182ede734d5d8f",
+      "modified": 1631929392384,
+      "created": 1631929392384,
+      "name": "Base Environment",
+      "data": {},
+      "dataPropertyOrder": null,
+      "color": null,
+      "isPrivate": false,
+      "metaSortKey": 1631929392384,
+      "_type": "environment"
+    },
+    {
+      "_id": "jar_8d5a5319376965de480b741ad43859a03214c78e",
+      "parentId": "wrk_5ee1f20e5b1c405499182ede734d5d8f",
+      "modified": 1631929392386,
+      "created": 1631929392386,
+      "name": "Default Jar",
+      "cookies": [],
+      "_type": "cookie_jar"
+    },
+    {
+      "_id": "spc_cde9421183e54d52b8641693f486920e",
+      "parentId": "wrk_5ee1f20e5b1c405499182ede734d5d8f",
+      "modified": 1631929392378,
+      "created": 1631929392378,
+      "fileName": "Palavra",
+      "contents": "",
+      "contentType": "yaml",
+      "_type": "api_spec"
+    }
+  ]
+}
