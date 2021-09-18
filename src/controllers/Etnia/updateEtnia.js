@@ -2,14 +2,14 @@ import Etnia from "../../models/Etnia";
 import { HttpException } from "../../error/HttpException";
 
 export async function update(request, response) {
-  const { body } = request;
-  if (!body.nome) {
+  const { nome } = request.body;
+  if (!nome) {
     throw new HttpException(400, "Nome inválido - Etnia");
   }
 
-  const nameAlreadyExists = await Etnia.searchByName(body.nome);
+  const nameAlreadyExists = await Etnia.searchByName(nome);
   if (nameAlreadyExists) {
-    throw new HttpException(400, `Nome já existente - Etnia - ${body.nome}`);
+    throw new HttpException(400, `Nome já existente - Etnia - ${nome}`);
   }
 
   const { id_etnia } = request.params;
@@ -19,7 +19,7 @@ export async function update(request, response) {
     throw new HttpException(400, `ID inválido - Etnia - ID ${id_etnia}`);
   }
 
-  await Etnia.editById(body, id_etnia);
+  await Etnia.editById({ nome }, id_etnia);
 
   const etnia = await Etnia.searchById(id_etnia);
 

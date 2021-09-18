@@ -6,11 +6,11 @@ exports.getAll = async () => {
     raw: true,
   });
 };
-exports.searchByName = async (nome, id_lingua) => {
+exports.searchByName = async (nome, idLingua) => {
   return PalavraModel.findOne({
     where: {
       nome,
-      id_lingua,
+      id_lingua: idLingua,
     },
   });
 };
@@ -20,26 +20,26 @@ exports.create = async (body) => {
   return PalavraModel.create(body);
 };
 
-exports.searchById = async (id_palavra, id_lingua) => {
+exports.searchById = async (idPalavra, idLingua) => {
   return PalavraModel.findOne({
     where: {
-      id_palavra,
-      id_lingua,
+      id_palavra: idPalavra,
+      id_lingua: idLingua,
     },
   });
 };
-exports.searchAll = async (id_lingua) => {
+exports.searchAll = async (idLingua) => {
   return PalavraModel.findAll({
     where: {
-      id_lingua,
+      id_lingua: idLingua,
     },
   });
 };
-exports.editById = async (body, id_palavra, id_lingua) => {
+exports.editById = async (body, idPalavra, idLingua) => {
   return PalavraModel.update(body, {
     where: {
-      id_palavra,
-      id_lingua,
+      id_palavra: idPalavra,
+      id_lingua: idLingua,
     },
   });
 };

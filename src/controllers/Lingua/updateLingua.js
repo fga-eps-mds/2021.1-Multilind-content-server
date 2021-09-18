@@ -2,14 +2,14 @@ import Lingua from "../../models/Lingua";
 import { HttpException } from "../../error/HttpException";
 
 export async function update(request, response) {
-  const { body } = request;
-  if (!body.nome) {
+  const { nome } = request.body;
+  if (!nome) {
     throw new HttpException(400, "Nome inválido - Lingua");
   }
 
-  const nameAlreadyExists = await Lingua.searchByName(body.nome);
+  const nameAlreadyExists = await Lingua.searchByName(nome);
   if (nameAlreadyExists) {
-    throw new HttpException(400, `Nome já existente - Lingua - ${body.nome}`);
+    throw new HttpException(400, `Nome já existente - Lingua - ${nome}`);
   }
 
   const { id_lingua } = request.params;
@@ -19,7 +19,7 @@ export async function update(request, response) {
     throw new HttpException(400, `ID inválido - Lingua - ID ${id_lingua}`);
   }
 
-  await Lingua.editById(body, id_lingua);
+  await Lingua.editById({ nome }, id_lingua);
 
   const lingua = await Lingua.searchById(id_lingua);
 
