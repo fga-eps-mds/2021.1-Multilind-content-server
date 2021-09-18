@@ -4,7 +4,6 @@ const Conteudo = require("../Conteudo/Conteudo");
 const { Sequelize, DataTypes } = require("sequelize");
 const sequelize = new Sequelize(databaseConfig);
 
-
 const Lingua = sequelize.define(
   "Lingua",
   {

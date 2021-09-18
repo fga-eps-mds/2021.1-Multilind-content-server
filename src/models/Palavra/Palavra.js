@@ -8,13 +8,13 @@ const Palavra = sequelize.define(
   "Palavra",
   {
     id_palavra: {
-      type: Sequelize.DataTypes.INTEGER,
+      type: DataTypes.INTEGER,
       autoIncrement: true,
       primaryKey: true,
       allowNull: false,
     },
     id_lingua: {
-      type: Sequelize.DataTypes.INTEGER,
+      type: DataTypes.INTEGER,
       allowNull: false,
       references: {
         model: "Lingua",
@@ -24,7 +24,7 @@ const Palavra = sequelize.define(
       onDelete: "CASCADE",
     },
     id_conteudo: {
-      type: Sequelize.DataTypes.INTEGER,
+      type: DataTypes.INTEGER,
       allowNull: false,
       references: {
         model: "Conteudo",
@@ -34,11 +34,11 @@ const Palavra = sequelize.define(
       onDelete: "CASCADE",
     },
     nome: {
-      type: Sequelize.DataTypes.STRING,
+      type: DataTypes.STRING,
       allowNull: false,
     },
     significado: {
-      type: Sequelize.DataTypes.STRING,
+      type: DataTypes.STRING,
       allowNull: false,
     },
   },
