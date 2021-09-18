@@ -18,7 +18,7 @@ module.exports = {
             model: "Lingua",
             key: "id_lingua",
           },
-          unUpdate: "CASCADE",
+          onUpdate: "CASCADE",
           onDelete: "CASCADE",
         },
         id_conteudo: {

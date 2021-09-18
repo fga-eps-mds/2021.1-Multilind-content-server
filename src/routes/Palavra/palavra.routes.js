@@ -9,12 +9,12 @@ import {
   deleteOne,
 } from "../../controllers/Palavra";
 
-const id_palavra = "/:id_palavra";
+const idLingua = "/:id_lingua";
 
-router.get(id_palavra, getOne);
-router.get("/", getAll);
-router.post("/", create);
-router.put(id_palavra, update);
-router.delete(id_palavra, deleteOne);
+router.get(idLingua, getOne);
+router.get(`/all${idLingua}`, getAll);
+router.post(idLingua, create);
+router.put(idLingua, update);
+router.delete(idLingua, deleteOne);
 
 export default router;

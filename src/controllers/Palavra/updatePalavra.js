@@ -2,26 +2,29 @@ import Palavra from "../../models/Palavra";
 import { HttpException } from "../../error/HttpException";
 
 export async function update(request, response) {
-  const { body } = request;
-  if (!body.nome) {
-    throw new HttpException(400, `Palavra inválida - Palavra ${body.nome}`);
+  const { id_lingua } = request.params;
+  if (!id_lingua) {
+    throw new HttpException(
+      400,
+      `ID inválido - Palavra - ID Lingua ${id_lingua}`
+    );
   }
 
-  const nameAlreadyExists = await Palavra.searchByName(body.nome);
+  const { nome, significado, id_palavra } = request.body;
+  for (const [key, value] of Object.entries(request.body)) {
+    if (!value) {
+      throw new HttpException(400, `Palavra inválida - ${key}: ${value}`);
+    }
+  }
+
+  const nameAlreadyExists = await Palavra.searchByName(nome, id_lingua);
   if (nameAlreadyExists) {
-    throw new HttpException(400, `Palavra já existente - Palavra ${body.nome}`);
+    throw new HttpException(400, `Palavra já existente - Palavra ${nome}`);
   }
 
-  const { id_palavra } = request.params;
-  const idValido = await Palavra.searchById(id_palavra);
+  await Palavra.editById({ nome, significado }, id_palavra, id_lingua);
 
-  if (!id_palavra || !idValido) {
-    throw new HttpException(400, `ID inválido - Palavra - ID ${id_palavra}`);
-  }
-
-  await Palavra.editById(body, id_palavra);
-
-  const palavra = await Palavra.searchById(id_palavra);
+  const palavra = await Palavra.searchById(id_palavra, id_lingua);
 
   response.send(palavra);
 }

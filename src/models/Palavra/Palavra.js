@@ -1,7 +1,8 @@
 const databaseConfig = require("../../config/database");
-
 const { Sequelize, DataTypes } = require("sequelize");
 const sequelize = new Sequelize(databaseConfig);
+const Conteudo = require("../Conteudo/Conteudo");
+const Lingua = require("../Lingua/Lingua");
 
 const Palavra = sequelize.define(
   "Palavra",
@@ -47,6 +48,18 @@ const Palavra = sequelize.define(
   }
 );
 
-//parte de linguas
+Palavra.hasOne(Conteudo, {
+  foreignKey: "id_conteudo",
+  onDelete: "CASCADE",
+  onUpdate: "CASCADE",
+  sourceKey: "id_conteudo",
+});
+
+Palavra.hasOne(Lingua, {
+  foreignKey: "id_lingua",
+  onDelete: "CASCADE",
+  onUpdate: "CASCADE",
+  sourceKey: "id_lingua",
+});
 
 module.exports = Palavra;

@@ -1,32 +1,50 @@
 const PalavraModel = require("./Palavra");
+const Conteudo = require("../Conteudo");
 
 exports.getAll = async () => {
-  return PalavraModel.findalAll({
+  return PalavraModel.findAll({
     raw: true,
   });
 };
-exports.searchByName = async (nome) => {
+exports.searchByName = async (nome, id_lingua) => {
   return PalavraModel.findOne({
     where: {
-      nome: nome,
+      nome,
+      id_lingua,
     },
   });
 };
-exports.create = async (palavra) => {}; //parte de línguas
+exports.create = async (nome, id_lingua, significado) => {
+  const conteudoCreated = await Conteudo.create();
 
-exports.searchById = async (id) => {
-  return PalavraModel.findByPk(id);
+  return PalavraModel.create({
+    nome,
+    id_lingua,
+    significado,
+    id_conteudo: conteudoCreated.id_conteudo,
+  });
 };
-exports.searchAll = async () => {
-  return PalavraModel.findalAll();
-};
-exports.delete = async (id) => {
-  return PalavraModel.desrtoy({
+
+exports.searchById = async (id_palavra, id_lingua) => {
+  return PalavraModel.findOne({
     where: {
-      id_palavra: id,
+      id_palavra,
+      id_lingua,
     },
   });
 };
-exports.editById = async (body, id) => {
-  return PalavraModel.update(body, { where: { id_palavra: id } });
+exports.searchAll = async (id_lingua) => {
+  return PalavraModel.findAll({
+    where: {
+      id_lingua,
+    },
+  });
+};
+exports.editById = async (body, id_palavra, id_lingua) => {
+  return PalavraModel.update(body, {
+    where: {
+      id_palavra,
+      id_lingua,
+    },
+  });
 };
