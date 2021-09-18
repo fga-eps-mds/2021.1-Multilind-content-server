@@ -9,12 +9,12 @@ import {
   deleteOne,
 } from "../../controllers/Lingua";
 
-const id_lingua = "/:id_lingua";
+const idLingua = "/:id_lingua";
 
-router.get(id_lingua, getOne);
+router.get(idLingua, getOne);
 router.get("/", getAll);
 router.post("/", create);
-router.put(id_lingua, update);
-router.delete(id_lingua, deleteOne);
+router.put(idLingua, update);
+router.delete(idLingua, deleteOne);
 
 export default router;
