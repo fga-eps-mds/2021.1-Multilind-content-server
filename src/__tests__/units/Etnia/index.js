@@ -1,7 +1,7 @@
 const modelEtnia = require("../../../models/Etnia");
 require("../../../database");
 
-describe("Testes Etnia", () => {
+describe("\n## TESTES ETNIA\n", () => {
   describe("Listagem de Etnia", () => {
     it("Listando com metodo searchAll() com banco vazio", async () => {
       const etnias = await modelEtnia.searchAll();

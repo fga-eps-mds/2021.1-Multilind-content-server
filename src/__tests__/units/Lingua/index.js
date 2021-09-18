@@ -1,7 +1,7 @@
 const modelLingua = require("../../../models/Lingua");
 require("../../../database");
 
-describe("Testes Lingua", () => {
+describe("\n## TESTES LINGUA\n", () => {
   describe("Listagem de Lingua", () => {
     it("Listando com metodo searchAll() com banco vazio", async () => {
       const linguas = await modelLingua.searchAll();
@@ -16,7 +16,7 @@ describe("Testes Lingua", () => {
     it("Criando lingua com o metodo create() - 1", async () => {
       const linguas = await modelLingua.create({ nome: "tupi-guarani" });
       expect(linguas.dataValues).toEqual({
-        id_conteudo: 1,
+        id_conteudo: 3,
         id_lingua: 1,
         nome: "tupi-guarani",
       });
@@ -24,7 +24,7 @@ describe("Testes Lingua", () => {
     it("Criando lingua com o metodo create() - 2", async () => {
       const linguas = await modelLingua.create({ nome: "tupi" });
       expect(linguas.dataValues).toEqual({
-        id_conteudo: 2,
+        id_conteudo: 4,
         id_lingua: 2,
         nome: "tupi",
       });
@@ -35,7 +35,7 @@ describe("Testes Lingua", () => {
       await modelLingua.editById({ nome: "Aikanã" }, 1);
       const lingua = await modelLingua.searchById(1);
       expect(lingua.dataValues).toEqual({
-        id_conteudo: 1,
+        id_conteudo: 3,
         id_lingua: 1,
         nome: "Aikanã",
       });
@@ -44,7 +44,7 @@ describe("Testes Lingua", () => {
       await modelLingua.editById({ nome: "Aikewara" }, 2);
       const lingua = await modelLingua.searchById(2);
       expect(lingua.dataValues).toEqual({
-        id_conteudo: 2,
+        id_conteudo: 4,
         id_lingua: 2,
         nome: "Aikewara",
       });
