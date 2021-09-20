@@ -7,14 +7,14 @@ import {
   getAll,
   update,
   deleteOne,
-} from "../../controllers/Etnia";
+} from "../../controllers/Lingua";
 
-const idEtnia = "/:id_etnia";
+const idLingua = "/:id_lingua";
 
-router.get(idEtnia, getOne);
+router.get(idLingua, getOne);
 router.get("/", getAll);
 router.post("/", create);
-router.put(idEtnia, update);
-router.delete(idEtnia, deleteOne);
+router.put(idLingua, update);
+router.delete(idLingua, deleteOne);
 
 export default router;
