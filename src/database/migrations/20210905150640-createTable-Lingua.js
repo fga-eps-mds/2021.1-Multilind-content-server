@@ -28,8 +28,8 @@ module.exports = {
             model: "Tronco",
             key: "id_tronco",
           },
-          onUpdate: "RESTRICT",
-          onDelete: "RESTRICT",
+          onUpdate: "SET NULL",
+          onDelete: "SET NULL",
         },
         nome: {
           type: Sequelize.DataTypes.STRING,

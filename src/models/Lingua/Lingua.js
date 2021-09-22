@@ -21,8 +21,8 @@ const Lingua = sequelize.define(
         model: "Tronco",
         key: "id_tronco",
       },
-      onUpdate: "RESTRICT",
-      onDelete: "RESTRICT",
+      onUpdate: "SET NULL",
+      onDelete: "SET NULL",
     },
     id_conteudo: {
       type: DataTypes.INTEGER,
@@ -47,15 +47,15 @@ Lingua.hasOne(Conteudo, {
 });
 Lingua.hasOne(Tronco, {
   foreignKey: "id_tronco",
-  onDelete: "RESTRICT",
-  onUpdate: "RESTRICT",
+  onDelete: "SET NULL",
+  onUpdate: "SET NULL",
   sourceKey: "id_tronco",
   as: "tronco",
 });
 Tronco.hasMany(Lingua, {
   foreignKey: "id_tronco",
-  onDelete: "RESTRICT",
-  onUpdate: "RESTRICT",
+  onDelete: "SET NULL",
+  onUpdate: "SET NULL",
   sourceKey: "id_tronco",
   as: "linguas",
 });
