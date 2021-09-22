@@ -37,6 +37,7 @@ describe("\n## TESTES LINGUA\n", () => {
       expect(lingua.dataValues).toEqual({
         id_conteudo: 3,
         id_lingua: 1,
+        id_tronco: null,
         nome: "Aikanã",
       });
     });
@@ -46,6 +47,7 @@ describe("\n## TESTES LINGUA\n", () => {
       expect(lingua.dataValues).toEqual({
         id_conteudo: 4,
         id_lingua: 2,
+        id_tronco: null,
         nome: "Aikewara",
       });
     });
