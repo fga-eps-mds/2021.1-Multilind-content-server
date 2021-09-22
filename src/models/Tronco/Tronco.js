@@ -2,7 +2,6 @@ const databaseConfig = require("../../config/database");
 const { Sequelize, DataTypes } = require("sequelize");
 const sequelize = new Sequelize(databaseConfig);
 const Conteudo = require("../Conteudo/Conteudo");
-const Lingua = require("../Lingua/Lingua");
 
 const Tronco = sequelize.define(
   "Tronco",
