@@ -3,7 +3,7 @@ import { HttpException } from "../../error/HttpException";
 
 export async function create(request, response) {
   const { nome, id_tronco } = request.body;
-  if (!nome || !id_tronco) {
+  if (!nome) {
     throw new HttpException(400, `Credenciais inválido - Lingua - ${nome}`);
   }
 
