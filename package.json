@@ -18,7 +18,7 @@
     "start": "sequelize db:migrate && nodemon --exec sucrase-node src/server.js",
     "test": "sequelize db:migrate:undo:all && sequelize db:migrate && jest",
     "lint": "eslint --ext .js,.ts,.tsx src/", 
-    "build": "sucrase ./src -d ./build --transforms import", 
+    "build": "sucrase ./src -d ./build --transforms imports",
     "start:prod": "sequelize db:migrate && node build/server.js"
   },
   "dependencies": {
