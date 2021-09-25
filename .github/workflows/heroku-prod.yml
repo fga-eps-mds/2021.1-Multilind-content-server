@@ -21,6 +21,6 @@ jobs:
           heroku_api_key: ${{ secrets.HEROKU_API_KEY }}
           heroku_app_name: ${{ secrets.HEROKU_APP_NAME_PROD }}
           dockerfile_directory: ./
-          dockerfile_name: dockerfile.prod
+          dockerfile_name: Dockerfile.prod
           docker_options: "--no-cache"
           process_type: web
