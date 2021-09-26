@@ -28,6 +28,8 @@ exports.create = async (body) => {
 
 exports.searchById = async (idPalavra, idLingua) => {
   return PalavraModel.findOne({
+    raw: true,
+    nest: true,
     where: {
       id_palavra: idPalavra,
       id_lingua: idLingua,
@@ -37,7 +39,7 @@ exports.searchById = async (idPalavra, idLingua) => {
       {
         model: LinguaModel,
         as: "lingua",
-        attributes: ["id_lingua", "nome"],
+        attributes: ["id_lingua", "id_conteudo", "nome"],
       },
     ],
   });
@@ -63,13 +65,5 @@ exports.editById = async (body, idPalavra, idLingua) => {
       id_palavra: idPalavra,
       id_lingua: idLingua,
     },
-    attributes: ["id_palavra", "nome", "significado"],
-    include: [
-      {
-        model: LinguaModel,
-        as: "lingua",
-        attributes: ["id_lingua", "nome"],
-      },
-    ],
   });
 };
