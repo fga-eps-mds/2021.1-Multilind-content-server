@@ -5,7 +5,11 @@ require("../../../database");
 
 describe("\n## TESTES TRONCO\n", () => {
   const troncoName = "Macro-Jê123";
+<<<<<<< HEAD
   const linguasNome = ["tupi-guarani", "tupi-guarani2"];
+=======
+  const linguaNome = ["tupi-guarani", "tupi-guarani2"];
+>>>>>>> 47c85e0c2b130ecb7061dd3adb8261ee3129070c
 
   describe("Listagem de Tronco", () => {
     it("Listando com metodo getAll() com banco vazio", async () => {
@@ -67,14 +71,22 @@ describe("\n## TESTES TRONCO\n", () => {
   describe("Relacionamento Lingua e Tronco", () => {
     it("Criando lingua com um tronco - 1", async () => {
       const linguas = await modelLingua.create({
+<<<<<<< HEAD
         nome: linguasNome[0],
+=======
+        nome: linguaNome[0],
+>>>>>>> 47c85e0c2b130ecb7061dd3adb8261ee3129070c
         id_tronco: 2,
       });
       expect(linguas).toMatchObject({
         id_conteudo: 10,
         id_tronco: 2,
         id_lingua: 4,
+<<<<<<< HEAD
         nome: linguasNome[0],
+=======
+        nome: linguaNome[0],
+>>>>>>> 47c85e0c2b130ecb7061dd3adb8261ee3129070c
       });
     });
     it("Listando tronco com relacionamento searchById(2) - 1", async () => {
@@ -87,21 +99,33 @@ describe("\n## TESTES TRONCO\n", () => {
           {
             id_lingua: 4,
             id_conteudo: 10,
+<<<<<<< HEAD
             nome: linguasNome[0],
+=======
+            nome: linguaNome[0],
+>>>>>>> 47c85e0c2b130ecb7061dd3adb8261ee3129070c
           },
         ],
       });
     });
     it("Criando lingua com um tronco - 2", async () => {
       const linguas = await modelLingua.create({
+<<<<<<< HEAD
         nome: linguasNome[1],
+=======
+        nome: linguaNome[1],
+>>>>>>> 47c85e0c2b130ecb7061dd3adb8261ee3129070c
         id_tronco: 2,
       });
       expect(linguas).toMatchObject({
         id_conteudo: 11,
         id_tronco: 2,
         id_lingua: 5,
+<<<<<<< HEAD
         nome: linguasNome[1],
+=======
+        nome: linguaNome[1],
+>>>>>>> 47c85e0c2b130ecb7061dd3adb8261ee3129070c
       });
     });
     it("Listando tronco com relacionamento searchById(2) - 2", async () => {
@@ -114,12 +138,20 @@ describe("\n## TESTES TRONCO\n", () => {
           {
             id_lingua: 4,
             id_conteudo: 10,
+<<<<<<< HEAD
             nome: linguasNome[0],
+=======
+            nome: linguaNome[0],
+>>>>>>> 47c85e0c2b130ecb7061dd3adb8261ee3129070c
           },
           {
             id_lingua: 5,
             id_conteudo: 11,
+<<<<<<< HEAD
             nome: linguasNome[1],
+=======
+            nome: linguaNome[1],
+>>>>>>> 47c85e0c2b130ecb7061dd3adb8261ee3129070c
           },
         ],
       });
@@ -128,7 +160,11 @@ describe("\n## TESTES TRONCO\n", () => {
       const tronco = await modelTronco.getTrunkByLanguage(4);
       expect(tronco).toMatchObject({
         id_lingua: 4,
+<<<<<<< HEAD
         nome: linguasNome[0],
+=======
+        nome: linguaNome[0],
+>>>>>>> 47c85e0c2b130ecb7061dd3adb8261ee3129070c
         tronco: {
           id_tronco: 2,
           nome: troncoName,
