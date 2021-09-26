@@ -60,6 +60,15 @@ Palavra.hasOne(Lingua, {
   onDelete: "CASCADE",
   onUpdate: "CASCADE",
   sourceKey: "id_lingua",
+  as: "lingua",
+});
+
+Lingua.hasMany(Palavra, {
+  foreignKey: "id_lingua",
+  onDelete: "CASCADE",
+  onUpdate: "CASCADE",
+  sourceKey: "id_lingua",
+  as: "palavras",
 });
 
 module.exports = Palavra;
