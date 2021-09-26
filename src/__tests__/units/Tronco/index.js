@@ -4,6 +4,9 @@ const modelConteudo = require("../../../models/Conteudo");
 require("../../../database");
 
 describe("\n## TESTES TRONCO\n", () => {
+  const troncoName = "Macro-Jê123";
+  const linguasNome = ["tupi-guarani", "tupi-guarani2"];
+
   describe("Listagem de Tronco", () => {
     it("Listando com metodo getAll() com banco vazio", async () => {
       const tronco = await modelTronco.getAll();
@@ -44,11 +47,11 @@ describe("\n## TESTES TRONCO\n", () => {
       });
     });
     it("Atualizando tronco, com o metodo searchById(2)", async () => {
-      await modelTronco.editById({ nome: "Macro-Jê123" }, 2);
+      await modelTronco.editById({ nome: troncoName }, 2);
       const tronco = await modelTronco.searchById(2);
       expect(tronco).toMatchObject({
         id_tronco: 2,
-        nome: "Macro-Jê123",
+        nome: troncoName,
         id_conteudo: 9,
         linguas: [],
       });
@@ -64,14 +67,14 @@ describe("\n## TESTES TRONCO\n", () => {
   describe("Relacionamento Lingua e Tronco", () => {
     it("Criando lingua com um tronco - 1", async () => {
       const linguas = await modelLingua.create({
-        nome: "tupi-guarani",
+        nome: linguasNome[0],
         id_tronco: 2,
       });
       expect(linguas).toMatchObject({
         id_conteudo: 10,
         id_tronco: 2,
         id_lingua: 4,
-        nome: "tupi-guarani",
+        nome: linguasNome[0],
       });
     });
     it("Listando tronco com relacionamento searchById(2) - 1", async () => {
@@ -79,26 +82,26 @@ describe("\n## TESTES TRONCO\n", () => {
       expect(tronco).toMatchObject({
         id_tronco: 2,
         id_conteudo: 9,
-        nome: "Macro-Jê123",
+        nome: troncoName,
         linguas: [
           {
             id_lingua: 4,
             id_conteudo: 10,
-            nome: "tupi-guarani",
+            nome: linguasNome[0],
           },
         ],
       });
     });
     it("Criando lingua com um tronco - 2", async () => {
       const linguas = await modelLingua.create({
-        nome: "tupi-guarani2",
+        nome: linguasNome[1],
         id_tronco: 2,
       });
       expect(linguas).toMatchObject({
         id_conteudo: 11,
         id_tronco: 2,
         id_lingua: 5,
-        nome: "tupi-guarani2",
+        nome: linguasNome[1],
       });
     });
     it("Listando tronco com relacionamento searchById(2) - 2", async () => {
@@ -106,17 +109,17 @@ describe("\n## TESTES TRONCO\n", () => {
       expect(tronco).toMatchObject({
         id_tronco: 2,
         id_conteudo: 9,
-        nome: "Macro-Jê123",
+        nome: troncoName,
         linguas: [
           {
             id_lingua: 4,
             id_conteudo: 10,
-            nome: "tupi-guarani",
+            nome: linguasNome[0],
           },
           {
             id_lingua: 5,
             id_conteudo: 11,
-            nome: "tupi-guarani2",
+            nome: linguasNome[1],
           },
         ],
       });
@@ -125,10 +128,10 @@ describe("\n## TESTES TRONCO\n", () => {
       const tronco = await modelTronco.getTrunkByLanguage(4);
       expect(tronco).toMatchObject({
         id_lingua: 4,
-        nome: "tupi-guarani",
+        nome: linguasNome[0],
         tronco: {
           id_tronco: 2,
-          nome: "Macro-Jê123",
+          nome: troncoName,
         },
       });
     });

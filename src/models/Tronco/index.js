@@ -14,9 +14,9 @@ exports.getAll = async () => {
     ],
   });
 };
-exports.getTrunkByLanguage = async (id_lingua) => {
+exports.getTrunkByLanguage = async (idLingua) => {
   return LinguaModel.findOne({
-    where: { id_lingua: id_lingua },
+    where: { id_lingua: idLingua },
     attributes: ["id_lingua", "nome"],
     include: [
       {
