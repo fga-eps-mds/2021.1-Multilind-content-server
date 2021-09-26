@@ -7,11 +7,13 @@ import {
   getAll,
   update,
   deleteOne,
+  getTroncoByLang,
 } from "../../controllers/Tronco";
 
 const idTronco = "/:id_tronco";
 
 router.get(idTronco, getOne);
+router.get("/lingua/:id_lingua", getTroncoByLang);
 router.get("/", getAll);
 router.post("/", create);
 router.put(idTronco, update);

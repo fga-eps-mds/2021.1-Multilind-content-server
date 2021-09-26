@@ -14,15 +14,19 @@ exports.getAll = async () => {
     ],
   });
 };
-
-exports.getAllLang = async (idTronco) => {
-  return LinguaModel.findAll({
-    where: {
-      id_tronco: idTronco,
-    },
+exports.getTrunkByLanguage = async (id_lingua) => {
+  return LinguaModel.findOne({
+    where: { id_lingua: id_lingua },
+    attributes: ["id_lingua", "nome"],
+    include: [
+      {
+        model: TroncoModel,
+        as: "tronco",
+        attributes: ["id_tronco", "nome"],
+      },
+    ],
   });
 };
-
 exports.searchByName = async (nome) => {
   return TroncoModel.findOne({
     where: {
