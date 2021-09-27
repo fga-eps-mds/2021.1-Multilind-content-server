@@ -1,0 +1,145 @@
+const supertest = require("supertest");
+const app = "localhost:8000";
+
+describe("Testes Lingua", () => {
+  describe("Testes de criação de Lingua", () => {
+    it("Lingua - 200 - Criado com sucesso", async () => {
+      const data = { nome: "tupi" };
+      const result = await supertest(app).post("/lingua").send(data);
+
+      expect(result.status).toStrictEqual(200);
+      const dataResult = { id_conteudo: 1, nome: "tupi" };
+      expect(result.body).toStrictEqual(dataResult);
+    });
+
+    it("Lingua - 200 - Criado com sucesso - 2", async () => {
+      const data = { nome: "tupi-guarani" };
+      const result = await supertest(app).post("/lingua").send(data);
+
+      expect(result.status).toStrictEqual(200);
+      const dataResult = { id_conteudo: 2, nome: "tupi-guarani" };
+      expect(result.body).toStrictEqual(dataResult);
+    });
+
+    it("Lingua - 400 - Nome Existente", async () => {
+      const data = { nome: "tupi" };
+      const result = await supertest(app).post("/lingua").send(data);
+
+      expect(result.status).toStrictEqual(400);
+      expect(result.body).toStrictEqual({ error: "Nome já existente - Lingua" });
+    });
+
+    it("Lingua - 400 - Nome Vazio", async () => {
+      const data = { nome: "" };
+      const result = await supertest(app).post("/lingua").send(data);
+
+      expect(result.status).toStrictEqual(400);
+      expect(result.body).toStrictEqual({
+        error: "Nome inválido - Lingua",
+      });
+    });
+  });
+
+  describe("Testes de listagem Lingua", () => {
+    it("Lingua - 200 - listando com sucesso - Por ID", async () => {
+      const result = await supertest(app).get("/lingua/1");
+
+      expect(result.status).toStrictEqual(200);
+      expect(result.body).toStrictEqual({
+        id_conteudo: 1,
+        id_lingua: 1,
+        nome: "tupi",
+      });
+    });
+
+    it("Lingua - 200 - listando com sucesso - Todos", async () => {
+      const result = await supertest(app).get("/lingua");
+
+      expect(result.status).toStrictEqual(200);
+      expect(result.body).toStrictEqual([
+        { id_conteudo: 1, id_lingua: 1, nome: "tupi" },
+        { id_conteudo: 2, id_lingua: 2, nome: "tupi-guarani" },
+      ]);
+    });
+
+    it("Lingua - 404 - tentando listar id inexistente", async () => {
+      const result = await supertest(app).get("/lingua/10");
+
+      expect(result.status).toStrictEqual(404);
+      expect(result.body).toStrictEqual({
+        error: "Lingua não encontrada - Lingua",
+      });
+    });
+  });
+
+  describe("Testes de atualização de Lingua", () => {
+    it("Lingua - 200 - Atualizando com sucesso - Por ID", async () => {
+      const data = { nome: "guarani" };
+      supertest(app)
+        .put("/lingua/1")
+        .send(data)
+        .then(async (result) => {
+          expect(result.status).toStrictEqual(200);
+          expect(result.body).toStrictEqual(data);
+
+          supertest(app)
+            .get("/lingua/1")
+            .then((resultDB) => {
+              expect(result.body).toStrictEqual({ nome: resultDB.body.nome });
+            });
+        })
+        .catch((err) => {
+          throw err;
+        });
+    });
+
+    it("Lingua - 400 - Nome Existente", async () => {
+      const data = { nome: "tupi-guarani" };
+      const result = await supertest(app).put("/lingua/2").send(data);
+
+      expect(result.status).toStrictEqual(400);
+      expect(result.body).toStrictEqual({ error: "Nome já existente - Lingua" });
+    });
+
+    it("Lingua - 400 - Nome Vazio", async () => {
+      const data = { nome: "" };
+      const result = await supertest(app).put("/lingua/1").send(data);
+
+      expect(result.status).toStrictEqual(400);
+      expect(result.body).toStrictEqual({
+        error: "Nome inválido - Lingua",
+      });
+    });
+  });
+
+  describe("Testes de deleção de Lingua", () => {
+    it("Lingua - 200 - Deletando com sucesso - Por ID", async () => {
+      supertest(app)
+        .delete("/lingua/1")
+        .then(async (result) => {
+          expect(result.status).toStrictEqual(200);
+
+          supertest(app)
+            .get("/lingua/1")
+            .then((resultDB) => {
+              expect(resultDB.body).toStrictEqual({
+                error: "Lingua não encontrada - Lingua",
+              });
+            });
+        })
+        .catch((err) => {
+          throw err;
+        });
+    });
+
+    it("Lingua - 404 - ID Existente", async () => {
+      const data = { nome: "tupi-guarani" };
+      const result = await supertest(app).delete("/lingua/15");
+
+      expect(result.status).toStrictEqual(404);
+      expect(result.body).toStrictEqual({
+        error: "Lingua não encontrada - Lingua",
+      });
+    });
+  });
+});

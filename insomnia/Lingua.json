@@ -1,0 +1,183 @@
+{
+  "_type": "export",
+  "__export_format": 4,
+  "__export_date": "2021-09-18T02:06:19.583Z",
+  "__export_source": "insomnia.desktop.app:v2021.5.3",
+  "resources": [
+    {
+      "_id": "req_87995131b7d74339ab3320c75659a28c",
+      "parentId": "wrk_4aafc90039ae4877b5e6d011517f2392",
+      "modified": 1631930678505,
+      "created": 1631832260428,
+      "url": "localhost:8000/:id_lingua",
+      "name": "Criar lingua",
+      "description": "",
+      "method": "POST",
+      "body": {
+        "mimeType": "application/json",
+        "text": "{\n\t\"nome\": \"tupi-6\"\n}"
+      },
+      "parameters": [],
+      "headers": [
+        {
+          "name": "Content-Type",
+          "value": "application/json",
+          "id": "pair_5e97cfb6d6ef42f9a8a631c9bf749f1f"
+        }
+      ],
+      "authentication": {},
+      "metaSortKey": -1631832552020,
+      "isPrivate": false,
+      "settingStoreCookies": true,
+      "settingSendCookies": true,
+      "settingDisableRenderRequestBody": false,
+      "settingEncodeUrl": true,
+      "settingRebuildPath": true,
+      "settingFollowRedirects": "global",
+      "_type": "request"
+    },
+    {
+      "_id": "wrk_4aafc90039ae4877b5e6d011517f2392",
+      "parentId": null,
+      "modified": 1631832230135,
+      "created": 1631832230135,
+      "name": "Lingua",
+      "description": "",
+      "scope": "collection",
+      "_type": "workspace"
+    },
+    {
+      "_id": "req_13c1195593a34317a22e138b2aaac144",
+      "parentId": "wrk_4aafc90039ae4877b5e6d011517f2392",
+      "modified": 1631930685962,
+      "created": 1631832448465,
+      "url": "localhost:8000/lingua/:id_lingua",
+      "name": "Lista lingua",
+      "description": "",
+      "method": "GET",
+      "body": {},
+      "parameters": [],
+      "headers": [],
+      "authentication": {},
+      "metaSortKey": -1631832552007.5,
+      "isPrivate": false,
+      "settingStoreCookies": true,
+      "settingSendCookies": true,
+      "settingDisableRenderRequestBody": false,
+      "settingEncodeUrl": true,
+      "settingRebuildPath": true,
+      "settingFollowRedirects": "global",
+      "_type": "request"
+    },
+    {
+      "_id": "req_da179dd5776e4731a0e47a84d023c537",
+      "parentId": "wrk_4aafc90039ae4877b5e6d011517f2392",
+      "modified": 1631930578577,
+      "created": 1631832480385,
+      "url": "localhost:8000/lingua",
+      "name": "Lista todas as linguas",
+      "description": "",
+      "method": "GET",
+      "body": {},
+      "parameters": [],
+      "headers": [],
+      "authentication": {},
+      "metaSortKey": -1631832551995,
+      "isPrivate": false,
+      "settingStoreCookies": true,
+      "settingSendCookies": true,
+      "settingDisableRenderRequestBody": false,
+      "settingEncodeUrl": true,
+      "settingRebuildPath": true,
+      "settingFollowRedirects": "global",
+      "_type": "request"
+    },
+    {
+      "_id": "req_e0adff12ee354988a21f72255a095a24",
+      "parentId": "wrk_4aafc90039ae4877b5e6d011517f2392",
+      "modified": 1631930695438,
+      "created": 1631832499889,
+      "url": "localhost:8000/lingua/:id_lingua",
+      "name": "Atualiza lingua",
+      "description": "",
+      "method": "PUT",
+      "body": {
+        "mimeType": "application/json",
+        "text": "{\n\t\"nome\":\"guarani\"\n}"
+      },
+      "parameters": [],
+      "headers": [
+        {
+          "name": "Content-Type",
+          "value": "application/json",
+          "id": "pair_e72659068c4d4c8f884ff9ad57c9e9a0"
+        }
+      ],
+      "authentication": {},
+      "metaSortKey": -1631832551982.5,
+      "isPrivate": false,
+      "settingStoreCookies": true,
+      "settingSendCookies": true,
+      "settingDisableRenderRequestBody": false,
+      "settingEncodeUrl": true,
+      "settingRebuildPath": true,
+      "settingFollowRedirects": "global",
+      "_type": "request"
+    },
+    {
+      "_id": "req_480a37b5118844159ca4ef19c3412bcc",
+      "parentId": "wrk_4aafc90039ae4877b5e6d011517f2392",
+      "modified": 1631930698605,
+      "created": 1631832551970,
+      "url": "localhost:8000/lingua/:id_lingua",
+      "name": "Apaga uma lingua",
+      "description": "",
+      "method": "DELETE",
+      "body": {},
+      "parameters": [],
+      "headers": [],
+      "authentication": {},
+      "metaSortKey": -1631832551970,
+      "isPrivate": false,
+      "settingStoreCookies": true,
+      "settingSendCookies": true,
+      "settingDisableRenderRequestBody": false,
+      "settingEncodeUrl": true,
+      "settingRebuildPath": true,
+      "settingFollowRedirects": "global",
+      "_type": "request"
+    },
+    {
+      "_id": "env_65134a7c98327d5481972aaf50bb4634a60ed0ed",
+      "parentId": "wrk_4aafc90039ae4877b5e6d011517f2392",
+      "modified": 1631832230143,
+      "created": 1631832230143,
+      "name": "Base Environment",
+      "data": {},
+      "dataPropertyOrder": null,
+      "color": null,
+      "isPrivate": false,
+      "metaSortKey": 1631832230143,
+      "_type": "environment"
+    },
+    {
+      "_id": "jar_65134a7c98327d5481972aaf50bb4634a60ed0ed",
+      "parentId": "wrk_4aafc90039ae4877b5e6d011517f2392",
+      "modified": 1631832230144,
+      "created": 1631832230144,
+      "name": "Default Jar",
+      "cookies": [],
+      "_type": "cookie_jar"
+    },
+    {
+      "_id": "spc_06d67e15f0894651bea809147470c7ca",
+      "parentId": "wrk_4aafc90039ae4877b5e6d011517f2392",
+      "modified": 1631832230138,
+      "created": 1631832230138,
+      "fileName": "Lingua",
+      "contents": "",
+      "contentType": "yaml",
+      "_type": "api_spec"
+    }
+  ]
+}
