@@ -8,4 +8,5 @@ export function setUpRoutes(app) {
   app.use("/palavra", palavraRouters);
   app.use("/lingua", linguaRouters);
   app.use("/tronco", troncoRouters);
+  app.use("/teste", (req, res) => res.send("ta funcionando"));
 }

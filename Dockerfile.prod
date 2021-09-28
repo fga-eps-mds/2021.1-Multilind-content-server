@@ -1,0 +1,15 @@
+FROM node:16
+
+WORKDIR /app 
+
+RUN yarn global add sequelize-cli
+
+COPY . .
+
+RUN yarn install 
+
+COPY . .
+
+RUN yarn build
+
+CMD ["yarn", "start:prod"]
