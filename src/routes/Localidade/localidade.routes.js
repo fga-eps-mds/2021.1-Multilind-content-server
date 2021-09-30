@@ -1,10 +1,7 @@
 import { Router } from "express";
 const router = Router();
 
-import {
-  getOne,
-  create,
-} from "../../controllers/Localidade";
+import { getOne, create } from "../../controllers/Localidade";
 
 const idLocalidade = "/:id_localidade";
 

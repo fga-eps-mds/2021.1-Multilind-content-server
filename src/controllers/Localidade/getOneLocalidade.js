@@ -5,7 +5,10 @@ export async function getOne(request, response) {
   const { id_localidade } = request.params;
 
   if (!id_localidade) {
-    throw new HttpException(400, `ID inválido - Localidade - ID ${id_localidade}`);
+    throw new HttpException(
+      400,
+      `ID inválido - Localidade - ID ${id_localidade}`
+    );
   }
 
   const localidadeEncontrada = await Localidade.searchById(id_localidade);
