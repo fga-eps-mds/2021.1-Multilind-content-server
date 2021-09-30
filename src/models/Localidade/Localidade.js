@@ -1,5 +1,4 @@
 const databaseConfig = require("../../config/database");
-const Conteudo = require("../Conteudo/Conteudo");
 
 const { Sequelize, DataTypes } = require("sequelize");
 const sequelize = new Sequelize(databaseConfig);
