@@ -1,0 +1,395 @@
+SIGNIFICADO: mão
+TRONCO: Tupi
+LINGUAS: 
+Awetí = po 
+Munduruku = by 
+Karitiana = py 
+Tupari = po 
+Gavião = pabe 
+SIGNIFICADO: pé
+TRONCO: Tupi
+LINGUAS: 
+Awetí = py 
+Munduruku = i 
+Karitiana = pi 
+Tupari = tsito 
+Gavião = pi 
+SIGNIFICADO: caminho
+TRONCO: Tupi
+LINGUAS: 
+Awetí = me 
+Munduruku = e 
+Karitiana = pa 
+Tupari = ape 
+Gavião = be 
+SIGNIFICADO: eu
+TRONCO: Tupi
+LINGUAS: 
+Awetí = atit, ito 
+Munduruku = on 
+Karitiana = yn 
+Tupari = on 
+Gavião = õot 
+SIGNIFICADO: você
+TRONCO: Tupi
+LINGUAS: 
+Awetí = en 
+Munduruku = en 
+Karitiana = na 
+Tupari = en 
+Gavião = eet 
+SIGNIFICADO: mãe
+TRONCO: Tupi
+LINGUAS: 
+Awetí = ty 
+Munduruku = xi 
+Karitiana = ti 
+Tupari = tsi 
+Gavião = ti 
+SIGNIFICADO: pesado
+TRONCO: Tupi
+LINGUAS: 
+Awetí = potyi 
+Munduruku = poxi 
+Karitiana = pyti 
+Tupari = potsi 
+Gavião = patii 
+SIGNIFICADO: marido
+TRONCO: Tupi
+LINGUAS: 
+Awetí = men 
+Munduruku = itop 
+Karitiana = mana 
+Tupari = men 
+Gavião = met 
+SIGNIFICADO: onça
+TRONCO: Tupi
+LINGUAS: 
+Awetí = ta'wat 
+Munduruku = wida 
+Karitiana = omaky 
+Tupari = ameko 
+Gavião = neko 
+SIGNIFICADO: árvore
+TRONCO: Tupi
+LINGUAS: 
+Awetí = 'yp
+Munduruku = 'ip 
+Karitiana = 'ep 
+Tupari = kyp 
+Gavião = 'iip 
+SIGNIFICADO: cair
+TRONCO: Tupi
+LINGUAS: 
+Awetí = 'at 
+Munduruku = 'at 
+Karitiana = 'ot 
+Tupari = kat 
+Gavião = 'al- 
+SIGNIFICADO: pedra
+TRONCO: Tupi
+LINGUAS: 
+Guarani Mbyá = itá 
+Tapirapé = itã 
+Parintintin = itá 
+Waiampí = takúru 
+Língua Geral do Alto Rio Negro = itá 
+SIGNIFICADO: fogo
+TRONCO: Tupi
+LINGUAS: 
+Guarani Mbyá = tatá 
+Tapirapé = tãtã
+Parintintin = tatá
+Waiampí = táta
+Língua Geral do Alto Rio Negro = tatá
+SIGNIFICADO: jacaré
+TRONCO: Tupi
+LINGUAS: 
+Guarani Mbyá = djakaré
+Tapirapé = txãkãré 
+Parintintin = djakaré
+Waiampí = iakáre
+Língua Geral do Alto Rio Negro = iakaré
+SIGNIFICADO: pássaro
+TRONCO: Tupi
+LINGUAS: 
+Guarani Mbyá = gwyrá
+Tapirapé = wyrã
+Parintintin = gwyrá
+Waiampí = wýra
+Língua Geral do Alto Rio Negro = wirá
+SIGNIFICADO: onça
+TRONCO: Tupi
+LINGUAS: 
+Guarani Mbyá = djagwareté
+Tapirapé = txãwãrã
+Parintintin = dja´gwára
+Waiampí = iáwa
+Língua Geral do Alto Rio Negro = iawareté
+SIGNIFICADO: ele morreu
+TRONCO: Tupi
+LINGUAS: 
+Guarani Mbyá = omanõ
+Tapirapé = amãnõ
+Parintintin = omanõ
+Waiampí = ománo
+Língua Geral do Alto Rio Negro = umanú
+SIGNIFICADO: mão dele
+TRONCO: Tupi
+LINGUAS: 
+Guarani Mbyá = ipó
+Tapirapé = ipá
+Parintintin = ipó
+Waiampí = ípo
+Língua Geral do Alto Rio Negro = ipú
+SIGNIFICADO: pé
+TRONCO: Macro-Jê
+LINGUAS: 
+Canela = par
+Apinayé = par
+Kayapó = par
+Xavante = paara
+Xerente = pra
+Kaingang = pen
+SIGNIFICADO: perna
+TRONCO: Macro-Jê
+LINGUAS: 
+Canela = tè
+Apinayé = tè
+Kayapó = te
+Xavante = te
+Xerente = zda
+Kaingang = fa
+SIGNIFICADO: olho
+TRONCO: Macro-Jê
+LINGUAS: 
+Canela = tò
+Apinayé = nò
+Kayapó = nò
+Xavante = tò
+Xerente = tò
+Kaingang = kane
+SIGNIFICADO: chuva
+TRONCO: Macro-Jê
+LINGUAS: 
+Canela = taa
+Apinayé = na
+Kayapó = na
+Xavante = tã
+Xerente = tã
+Kaingang = ta
+SIGNIFICADO: sol
+TRONCO: Macro-Jê
+LINGUAS: 
+Canela = pyt
+Apinayé = myt
+Kayapó = myt
+Xavante = bââdâ
+Xerente = bdâ
+Kaingang = rã
+SIGNIFICADO: cabeça
+TRONCO: Macro-Jê
+LINGUAS: 
+Canela = khrã
+Apinayé = krã
+Kayapó = krã
+Xavante = 'rã
+Xerente = krã
+Kaingang = kri
+SIGNIFICADO: pedra
+TRONCO: Macro-Jê
+LINGUAS: 
+Canela = khèn
+Apinayé = kèn
+Kayapó = kèèn
+Xavante = 'eene
+Xerente = kne
+Kaingang = pò
+SIGNIFICADO: asa
+TRONCO: Macro-Jê
+LINGUAS: 
+Canela = haaraa
+Apinayé = 'ara
+Kayapó = 'ara
+Xavante = djèèrè
+Xerente = sdarbi
+Kaingang = fer
+SIGNIFICADO: pena
+TRONCO: Macro-Jê
+LINGUAS: 
+Canela = haaraa
+Apinayé = 'ara
+Kayapó = 'ara
+Xavante = djèèrè
+Xerente = sdarbi
+Kaingang = fer
+SIGNIFICADO: semente
+TRONCO: Macro-Jê
+LINGUAS: 
+Canela = hyy
+Apinayé = 'y
+Kayapó = 'y
+Xavante = djâ
+Xerente = zâ
+Kaingang = fy
+SIGNIFICADO: esposa
+TRONCO: Macro-Jê
+LINGUAS: 
+Canela = prõ
+Apinayé = prõ
+Kayapó = prõ
+Xavante = mrõ
+Xerente = mrõ
+Kaingang = prõ
+SIGNIFICADO: lua
+TRONCO: None
+LINGUAS: 
+Galibí = nuno
+Apalaí = nuno
+Wayâna = nunuy
+Hixkaryâna = nuno
+Taulipáng = kapyi
+SIGNIFICADO: sol
+TRONCO: None
+LINGUAS: 
+Galibí = wéiu
+Apalaí = xixi
+Wayâna = xixi
+Hixkaryâna = kamymy
+Taulipáng = wéi
+SIGNIFICADO: água
+TRONCO: None
+LINGUAS: 
+Galibí = tuna
+Apalaí = tuna
+Wayâna = tuna
+Hixkaryâna = tuna
+Taulipáng = tuna, paru
+SIGNIFICADO: chuva
+TRONCO: None
+LINGUAS: 
+Galibí = konopo
+Apalaí = konopo
+Wayâna = kopo
+Hixkaryâna = tuna
+Taulipáng = kono'
+SIGNIFICADO: céu
+TRONCO: None
+LINGUAS: 
+Galibí = kapu
+Apalaí = kapu
+Wayâna = kapu
+Hixkaryâna = kahe
+Taulipáng = ka'
+SIGNIFICADO: pedra
+TRONCO: None
+LINGUAS: 
+Galibí = topu
+Apalaí = topu
+Wayâna = tepu
+Hixkaryâna = tohu
+Taulipáng = ty'
+SIGNIFICADO: flecha
+TRONCO: None
+LINGUAS: 
+Galibí = pyrywa
+Apalaí = pyróu
+Wayâna = pyréu
+Hixkaryâna = waiwy
+Taulipáng = pyrýu
+SIGNIFICADO: cobra
+TRONCO: None
+LINGUAS: 
+Galibí = okóiu
+Apalaí = âkóia
+Wayâna = ykýia
+Hixkaryâna = okóie
+Taulipáng = ykýi
+SIGNIFICADO: peixe
+TRONCO: None
+LINGUAS: 
+Galibí = wuoto
+Apalaí = kana
+Wayâna = kaa
+Hixkaryâna = kana
+Taulipáng = moro'
+SIGNIFICADO: onça
+TRONCO: None
+LINGUAS: 
+Galibí = kaituxi
+Apalaí = kaikuxi
+Wayâna = kaikui
+Hixkaryâna = kamara
+Taulipáng = kaikuse
+SIGNIFICADO: língua
+TRONCO: None
+LINGUAS: 
+Karutana = inene
+Warekena = inene
+Tariana = enene
+Baré = nene
+Palikur = nene
+Wapixana = nenuba
+Apurinã = nene
+Waurá = nei
+Yawalapití = niati
+SIGNIFICADO: água
+TRONCO: None
+LINGUAS: 
+Karutana = uni
+Warekena = one
+Tariana = uni
+Baré = uni
+Palikur = une
+Wapixana = wene
+Apurinã = weni
+Waurá = une
+Yawalapití = u
+SIGNIFICADO: sol
+TRONCO: None
+LINGUAS: 
+Karutana = kamui
+Warekena = kamoi
+Tariana = kamoi
+Baré = kamuhu
+Palikur = kamoi
+Wapixana = kamoo
+Apurinã = atukatxi
+Waurá = kamy
+Yawalapití = kame
+SIGNIFICADO: mão
+TRONCO: None
+LINGUAS: 
+Karutana = kapi
+Warekena = kapi
+Tariana = kapi
+Baré = kabi
+Palikur = iwakti
+Wapixana = kae
+Apurinã = piu
+Waurá = kapi
+Yawalapití = kapi
+SIGNIFICADO: pedra
+TRONCO: None
+LINGUAS: 
+Karutana = hipa
+Warekena = ipa
+Tariana = hipada
+Baré = tiba
+Palikur = tipa
+Wapixana = keba
+Apurinã = kai
+Waurá = typa
+Yawalapití = teba
+SIGNIFICADO: anta
+TRONCO: None
+LINGUAS: 
+Karutana = hema
+Warekena = ema
+Tariana = hema
+Baré = tema
+Palikur = aludpikli
+Wapixana = kudoi
+Apurinã = kema
+Waurá = teme
+Yawalapití = tsema
