@@ -1,4 +1,4 @@
-import "dotenv/config";
+import "./env";
 import "./database";
 import "express-async-errors";
 import express from "express";
