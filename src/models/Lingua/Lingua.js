@@ -47,15 +47,15 @@ Lingua.hasOne(Conteudo, {
 });
 Lingua.hasOne(Tronco, {
   foreignKey: "id_tronco",
-  onDelete: "SET NULL",
-  onUpdate: "SET NULL",
+  onDelete: "RESTRICT",
+  onUpdate: "RESTRICT",
   sourceKey: "id_tronco",
   as: "tronco",
 });
 Tronco.hasMany(Lingua, {
   foreignKey: "id_tronco",
-  onDelete: "SET NULL",
-  onUpdate: "SET NULL",
+  onDelete: "RESTRICT",
+  onUpdate: "RESTRICT",
   sourceKey: "id_tronco",
   as: "linguas",
 });
