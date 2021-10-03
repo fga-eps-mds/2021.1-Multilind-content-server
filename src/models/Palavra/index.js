@@ -1,9 +1,15 @@
 const PalavraModel = require("./Palavra");
+const LinguaModel = require("../Lingua/Lingua");
 const Conteudo = require("../Conteudo");
 
 exports.getAll = async () => {
   return PalavraModel.findAll({
     raw: true,
+  });
+};
+exports.getOne = async (idPalavra) => {
+  return PalavraModel.findOne({
+    where: { id_palavra: idPalavra },
   });
 };
 exports.searchByName = async (nome, idLingua) => {
@@ -22,17 +28,35 @@ exports.create = async (body) => {
 
 exports.searchById = async (idPalavra, idLingua) => {
   return PalavraModel.findOne({
+    raw: true,
+    nest: true,
     where: {
       id_palavra: idPalavra,
       id_lingua: idLingua,
     },
+    attributes: ["id_palavra", "id_conteudo", "nome", "significado"],
+    include: [
+      {
+        model: LinguaModel,
+        as: "lingua",
+        attributes: ["id_lingua", "id_conteudo", "nome"],
+      },
+    ],
   });
 };
 exports.searchAll = async (idLingua) => {
-  return PalavraModel.findAll({
+  return LinguaModel.findAll({
     where: {
       id_lingua: idLingua,
     },
+    attributes: ["id_lingua", "id_conteudo", "nome"],
+    include: [
+      {
+        model: PalavraModel,
+        as: "palavras",
+        attributes: ["id_palavra", "id_conteudo", "nome", "significado"],
+      },
+    ],
   });
 };
 exports.editById = async (body, idPalavra, idLingua) => {

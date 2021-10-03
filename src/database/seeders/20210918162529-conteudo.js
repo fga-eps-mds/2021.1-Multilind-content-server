@@ -1,6 +1,6 @@
 "use strict";
 const statusArray = [];
-const qtd = 12;
+const qtd = 27;
 for (var it = 0; it < qtd; ++it) {
   statusArray.push({
     status: "pendente",

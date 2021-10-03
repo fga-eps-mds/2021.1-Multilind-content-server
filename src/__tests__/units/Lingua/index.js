@@ -15,7 +15,7 @@ describe("\n## TESTES LINGUA\n", () => {
   describe("Criação de Lingua", () => {
     it("Criando lingua com o metodo create() - 1", async () => {
       const linguas = await modelLingua.create({ nome: "tupi-guarani" });
-      expect(linguas.dataValues).toEqual({
+      expect(linguas).toMatchObject({
         id_conteudo: 3,
         id_lingua: 1,
         nome: "tupi-guarani",
@@ -23,7 +23,7 @@ describe("\n## TESTES LINGUA\n", () => {
     });
     it("Criando lingua com o metodo create() - 2", async () => {
       const linguas = await modelLingua.create({ nome: "tupi" });
-      expect(linguas.dataValues).toEqual({
+      expect(linguas).toMatchObject({
         id_conteudo: 4,
         id_lingua: 2,
         nome: "tupi",
@@ -34,18 +34,20 @@ describe("\n## TESTES LINGUA\n", () => {
     it("Atualizando lingua, com o metodo editById(1) na tupla de ID = 1", async () => {
       await modelLingua.editById({ nome: "Aikanã" }, 1);
       const lingua = await modelLingua.searchById(1);
-      expect(lingua.dataValues).toEqual({
+      expect(lingua).toMatchObject({
         id_conteudo: 3,
         id_lingua: 1,
+        id_tronco: null,
         nome: "Aikanã",
       });
     });
     it("Atualizando lingua, com o metodo editById(2) na tupla de ID = 2", async () => {
       await modelLingua.editById({ nome: "Aikewara" }, 2);
       const lingua = await modelLingua.searchById(2);
-      expect(lingua.dataValues).toEqual({
+      expect(lingua).toMatchObject({
         id_conteudo: 4,
         id_lingua: 2,
+        id_tronco: null,
         nome: "Aikewara",
       });
     });
