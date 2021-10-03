@@ -1,4 +1,5 @@
 const LinguaModel = require("./Lingua");
+const TroncoModel = require("../Tronco/Tronco");
 const Conteudo = require("../Conteudo");
 
 exports.getAll = async () => {
@@ -19,7 +20,17 @@ exports.create = async (lingua) => {
   return LinguaModel.create(lingua);
 };
 exports.searchById = async (id) => {
-  return LinguaModel.findByPk(id);
+  return LinguaModel.findOne({
+    where: { id_lingua: id },
+    attributes: ["id_lingua", "id_conteudo", "nome"],
+    include: [
+      {
+        model: TroncoModel,
+        as: "tronco",
+        attributes: ["id_tronco", "nome"],
+      },
+    ],
+  });
 };
 exports.searchAll = async () => {
   return LinguaModel.findAll();

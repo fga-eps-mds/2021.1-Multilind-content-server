@@ -35,20 +35,20 @@ describe("\n## TESTES LINGUA\n", () => {
       await modelLingua.editById({ nome: "Aikanã" }, 1);
       const lingua = await modelLingua.searchById(1);
       expect(lingua).toMatchObject({
-        id_conteudo: 3,
         id_lingua: 1,
-        id_tronco: null,
+        id_conteudo: 3,
         nome: "Aikanã",
+        tronco: null,
       });
     });
     it("Atualizando lingua, com o metodo editById(2) na tupla de ID = 2", async () => {
       await modelLingua.editById({ nome: "Aikewara" }, 2);
       const lingua = await modelLingua.searchById(2);
       expect(lingua).toMatchObject({
-        id_conteudo: 4,
         id_lingua: 2,
-        id_tronco: null,
+        id_conteudo: 4,
         nome: "Aikewara",
+        tronco: null,
       });
     });
   });
