@@ -16,7 +16,8 @@
     "seed:revert": "sequelize db:seed:undo",
     "seed:revertAll": "sequelize db:seed:undo:all",
     "start": "sequelize db:migrate && nodemon --exec sucrase-node src/server.js",
-    "test": "NODE_ENV=test sequelize db:migrate:undo:all && sequelize db:migrate && jest",
+    "pretest": "node src/__tests__/util/sync.js && NODE_ENV=test sequelize db:migrate",
+    "test": "NODE_ENV=test jest",
     "lint": "eslint --ext .js,.ts,.tsx src/", 
     "build": "sucrase ./src -d ./build --transforms imports",
     "start:prod": "sequelize db:migrate && node build/server.js"
