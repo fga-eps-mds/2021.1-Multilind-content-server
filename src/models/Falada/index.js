@@ -6,6 +6,14 @@ exports.create = async (body) => {
   return Falada.create(body);
 };
 
+exports.delete = async (id) => {
+  return Falada.destroy({
+    where: {
+      id_falada: id,
+    },
+  });
+};
+
 exports.searchAll = async () => {
   return Falada.findAll({
     attributes: ["id_falada"],
