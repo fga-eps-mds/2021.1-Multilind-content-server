@@ -3,6 +3,7 @@ import palavraRouters from "./Palavra/palavra.routes";
 import linguaRouters from "./Lingua/lingua.routes";
 import localidadeRouters from "./Localidade/localidade.routes";
 import faladaRouters from "./Falada/falada.routes";
+import troncoRouters from "./Tronco/tronco.routes";
 
 export function setUpRoutes(app) {
   app.use("/etnia", etniaRouters);
@@ -10,4 +11,5 @@ export function setUpRoutes(app) {
   app.use("/lingua", linguaRouters);
   app.use("/localidade", localidadeRouters);
   app.use("/falada", faladaRouters);
+  app.use("/tronco", troncoRouters);
 }
