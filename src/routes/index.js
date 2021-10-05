@@ -4,8 +4,8 @@ import linguaRouters from "./Lingua/lingua.routes";
 import troncoRouters from "./Tronco/tronco.routes";
 
 export function setUpRoutes(app) {
-    app.use("/etnia", etniaRouters);
-    app.use("/palavra", palavraRouters);
-    app.use("/lingua", linguaRouters);
-    app.use("/tronco", troncoRouters);
+  app.use("/etnia", etniaRouters);
+  app.use("/palavra", palavraRouters);
+  app.use("/lingua", linguaRouters);
+  app.use("/tronco", troncoRouters);
 }
