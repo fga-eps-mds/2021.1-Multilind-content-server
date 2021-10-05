@@ -2,9 +2,9 @@ import Lingua from "../../models/Lingua";
 import { HttpException } from "../../error/HttpException";
 
 export async function create(request, response) {
-  const { nome } = request.body;
+  const { nome, id_tronco } = request.body;
   if (!nome) {
-    throw new HttpException(400, `Nome inválido - Lingua - ${nome}`);
+    throw new HttpException(400, `Credenciais inválido - Lingua - ${nome}`);
   }
 
   const nameAlreadyExists = await Lingua.searchByName(nome);
@@ -14,6 +14,7 @@ export async function create(request, response) {
 
   const lingua = await Lingua.create({
     nome,
+    id_tronco,
   });
 
   response.send(lingua);

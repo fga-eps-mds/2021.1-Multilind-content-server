@@ -21,6 +21,16 @@ module.exports = {
           onUpdate: "CASCADE",
           onDelete: "CASCADE",
         },
+        id_tronco: {
+          type: Sequelize.DataTypes.INTEGER,
+          allowNull: true,
+          references: {
+            model: "Tronco",
+            key: "id_tronco",
+          },
+          onUpdate: "RESTRICT",
+          onDelete: "RESTRICT",
+        },
         nome: {
           type: Sequelize.DataTypes.STRING,
           allowNull: false,
