@@ -35,7 +35,14 @@ module.exports = {
           onUpdate: "CASCADE",
           onDelete: "CASCADE",
         }
-      });
+      },
+        {
+          uniqueKeys: {
+            unique_dialeto_etnia_lingua: {
+              fields: ['id_etnia', 'id_lingua']
+            }
+          }
+        });
       await transaction.commit();
     } catch (err) {
       await transaction.rollback();
