@@ -7,7 +7,7 @@ describe("\n## TESTES PALAVRA\n", () => {
   describe("Criação de lingua para cadastrar palavras", () => {
     it("Criando lingua com o metodo create() - ID 3", async () => {
       const palavra = await modelLingua.create({ nome: "tupi-guarani1" });
-      expect(palavra.dataValues).toEqual({
+      expect(palavra).toMatchObject({
         id_conteudo: 5,
         id_lingua: 3,
         nome: "tupi-guarani1",
@@ -17,7 +17,7 @@ describe("\n## TESTES PALAVRA\n", () => {
   describe("Listagem de Palavra", () => {
     it("Listando com metodo searchAll() com banco vazio", async () => {
       const palavra = await modelPalavra.searchAll(3);
-      expect(palavra.length).toEqual(0);
+      expect(palavra.length).toEqual(1);
     });
     it("Listando com metodo searchByID(1) com banco vazio", async () => {
       const lingua = await modelPalavra.searchById(1, 3);
@@ -31,7 +31,7 @@ describe("\n## TESTES PALAVRA\n", () => {
         id_lingua: 3,
         significado: "Onça",
       });
-      expect(palavra.dataValues).toEqual({
+      expect(palavra).toMatchObject({
         id_palavra: 1,
         id_conteudo: 6,
         nome: "txãwãrã",
@@ -45,7 +45,7 @@ describe("\n## TESTES PALAVRA\n", () => {
         id_lingua: 3,
         significado: "Pé",
       });
-      expect(palavra.dataValues).toEqual({
+      expect(palavra).toMatchObject({
         id_palavra: 2,
         id_conteudo: 7,
         nome: "par",
@@ -65,12 +65,16 @@ describe("\n## TESTES PALAVRA\n", () => {
         3
       );
       const lingua = await modelPalavra.searchById(2, 3);
-      expect(lingua.dataValues).toEqual({
+      expect(lingua).toEqual({
         id_palavra: 2,
         id_conteudo: 7,
         nome: "teste123",
-        id_lingua: 3,
         significado: "Test",
+        lingua: {
+          id_conteudo: 5,
+          id_lingua: 3,
+          nome: "tupi-guarani1",
+        },
       });
     });
     it("Atualizando Palavra, com o metodo editById(1,3) na tupla de ID = 3", async () => {
@@ -83,12 +87,16 @@ describe("\n## TESTES PALAVRA\n", () => {
         3
       );
       const lingua = await modelPalavra.searchById(1, 3);
-      expect(lingua.dataValues).toEqual({
+      expect(lingua).toEqual({
         id_palavra: 1,
         id_conteudo: 6,
         nome: "teste1234",
-        id_lingua: 3,
         significado: "Test1",
+        lingua: {
+          id_conteudo: 5,
+          id_lingua: 3,
+          nome: "tupi-guarani1",
+        },
       });
     });
   });
