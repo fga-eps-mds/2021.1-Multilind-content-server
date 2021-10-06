@@ -1,646 +1,952 @@
-LINGUA: Mato Grosso Arára
-POSICAO GEOGRAFICA: 299.371133 -9.172609
-LINGUA: Kanoê
-POSICAO GEOGRAFICA: 295.41880000000003 -12.1789
-LINGUA: Guachi
-POSICAO GEOGRAFICA: 302.4336777 -19.5572257
-LINGUA: Kariri
-POSICAO GEOGRAFICA: 319.512725 -7.434628
-LINGUA: Kwaza
-POSICAO GEOGRAFICA: 298.81669999999997 -11.6667
-LINGUA: Tuxá
-POSICAO GEOGRAFICA: 321.7257713 -8.953642
-LINGUA: Trumai
-POSICAO GEOGRAFICA: 306.4283 -11.8119
-LINGUA: Matanawí
-POSICAO GEOGRAFICA: 301.011383 -4.8509511
-LINGUA: Pankararú
-POSICAO GEOGRAFICA: 322.9833 -8.99999
-LINGUA: Irántxe-Münkü
-POSICAO GEOGRAFICA: 302.0194 -12.7178
-LINGUA: Aikanã
-POSICAO GEOGRAFICA: 299.4647 -12.6695
-LINGUA: Arutani
-POSICAO GEOGRAFICA: 297.1323882 4.0673594
-LINGUA: Fulniô
-POSICAO GEOGRAFICA: 322.8598 -9.02591
-LINGUA: Máku
-POSICAO GEOGRAFICA: 295.76410799999996 3.969231
-LINGUA: Oti
-POSICAO GEOGRAFICA: 309.4419739 -24.3153231
-LINGUA: Pirahã
-POSICAO GEOGRAFICA: 298.18330000000003 -6.77713
-LINGUA: Guató
-POSICAO GEOGRAFICA: 302.7103 -17.8696
-LINGUA: Xukurú
-POSICAO GEOGRAFICA: 322.9130911 -8.6606156
-LINGUA: Bora
-POSICAO GEOGRAFICA: 287.742934 -2.000259
-LINGUA: Kepkiriwát
-POSICAO GEOGRAFICA: 298.754 -11.663
-LINGUA: Suruí
-POSICAO GEOGRAFICA: 298.7182 -11.0989
-LINGUA: Salamãi
-POSICAO GEOGRAFICA: 298.75 -12.0499
-LINGUA: Aruá (Rondonia State)
-POSICAO GEOGRAFICA: 297.5643 -12.1186
-LINGUA: Gavião Do Jiparaná
-POSICAO GEOGRAFICA: 298.3248 -10.7235
-LINGUA: Cinta Larga
-POSICAO GEOGRAFICA: 299.1688 -10.5879
-LINGUA: Jurúna
-POSICAO GEOGRAFICA: 306.6528 -10.9354
-LINGUA: Xipaya
-POSICAO GEOGRAFICA: 310.052 -4.133
-LINGUA: Maritsauá
-POSICAO GEOGRAFICA: 306.0333 -11.5833
-LINGUA: Kuruáya
-POSICAO GEOGRAFICA: 307.7697 -3.09561
-LINGUA: Mundurukú
-POSICAO GEOGRAFICA: 302.30899999999997 -8.41095
-LINGUA: Makuráp
-POSICAO GEOGRAFICA: 295.6799 -11.8701
-LINGUA: Mekens
-POSICAO GEOGRAFICA: 297.9073 -13.054
-LINGUA: Akuntsu
-POSICAO GEOGRAFICA: 299.0284 -12.8322
-LINGUA: Tuparí
-POSICAO GEOGRAFICA: 297.7456 -11.8884
-LINGUA: Wayoró
-POSICAO GEOGRAFICA: 298.6936 -12.6945
-LINGUA: Sateré-Mawé
-POSICAO GEOGRAFICA: 303.1251 -3.63897
-LINGUA: Awetí
-POSICAO GEOGRAFICA: 306.608056 -12.381944
-LINGUA: Kamayurá
-POSICAO GEOGRAFICA: 306.5349 -12.2661
-LINGUA: Karipúna
-POSICAO GEOGRAFICA: 295.7193 -10.2006
-LINGUA: Kayabí
-POSICAO GEOGRAFICA: 304.4521 -11.2747
-LINGUA: Apiaká
-POSICAO GEOGRAFICA: 302.09000000000003 -7.84711
-LINGUA: Uru-Eu-Wau-Wau
-POSICAO GEOGRAFICA: 296.1914 -10.9176
-LINGUA: Amundava
-POSICAO GEOGRAFICA: 297.6936 -9.04023
-LINGUA: Wiraféd
-POSICAO GEOGRAFICA: 300.5231 -9.30537
-LINGUA: Júma
-POSICAO GEOGRAFICA: 295.9002 -7.27501
-LINGUA: Paranawát
-POSICAO GEOGRAFICA: 300.947 -9.34239
-LINGUA: Tenharim-Parintintin-Diahoi
-POSICAO GEOGRAFICA: 298.064 -7.92626
-LINGUA: Diahói
-POSICAO GEOGRAFICA: 297.8064 -7.9939
-LINGUA: Nhengatu
-POSICAO GEOGRAFICA: 293.0354 1.04503
-LINGUA: Lingua Geral Paulista
-POSICAO GEOGRAFICA: 313.62 -23.95
-LINGUA: Tupinambá
-POSICAO GEOGRAFICA: 317.893611 -22.807778
-LINGUA: Cocama-Cocamilla
-POSICAO GEOGRAFICA: 286 -4.5
-LINGUA: Omagua
-POSICAO GEOGRAFICA: 290.8333 -3.526
-LINGUA: Potiguára
-POSICAO GEOGRAFICA: 322 -7.01666
-LINGUA: Tupinikin
-POSICAO GEOGRAFICA: 319.5833 -19
-LINGUA: Xetá
-POSICAO GEOGRAFICA: 307.7734 -24.9408
-LINGUA: Mbyá Guaraní
-POSICAO GEOGRAFICA: 307.289 -26.0188
-LINGUA: Pai Tavytera
-POSICAO GEOGRAFICA: 303.88242 -23.15945
-LINGUA: Chiripá
-POSICAO GEOGRAFICA: 304.949 -25.6521
-LINGUA: Kaiwá
-POSICAO GEOGRAFICA: 305.3185 -24.589
-LINGUA: Tapirapé
-POSICAO GEOGRAFICA: 309.4562 -10.5373
-LINGUA: Suruí Do Pará
-POSICAO GEOGRAFICA: 311.412 -5.9271
-LINGUA: Parakanã
-POSICAO GEOGRAFICA: 309.9379 -4.64681
-LINGUA: Tocantins Asurini
-POSICAO GEOGRAFICA: 310.1009 -3.59359
-LINGUA: Turiwára
-POSICAO GEOGRAFICA: 310.5 -2
-LINGUA: Tenetehara
-POSICAO GEOGRAFICA: 311.7641 -2.6123
-LINGUA: Guajajára
-POSICAO GEOGRAFICA: 314.2919 -4.69461
-LINGUA: Urubú-Kaapor
-POSICAO GEOGRAFICA: 313.7796 -2.46455
-LINGUA: Avá-Canoeiro
-POSICAO GEOGRAFICA: 311.8664 -13.6081
-LINGUA: Tacunyape
-POSICAO GEOGRAFICA: 306.24956199999997 -4.562946
-LINGUA: Guajá
-POSICAO GEOGRAFICA: 313.6317 -3.93574
-LINGUA: Aurê y Aurá
-POSICAO GEOGRAFICA: 313.20799999999997 -4.137
-LINGUA: Wayampi
-POSICAO GEOGRAFICA: 307.3113 1.73817
-LINGUA: Zo'é
-POSICAO GEOGRAFICA: 304.49254 -1.77208
-LINGUA: Xingú Asuriní
-POSICAO GEOGRAFICA: 307.679 -4.13463
-LINGUA: Araweté
-POSICAO GEOGRAFICA: 307.4999 -4.90246
-LINGUA: Amanayé
-POSICAO GEOGRAFICA: 311.3387 -3.79772
-LINGUA: Anambé
-POSICAO GEOGRAFICA: 310.697 -2.71119
-LINGUA: Puruborá
-POSICAO GEOGRAFICA: 297.5642 -11.4226
-LINGUA: Karo (Brazil)
-POSICAO GEOGRAFICA: 298.4309 -10.3342
-LINGUA: Urumi
-POSICAO GEOGRAFICA: 296.152 -9.08
-LINGUA: Arikem
-POSICAO GEOGRAFICA: 296.258 -8.924
-LINGUA: Karitiâna
-POSICAO GEOGRAFICA: 295.8478 -9.37937
-LINGUA: Urupa
-POSICAO GEOGRAFICA: 297.25 -10.25
-LINGUA: Yaru
-POSICAO GEOGRAFICA: 298 -10.25
-LINGUA: Wanyam
-POSICAO GEOGRAFICA: 296.9 -12.1
-LINGUA: Wari'
-POSICAO GEOGRAFICA: 295.43848 -10.69948
-LINGUA: Oro Win
-POSICAO GEOGRAFICA: 295.9701 -10.737
-LINGUA: Torá
-POSICAO GEOGRAFICA: 298.2584 -6.19532
-LINGUA: Kuyubi
-POSICAO GEOGRAFICA: 296 -11.75
-LINGUA: Lomeriano-Ignaciano Chiquitano
-POSICAO GEOGRAFICA: 298.182205 -16.769554
-LINGUA: Nadëb
-POSICAO GEOGRAFICA: 293.6932 -1.24449
-LINGUA: Dâw
-POSICAO GEOGRAFICA: 292.7066 -0.1177
-LINGUA: Yuhup
-POSICAO GEOGRAFICA: 290.1921 0.2485
-LINGUA: Hup
-POSICAO GEOGRAFICA: 290.1641 0.58622
-LINGUA: Karajá
-POSICAO GEOGRAFICA: 309.6508 -11.1881
-LINGUA: Ofayé
-POSICAO GEOGRAFICA: 306.27729999999997 -22.278
-LINGUA: Rikbaktsa
-POSICAO GEOGRAFICA: 301.8058 -11.1887
-LINGUA: Djeoromitxí
-POSICAO GEOGRAFICA: 295.3306 -12.038
-LINGUA: Arikapú
-POSICAO GEOGRAFICA: 297.2739 -12.4878
-LINGUA: Gueren
-POSICAO GEOGRAFICA: 320.38559 -17.726974
-LINGUA: Krenak
-POSICAO GEOGRAFICA: 318.7701 -18.9988
-LINGUA: Geico
-POSICAO GEOGRAFICA: 317 -6.56
-LINGUA: Ingain
-POSICAO GEOGRAFICA: 305.745849 -24.621052
-LINGUA: Xokleng
-POSICAO GEOGRAFICA: 310.4114 -26.9217
-LINGUA: Kaingang
-POSICAO GEOGRAFICA: 307.4606 -27.7671
-LINGUA: São Paulo Kaingáng
-POSICAO GEOGRAFICA: 309.570151 -21.771882
-LINGUA: Panará
-POSICAO GEOGRAFICA: 307 -10.58
-LINGUA: Suyá
-POSICAO GEOGRAFICA: 306.9257 -11.5178
-LINGUA: Kayapó
-POSICAO GEOGRAFICA: 308.3263 -7.77352
-LINGUA: Apinayé
-POSICAO GEOGRAFICA: 312.3685 -6.10774
-LINGUA: Northeastern Timbira
-POSICAO GEOGRAFICA: 315.1704613 -4.199179
-LINGUA: Canela-Krahô
-POSICAO GEOGRAFICA: 314.8701 -6.10712
-LINGUA: Pará-Maranhão Gavião
-POSICAO GEOGRAFICA: 310.9783 -4.91161
-LINGUA: Krahô
-POSICAO GEOGRAFICA: 312.4226 -8.01172
-LINGUA: Pykobjê
-POSICAO GEOGRAFICA: 313.2496 -5.94252
-LINGUA: Acroá
-POSICAO GEOGRAFICA: 319.78555 -12.594
-LINGUA: Xakriabá
-POSICAO GEOGRAFICA: 313 -19
-LINGUA: Xerénte
-POSICAO GEOGRAFICA: 311.7371 -9.59426
-LINGUA: Xavánte
-POSICAO GEOGRAFICA: 307.5633 -14.3017
-LINGUA: Malali
-POSICAO GEOGRAFICA: 317.717284 -16.833987
-LINGUA: Pataxó Hã-Ha-Hãe
-POSICAO GEOGRAFICA: 319.9667 -15.9167
-LINGUA: Koropó
-POSICAO GEOGRAFICA: 317.284 -21.3907
-LINGUA: Macuni
-POSICAO GEOGRAFICA: 320.190582 -17.904785
-LINGUA: Capoxo
-POSICAO GEOGRAFICA: 317.96666700000003 -16.766667
-LINGUA: Maxakalí
-POSICAO GEOGRAFICA: 319.2109 -16.9402
-LINGUA: Masacara
-POSICAO GEOGRAFICA: 318.5 -17
-LINGUA: Cotoxo
-POSICAO GEOGRAFICA: 318.5 -15
-LINGUA: Kamakan
-POSICAO GEOGRAFICA: 319 -15
-LINGUA: Menien
-POSICAO GEOGRAFICA: 320.9467571 -15.8814845
-LINGUA: Coroado-Puri
-POSICAO GEOGRAFICA: 316.387997 -20.264033
-LINGUA: Puri
-POSICAO GEOGRAFICA: 315.288664 -22.175627
-LINGUA: Dzubukua
-POSICAO GEOGRAFICA: 320.602112 -8.514206
-LINGUA: Kipea
-POSICAO GEOGRAFICA: 322.858886 -7.392974
-LINGUA: Chamacoco
-POSICAO GEOGRAFICA: 301.7995 -20.5899
-LINGUA: Kaxararí
-POSICAO GEOGRAFICA: 293.6671 -9.47288
-LINGUA: Tuxináwa
-POSICAO GEOGRAFICA: 290.9833 -9.74999
-LINGUA: Cashinawa of the Tarauacá river
-POSICAO GEOGRAFICA: 289.75 -7.5
-LINGUA: Nawa
-POSICAO GEOGRAFICA: 288 -7.68
-LINGUA: Poyanáwa
-POSICAO GEOGRAFICA: 286.9242 -7.46909
-LINGUA: Nukuini
-POSICAO GEOGRAFICA: 286.49559999999997 -7.339
-LINGUA: Remo of the Jaquirana river
-POSICAO GEOGRAFICA: 286.764221 -6.679339
-LINGUA: Cashinahua
-POSICAO GEOGRAFICA: 288.8267 -9.72027
-LINGUA: Amahuaca
-POSICAO GEOGRAFICA: 287.6792 -10.2012
-LINGUA: Yaminahua
-POSICAO GEOGRAFICA: 288.4036 -9.8846
-LINGUA: Yawanawa
-POSICAO GEOGRAFICA: 288.1801 -8.87563
-LINGUA: Sharanahua
-POSICAO GEOGRAFICA: 288.8768 -9.8626
-LINGUA: Shanenawa
-POSICAO GEOGRAFICA: 286.67359999999996 -8.00919
-LINGUA: Panoan Katukína
-POSICAO GEOGRAFICA: 288.43849 -7.97456
-LINGUA: Marúbo
-POSICAO GEOGRAFICA: 287.5973 -6.60703
-LINGUA: Karipuna
-POSICAO GEOGRAFICA: 294.5 -10
-LINGUA: Mayoruna-Tabatinga
-POSICAO GEOGRAFICA: 290.126037 -4.289992
-LINGUA: Matís
-POSICAO GEOGRAFICA: 289.7921 -4.3553
-LINGUA: Mayoruna-Jandiatuba
-POSICAO GEOGRAFICA: 289.96124299999997 -4.979863
-LINGUA: Mayoruna-Amazon
-POSICAO GEOGRAFICA: 289.719543 -4.322858
-LINGUA: Kulina Pano
-POSICAO GEOGRAFICA: 287.95619999999997 -6.17715
-LINGUA: Demushbo
-POSICAO GEOGRAFICA: 289.126282 -4.837565
-LINGUA: Matsés
-POSICAO GEOGRAFICA: 287.3719 -5.73914
-LINGUA: Korubo
-POSICAO GEOGRAFICA: 289.4906 -5.3655
-LINGUA: Aruá (Amazonas State)
-POSICAO GEOGRAFICA: 292.02 -5.5
-LINGUA: Suruahá
-POSICAO GEOGRAFICA: 293.6854 -6.82525
-LINGUA: Paumari
-POSICAO GEOGRAFICA: 295.7197 -5.78403
-LINGUA: Madi
-POSICAO GEOGRAFICA: 293.4338 -7.62223
-LINGUA: Deni
-POSICAO GEOGRAFICA: 292.4971 -6.74962
-LINGUA: Culina
-POSICAO GEOGRAFICA: 289.3352 -8.55268
-LINGUA: Banawa
-POSICAO GEOGRAFICA: 295.10375999999997 -6.741
-LINGUA: Ticuna
-POSICAO GEOGRAFICA: 290.1277 -3.66289
-LINGUA: Truká
-POSICAO GEOGRAFICA: 321 -8.49999
-LINGUA: Miarrã
-POSICAO GEOGRAFICA: 306.58 -12.5
-LINGUA: Wakoná
-POSICAO GEOGRAFICA: 323.5 -9.91666
-LINGUA: Wasu
-POSICAO GEOGRAFICA: 323.1667 -9.74999
-LINGUA: Tremembé
-POSICAO GEOGRAFICA: 319.796 -3.09359
-LINGUA: Pankararé
-POSICAO GEOGRAFICA: 320.3333 -9.08332
-LINGUA: Marawan
-POSICAO GEOGRAFICA: 308.2 3.9
-LINGUA: Agavotaguerra
-POSICAO GEOGRAFICA: 306.56064 -13.29849
-LINGUA: Karahawyana
-POSICAO GEOGRAFICA: 302.1284 -1.29991
-LINGUA: Papavô
-POSICAO GEOGRAFICA: 288 -9.5
-LINGUA: Pisabo
-POSICAO GEOGRAFICA: 286.6589 -6.32551
-LINGUA: Xipináwa
-POSICAO GEOGRAFICA: 291.1667 -8.74999
-LINGUA: Morerebi
-POSICAO GEOGRAFICA: 298.6142 -8.66822
-LINGUA: Tukumanféd
-POSICAO GEOGRAFICA: 298.58 -11.518
-LINGUA: Yalakalore
-POSICAO GEOGRAFICA: 300.0075 -13.2396
-LINGUA: Alapmunte
-POSICAO GEOGRAFICA: 300.003298 -12.329886
-LINGUA: Himarimã
-POSICAO GEOGRAFICA: 295.29953 -6.25217
-LINGUA: Macuna
-POSICAO GEOGRAFICA: 289.9251 -0.14459
-LINGUA: Cubeo
-POSICAO GEOGRAFICA: 289.8061 1.32382
-LINGUA: Siriano
-POSICAO GEOGRAFICA: 289.81600000000003 0.436515
-LINGUA: Desano
-POSICAO GEOGRAFICA: 290.5045 0.58157
-LINGUA: Carapana
-POSICAO GEOGRAFICA: 290.3535 0.06168
-LINGUA: Tuyuca
-POSICAO GEOGRAFICA: 289.956485 0.39441
-LINGUA: Yurutí
-POSICAO GEOGRAFICA: 290.3045 0.735585
-LINGUA: Wa'ikhana
-POSICAO GEOGRAFICA: 290.4968 0.50714
-LINGUA: Kotiria
-POSICAO GEOGRAFICA: 290.4295 1.07554
-LINGUA: Arapaso
-POSICAO GEOGRAFICA: 292.2718 0.13727
-LINGUA: Tucano
-POSICAO GEOGRAFICA: 290.4237 0.579755
-LINGUA: Waimaha
-POSICAO GEOGRAFICA: 289.8356 0.30416
-LINGUA: Miriti
-POSICAO GEOGRAFICA: 290.2568 0.58896
-LINGUA: Sabanê
-POSICAO GEOGRAFICA: 299.665 -12.9857
-LINGUA: Southern Nambikuára
-POSICAO GEOGRAFICA: 300.4813 -14.3707
-LINGUA: Mamaindé
-POSICAO GEOGRAFICA: 299.898928 -12.986439
-LINGUA: Lakondê
-POSICAO GEOGRAFICA: 299.5 -13.2
-LINGUA: Latundê
-POSICAO GEOGRAFICA: 299.577577 -12.608792
-LINGUA: Tawandê
-POSICAO GEOGRAFICA: 299.464968 -11.784632
-LINGUA: Macushi Sign Language
-POSICAO GEOGRAFICA: 299.83755 4.59501
-LINGUA: Urubú-Kaapor Sign Language
-POSICAO GEOGRAFICA: 313.5787 -2.54091
-LINGUA: Maxakali Sign Language
-POSICAO GEOGRAFICA: 319.405776 -16.863682
-LINGUA: Papiu Yanomama Sign Language
-POSICAO GEOGRAFICA: 296.75419 2.52366
-LINGUA: Marajo Sign Language
-POSICAO GEOGRAFICA: 310.358344 -0.962912
-LINGUA: Brazilian Sign Language
-POSICAO GEOGRAFICA: 312 -15.5
-LINGUA: Katawixi
-POSICAO GEOGRAFICA: 295.1681 -7.25015
-LINGUA: Katukína-Kanamarí
-POSICAO GEOGRAFICA: 291.23220000000003 -6.45399
-LINGUA: Venetian
-POSICAO GEOGRAFICA: 12.214167 45.503581
-LINGUA: Uaçá Creole French
-POSICAO GEOGRAFICA: 308.3112 3.42825
-LINGUA: Guianese Creole French
-POSICAO GEOGRAFICA: 307.2664 4.94804
-LINGUA: Spanish
-POSICAO GEOGRAFICA: -1.11788 40.4414
-LINGUA: Portuguese
-POSICAO GEOGRAFICA: -8.1 39.91
-LINGUA: Cafundo
-POSICAO GEOGRAFICA: 316.35450000000003 -23.0448
-LINGUA: Hunsrik
-POSICAO GEOGRAFICA: 308.2781 -29.3255
-LINGUA: Dutch
-POSICAO GEOGRAFICA: 5 52
-LINGUA: English
-POSICAO GEOGRAFICA: -1 53
-LINGUA: Kadiwéu
-POSICAO GEOGRAFICA: 302.418 -19.7222
-LINGUA: Toba-Maskoy
-POSICAO GEOGRAFICA: 301.9842 -21.5474
-LINGUA: Guana (Paraguay)
-POSICAO GEOGRAFICA: 301.9346 -21.9803
-LINGUA: Palikúr
-POSICAO GEOGRAFICA: 308.3754 3.63993
-LINGUA: Terena-Kinikinao-Chane
-POSICAO GEOGRAFICA: 303.9671 -20.6614
-LINGUA: Kinikinao
-POSICAO GEOGRAFICA: 305.9667 -19.1667
-LINGUA: Ucayali-Yurúa Ashéninka
-POSICAO GEOGRAFICA: 286.8164 -9.49424
-LINGUA: Apurinã
-POSICAO GEOGRAFICA: 293.22860000000003 -8.21692
-LINGUA: Carari
-POSICAO GEOGRAFICA: 295.76775299999997 -6.948358
-LINGUA: Machinere
-POSICAO GEOGRAFICA: 289.791892 -10.661655
-LINGUA: Yabaâna-Mainatari
-POSICAO GEOGRAFICA: 294.5 0.58332
-LINGUA: Guinau
-POSICAO GEOGRAFICA: 295.26123 4.797607
-LINGUA: Aruan
-POSICAO GEOGRAFICA: 309.876709 -0.608631
-LINGUA: Mapidian-Mawayana
-POSICAO GEOGRAFICA: 301.414017 1.190187
-LINGUA: Parauana
-POSICAO GEOGRAFICA: 298.151372 0.226462
-LINGUA: Aroaqui
-POSICAO GEOGRAFICA: 299.601567 -2.102167
-LINGUA: Atorada
-POSICAO GEOGRAFICA: 299.714 2.481
-LINGUA: Wapishana
-POSICAO GEOGRAFICA: 300.1979 2.58744
-LINGUA: Xiriâna
-POSICAO GEOGRAFICA: 296.547073 0.83868
-LINGUA: Manao
-POSICAO GEOGRAFICA: 295.4814 -0.540066
-LINGUA: Cariay
-POSICAO GEOGRAFICA: 297.112869 -1.072848
-LINGUA: Baniva de Maroa
-POSICAO GEOGRAFICA: 293.077495 1.80835
-LINGUA: Maragua
-POSICAO GEOGRAFICA: 292.487182 -3
-LINGUA: Araicu
-POSICAO GEOGRAFICA: 292.7948 -3.104315
-LINGUA: Uirina
-POSICAO GEOGRAFICA: 295.734085 0.487142
-LINGUA: Mepuri
-POSICAO GEOGRAFICA: 291.751083 -1.150313
-LINGUA: Kaishana
-POSICAO GEOGRAFICA: 292.680801 -2.171598
-LINGUA: Tariana
-POSICAO GEOGRAFICA: 291.0958 0.440205
-LINGUA: Baniwa do Icana
-POSICAO GEOGRAFICA: 292.2296 2.17859
-LINGUA: Curripaco
-POSICAO GEOGRAFICA: 292.4972 0.69618
-LINGUA: Mandahuaca
-POSICAO GEOGRAFICA: 293.48 1.48
-LINGUA: Yucuna
-POSICAO GEOGRAFICA: 288.99670000000003 -0.76075
-LINGUA: Passe
-POSICAO GEOGRAFICA: 291.531357 -2.596949
-LINGUA: Jumana
-POSICAO GEOGRAFICA: 291.704391 -1.930054
-LINGUA: Yawalapití
-POSICAO GEOGRAFICA: 306.5764 -12.5104
-LINGUA: Kustenau
-POSICAO GEOGRAFICA: 306.85 -14.9
-LINGUA: Waurá
-POSICAO GEOGRAFICA: 306.3029 -13.296
-LINGUA: Mehináku
-POSICAO GEOGRAFICA: 306.479 -12.5364
-LINGUA: Enawené-Nawé
-POSICAO GEOGRAFICA: 301.0198 -12.4302
-LINGUA: Parecís
-POSICAO GEOGRAFICA: 302.5941 -14.5929
-LINGUA: Saraveca
-POSICAO GEOGRAFICA: 302.2 -16.07
-LINGUA: Umotína
-POSICAO GEOGRAFICA: 302.5808 -15.5929
-LINGUA: Otuke
-POSICAO GEOGRAFICA: 300.3014 -15.2698
-LINGUA: Bororo
-POSICAO GEOGRAFICA: 304.7996 -16.6029
-LINGUA: Sikiana
-POSICAO GEOGRAFICA: 302.0779 3.01294
-LINGUA: Karipuna do Amapa
-POSICAO GEOGRAFICA: 307.58 -2.92
-LINGUA: Salumá
-POSICAO GEOGRAFICA: 303.4893 1.74782
-LINGUA: Nocamán
-POSICAO GEOGRAFICA: 286.8333 -8.91666
-LINGUA: Katukína
-POSICAO GEOGRAFICA: 289.6178 -8.19121
-LINGUA: Iapama
-POSICAO GEOGRAFICA: 306.6731 0.97588
-LINGUA: Pokangá
-POSICAO GEOGRAFICA: 290.4393 0.35794
-LINGUA: Tapeba
-POSICAO GEOGRAFICA: 319.6667 -4.99999
-LINGUA: Kabixí
-POSICAO GEOGRAFICA: 301.0069 -14.2403
-LINGUA: Kamba (Brazil)
-POSICAO GEOGRAFICA: 302.6667 -18.8333
-LINGUA: Tingui-Boto
-POSICAO GEOGRAFICA: 322.462 -11.5816
-LINGUA: Sanumá
-POSICAO GEOGRAFICA: 295.5 4.5
-LINGUA: Ninam
-POSICAO GEOGRAFICA: 297.2199 4.03894
-LINGUA: Yaroame
-POSICAO GEOGRAFICA: 297.769775 1.720201
-LINGUA: Yanomám
-POSICAO GEOGRAFICA: 297.1478 2.48999
-LINGUA: Yanomamö
-POSICAO GEOGRAFICA: 295.1219 1.67967
-LINGUA: Yãnoma
-POSICAO GEOGRAFICA: 297.6991 1.3021
-LINGUA: Unainuman
-POSICAO GEOGRAFICA: 290.7752076 -2.99955208
-LINGUA: Kambiwá
-POSICAO GEOGRAFICA: 323.4006708 -8.6093993
-LINGUA: Gamela of Viana
-POSICAO GEOGRAFICA: 314.8164815 -3.2913381
-LINGUA: Uamué
-POSICAO GEOGRAFICA: 321.25 -8.49999
-LINGUA: Uru-Pa-In
-POSICAO GEOGRAFICA: 297.2774 -11.2946
-LINGUA: Kapinawá
-POSICAO GEOGRAFICA: 321.6667 -8.49999
-LINGUA: Natú
-POSICAO GEOGRAFICA: 323.1506591 -10.1856656
-LINGUA: Baenan
-POSICAO GEOGRAFICA: 320.4447763 -15.352491
-LINGUA: Catuquinaru-Bach
-POSICAO GEOGRAFICA: 289.1327874 -0.83471871
-LINGUA: Kaimbé
-POSICAO GEOGRAFICA: 320.9737074 -10.4795944
-LINGUA: Tarairiu
-POSICAO GEOGRAFICA: 323.8423654 -5.6988166
-LINGUA: Karirí-Xocó
-POSICAO GEOGRAFICA: 323.6667 -9.84999
-LINGUA: Tembey
-POSICAO GEOGRAFICA: 304.8708885 -26.4819663
-LINGUA: Xoco
-POSICAO GEOGRAFICA: 321.3663613 -7.633768
-LINGUA: Apalaí
-POSICAO GEOGRAFICA: 305.2543 1.49792
-LINGUA: Palmela
-POSICAO GEOGRAFICA: 296.875832 -12.628898
-LINGUA: Galibi Carib
-POSICAO GEOGRAFICA: 303.1677 5.83772
-LINGUA: Wayana
-POSICAO GEOGRAFICA: 305.5571 2.77537
-LINGUA: Ye'kwana
-POSICAO GEOGRAFICA: 295.6123 4.70705
-LINGUA: Wayumara
-POSICAO GEOGRAFICA: 298.789215 3.133111
-LINGUA: Trió
-POSICAO GEOGRAFICA: 304.2401 2.53616
-LINGUA: Pauxi
-POSICAO GEOGRAFICA: 304.441223 -1.690001
-LINGUA: Pimenteira
-POSICAO GEOGRAFICA: 316.11675 -7.344019
-LINGUA: Matipuhy
-POSICAO GEOGRAFICA: 306.6006 -12.0456
-LINGUA: Kuikúro-Kalapálo
-POSICAO GEOGRAFICA: 306.7739 -12.3035
-LINGUA: Bonari
-POSICAO GEOGRAFICA: 301.531512 -2.047516
-LINGUA: Waimiri-Atroari
-POSICAO GEOGRAFICA: 299.5741 -0.61832
-LINGUA: Pauxiana
-POSICAO GEOGRAFICA: 297.481384 1.451688
-LINGUA: Paravilhana
-POSICAO GEOGRAFICA: 299.516667 3.116667
-LINGUA: Sapara
-POSICAO GEOGRAFICA: 298.41945599999997 3.433437
-LINGUA: Pemon
-POSICAO GEOGRAFICA: 298.5967 4.97031
-LINGUA: Macushi
-POSICAO GEOGRAFICA: 299.77909999999997 4.31861
-LINGUA: Akawaio-Ingariko
-POSICAO GEOGRAFICA: 299.138 6.16277
-LINGUA: Patamona
-POSICAO GEOGRAFICA: 300.4228 4.75826
-LINGUA: Kaxuiâna
-POSICAO GEOGRAFICA: 304.0899 2.17138
-LINGUA: Hixkaryána
-POSICAO GEOGRAFICA: 301.19847 -0.16265
-LINGUA: Waiwai
-POSICAO GEOGRAFICA: 300.8583 1.50881
-LINGUA: Bakairí
-POSICAO GEOGRAFICA: 305.2966 -14.2628
-LINGUA: Apiaka-Tocantins
-POSICAO GEOGRAFICA: 310.228271 -6.5
-LINGUA: Yarumá
-POSICAO GEOGRAFICA: 307.2 -11.6333
-LINGUA: Pará Arára
-POSICAO GEOGRAFICA: 306.9343 -3.71263
-LINGUA: Ikpeng
-POSICAO GEOGRAFICA: 306.50446999999997 -11.37822
+323
+Língua: Mato Grosso Arára
+Posição Geográfica: -9.172609 -60.628867
+Língua: Kanoê
+Posição Geográfica: -12.1789 -64.5812
+Língua: Guachi
+Posição Geográfica: -19.5572257 -57.5663223
+Língua: Kariri
+Posição Geográfica: -7.434628 -40.487275
+Língua: Kwaza
+Posição Geográfica: -11.6667 -61.1833
+Língua: Tuxá
+Posição Geográfica: -8.953642 -38.2742287
+Língua: Trumai
+Posição Geográfica: -11.8119 -53.5717
+Língua: Matanawí
+Posição Geográfica: -4.8509511 -58.988617
+Língua: Pankararú
+Posição Geográfica: -8.99999 -37.0167
+Língua: Irántxe-Münkü
+Posição Geográfica: -12.7178 -57.9806
+Língua: Aikanã
+Posição Geográfica: -12.6695 -60.5353
+Língua: Arutani
+Posição Geográfica: 4.0673594 -62.8676118
+Língua: Fulniô
+Posição Geográfica: -9.02591 -37.1402
+Língua: Máku
+Posição Geográfica: 3.969231 -64.235892
+Língua: Oti
+Posição Geográfica: -24.3153231 -50.5580261
+Língua: Pirahã
+Posição Geográfica: -6.77713 -61.8167
+Língua: Guató
+Posição Geográfica: -17.8696 -57.2897
+Língua: Xukurú
+Posição Geográfica: -8.6606156 -37.0869089
+Língua: Bora
+Posição Geográfica: -2.000259 -72.257066
+Tronco: Boran
+Língua: Kepkiriwát
+Posição Geográfica: -11.663 -61.246
+Tronco: Tupian
+Língua: Suruí
+Posição Geográfica: -11.0989 -61.2818
+Tronco: Tupian
+Língua: Salamãi
+Posição Geográfica: -12.0499 -61.25
+Tronco: Tupian
+Língua: Aruá (Rondonia State)
+Posição Geográfica: -12.1186 -62.4357
+Tronco: Tupian
+Língua: Gavião Do Jiparaná
+Posição Geográfica: -10.7235 -61.6752
+Tronco: Tupian
+Língua: Cinta Larga
+Posição Geográfica: -10.5879 -60.8312
+Tronco: Tupian
+Língua: Jurúna
+Posição Geográfica: -10.9354 -53.3472
+Tronco: Tupian
+Língua: Xipaya
+Posição Geográfica: -4.133 -49.948
+Tronco: Tupian
+Língua: Maritsauá
+Posição Geográfica: -11.5833 -53.9667
+Tronco: Tupian
+Língua: Kuruáya
+Posição Geográfica: -3.09561 -52.2303
+Tronco: Tupian
+Língua: Mundurukú
+Posição Geográfica: -8.41095 -57.691
+Tronco: Tupian
+Língua: Makuráp
+Posição Geográfica: -11.8701 -64.3201
+Tronco: Tupian
+Língua: Mekens
+Posição Geográfica: -13.054 -62.0927
+Tronco: Tupian
+Língua: Akuntsu
+Posição Geográfica: -12.8322 -60.9716
+Tronco: Tupian
+Língua: Tuparí
+Posição Geográfica: -11.8884 -62.2544
+Tronco: Tupian
+Língua: Wayoró
+Posição Geográfica: -12.6945 -61.3064
+Tronco: Tupian
+Língua: Sateré-Mawé
+Posição Geográfica: -3.63897 -56.8749
+Tronco: Tupian
+Língua: Awetí
+Posição Geográfica: -12.381944 -53.391944
+Tronco: Tupian
+Língua: Kamayurá
+Posição Geográfica: -12.2661 -53.4651
+Tronco: Tupian
+Língua: Karipúna
+Posição Geográfica: -10.2006 -64.2807
+Tronco: Tupian
+Língua: Kayabí
+Posição Geográfica: -11.2747 -55.5479
+Tronco: Tupian
+Língua: Apiaká
+Posição Geográfica: -7.84711 -57.91
+Tronco: Tupian
+Língua: Uru-Eu-Wau-Wau
+Posição Geográfica: -10.9176 -63.8086
+Tronco: Tupian
+Língua: Amundava
+Posição Geográfica: -9.04023 -62.3064
+Tronco: Tupian
+Língua: Wiraféd
+Posição Geográfica: -9.30537 -59.4769
+Tronco: Tupian
+Língua: Júma
+Posição Geográfica: -7.27501 -64.0998
+Tronco: Tupian
+Língua: Paranawát
+Posição Geográfica: -9.34239 -59.053
+Tronco: Tupian
+Língua: Tenharim-Parintintin-Diahoi
+Posição Geográfica: -7.92626 -61.936
+Tronco: Tupian
+Língua: Diahói
+Posição Geográfica: -7.9939 -62.1936
+Tronco: Tupian
+Língua: Nhengatu
+Posição Geográfica: 1.04503 -66.9646
+Tronco: Tupian
+Língua: Lingua Geral Paulista
+Posição Geográfica: -23.95 -46.38
+Tronco: Tupian
+Língua: Tupinambá
+Posição Geográfica: -22.807778 -42.106389
+Tronco: Tupian
+Língua: Cocama-Cocamilla
+Posição Geográfica: -4.5 -74
+Tronco: Tupian
+Língua: Omagua
+Posição Geográfica: -3.526 -69.1667
+Tronco: Tupian
+Língua: Potiguára
+Posição Geográfica: -7.01666 -38
+Tronco: Tupian
+Língua: Tupinikin
+Posição Geográfica: -19 -40.4167
+Tronco: Tupian
+Língua: Xetá
+Posição Geográfica: -24.9408 -52.2266
+Tronco: Tupian
+Língua: Mbyá Guaraní
+Posição Geográfica: -26.0188 -52.711
+Tronco: Tupian
+Língua: Pai Tavytera
+Posição Geográfica: -23.15945 -56.11758
+Tronco: Tupian
+Língua: Chiripá
+Posição Geográfica: -25.6521 -55.051
+Tronco: Tupian
+Língua: Kaiwá
+Posição Geográfica: -24.589 -54.6815
+Tronco: Tupian
+Língua: Tapirapé
+Posição Geográfica: -10.5373 -50.5438
+Tronco: Tupian
+Língua: Suruí Do Pará
+Posição Geográfica: -5.9271 -48.588
+Tronco: Tupian
+Língua: Parakanã
+Posição Geográfica: -4.64681 -50.0621
+Tronco: Tupian
+Língua: Tocantins Asurini
+Posição Geográfica: -3.59359 -49.8991
+Tronco: Tupian
+Língua: Turiwára
+Posição Geográfica: -2 -49.5
+Tronco: Tupian
+Língua: Tenetehara
+Posição Geográfica: -2.6123 -48.2359
+Tronco: Tupian
+Língua: Guajajára
+Posição Geográfica: -4.69461 -45.7081
+Tronco: Tupian
+Língua: Urubú-Kaapor
+Posição Geográfica: -2.46455 -46.2204
+Tronco: Tupian
+Língua: Avá-Canoeiro
+Posição Geográfica: -13.6081 -48.1336
+Tronco: Tupian
+Língua: Tacunyape
+Posição Geográfica: -4.562946 -53.750438
+Tronco: Tupian
+Língua: Guajá
+Posição Geográfica: -3.93574 -46.3683
+Tronco: Tupian
+Língua: Aurê y Aurá
+Posição Geográfica: -4.137 -46.792
+Tronco: Tupian
+Língua: Wayampi
+Posição Geográfica: 1.73817 -52.6887
+Tronco: Tupian
+Língua: Zo'é
+Posição Geográfica: -1.77208 -55.50746
+Tronco: Tupian
+Língua: Xingú Asuriní
+Posição Geográfica: -4.13463 -52.321
+Tronco: Tupian
+Língua: Araweté
+Posição Geográfica: -4.90246 -52.5001
+Tronco: Tupian
+Língua: Amanayé
+Posição Geográfica: -3.79772 -48.6613
+Tronco: Tupian
+Língua: Anambé
+Posição Geográfica: -2.71119 -49.303
+Tronco: Tupian
+Língua: Puruborá
+Posição Geográfica: -11.4226 -62.4358
+Tronco: Tupian
+Língua: Karo (Brazil)
+Posição Geográfica: -10.3342 -61.5691
+Tronco: Tupian
+Língua: Urumi
+Posição Geográfica: -9.08 -63.848
+Tronco: Tupian
+Língua: Arikem
+Posição Geográfica: -8.924 -63.742
+Tronco: Tupian
+Língua: Karitiâna
+Posição Geográfica: -9.37937 -64.1522
+Tronco: Tupian
+Língua: Urupa
+Posição Geográfica: -10.25 -62.75
+Tronco: Chapacuran
+Língua: Yaru
+Posição Geográfica: -10.25 -62
+Tronco: Chapacuran
+Língua: Wanyam
+Posição Geográfica: -12.1 -63.1
+Tronco: Chapacuran
+Língua: Wari'
+Posição Geográfica: -10.69948 -64.56152
+Tronco: Chapacuran
+Língua: Oro Win
+Posição Geográfica: -10.737 -64.0299
+Tronco: Chapacuran
+Língua: Torá
+Posição Geográfica: -6.19532 -61.7416
+Tronco: Chapacuran
+Língua: Kuyubi
+Posição Geográfica: -11.75 -64
+Tronco: Chapacuran
+Língua: Lomeriano-Ignaciano Chiquitano
+Posição Geográfica: -16.769554 -61.817795
+Tronco: Chiquitano
+Língua: Nadëb
+Posição Geográfica: -1.24449 -66.3068
+Tronco: Naduhup
+Língua: Dâw
+Posição Geográfica: -0.1177 -67.2934
+Tronco: Naduhup
+Língua: Yuhup
+Posição Geográfica: 0.2485 -69.8079
+Tronco: Naduhup
+Língua: Hup
+Posição Geográfica: 0.58622 -69.8359
+Tronco: Naduhup
+Língua: Karajá
+Posição Geográfica: -11.1881 -50.3492
+Tronco: Nuclear-Macro-Je
+Língua: Ofayé
+Posição Geográfica: -22.278 -53.7227
+Tronco: Nuclear-Macro-Je
+Língua: Rikbaktsa
+Posição Geográfica: -11.1887 -58.1942
+Tronco: Nuclear-Macro-Je
+Língua: Djeoromitxí
+Posição Geográfica: -12.038 -64.6694
+Tronco: Nuclear-Macro-Je
+Língua: Arikapú
+Posição Geográfica: -12.4878 -62.7261
+Tronco: Nuclear-Macro-Je
+Língua: Gueren
+Posição Geográfica: -17.726974 -39.61441
+Tronco: Nuclear-Macro-Je
+Língua: Krenak
+Posição Geográfica: -18.9988 -41.2299
+Tronco: Nuclear-Macro-Je
+Língua: Geico
+Posição Geográfica: -6.56 -43
+Tronco: Nuclear-Macro-Je
+Língua: Ingain
+Posição Geográfica: -24.621052 -54.254151
+Tronco: Nuclear-Macro-Je
+Língua: Xokleng
+Posição Geográfica: -26.9217 -49.5886
+Tronco: Nuclear-Macro-Je
+Língua: Kaingang
+Posição Geográfica: -27.7671 -52.5394
+Tronco: Nuclear-Macro-Je
+Língua: São Paulo Kaingáng
+Posição Geográfica: -21.771882 -50.429849
+Tronco: Nuclear-Macro-Je
+Língua: Panará
+Posição Geográfica: -10.58 -53
+Tronco: Nuclear-Macro-Je
+Língua: Suyá
+Posição Geográfica: -11.5178 -53.0743
+Tronco: Nuclear-Macro-Je
+Língua: Kayapó
+Posição Geográfica: -7.77352 -51.6737
+Tronco: Nuclear-Macro-Je
+Língua: Apinayé
+Posição Geográfica: -6.10774 -47.6315
+Tronco: Nuclear-Macro-Je
+Língua: Northeastern Timbira
+Posição Geográfica: -4.199179 -44.8295387
+Tronco: Nuclear-Macro-Je
+Língua: Canela-Krahô
+Posição Geográfica: -6.10712 -45.1299
+Tronco: Nuclear-Macro-Je
+Língua: Pará-Maranhão Gavião
+Posição Geográfica: -4.91161 -49.0217
+Tronco: Nuclear-Macro-Je
+Língua: Krahô
+Posição Geográfica: -8.01172 -47.5774
+Tronco: Nuclear-Macro-Je
+Língua: Pykobjê
+Posição Geográfica: -5.94252 -46.7504
+Tronco: Nuclear-Macro-Je
+Língua: Acroá
+Posição Geográfica: -12.594 -40.21445
+Tronco: Nuclear-Macro-Je
+Língua: Xakriabá
+Posição Geográfica: -19 -47
+Tronco: Nuclear-Macro-Je
+Língua: Xerénte
+Posição Geográfica: -9.59426 -48.2629
+Tronco: Nuclear-Macro-Je
+Língua: Xavánte
+Posição Geográfica: -14.3017 -52.4367
+Tronco: Nuclear-Macro-Je
+Língua: Malali
+Posição Geográfica: -16.833987 -42.282716
+Tronco: Nuclear-Macro-Je
+Língua: Pataxó Hã-Ha-Hãe
+Posição Geográfica: -15.9167 -40.0333
+Tronco: Nuclear-Macro-Je
+Língua: Koropó
+Posição Geográfica: -21.3907 -42.716
+Tronco: Nuclear-Macro-Je
+Língua: Macuni
+Posição Geográfica: -17.904785 -39.809418
+Tronco: Nuclear-Macro-Je
+Língua: Capoxo
+Posição Geográfica: -16.766667 -42.033333
+Tronco: Nuclear-Macro-Je
+Língua: Maxakalí
+Posição Geográfica: -16.9402 -40.7891
+Tronco: Nuclear-Macro-Je
+Língua: Masacara
+Posição Geográfica: -17 -41.5
+Tronco: Kamakanan
+Língua: Cotoxo
+Posição Geográfica: -15 -41.5
+Tronco: Kamakanan
+Língua: Kamakan
+Posição Geográfica: -15 -41
+Tronco: Kamakanan
+Língua: Menien
+Posição Geográfica: -15.8814845 -39.0532429
+Tronco: Kamakanan
+Língua: Coroado-Puri
+Posição Geográfica: -20.264033 -43.612003
+Tronco: Puri-Coroado
+Língua: Puri
+Posição Geográfica: -22.175627 -44.711336
+Tronco: Puri-Coroado
+Língua: Dzubukua
+Posição Geográfica: -8.514206 -39.397888
+Tronco: Kariri
+Língua: Kipea
+Posição Geográfica: -7.392974 -37.141114
+Tronco: Kariri
+Língua: Chamacoco
+Posição Geográfica: -20.5899 -58.2005
+Tronco: Zamucoan
+Língua: Kaxararí
+Posição Geográfica: -9.47288 -66.3329
+Tronco: Pano-Tacanan
+Língua: Tuxináwa
+Posição Geográfica: -9.74999 -69.0167
+Tronco: Pano-Tacanan
+Língua: Cashinawa of the Tarauacá river
+Posição Geográfica: -7.5 -70.25
+Tronco: Pano-Tacanan
+Língua: Nawa
+Posição Geográfica: -7.68 -72
+Tronco: Pano-Tacanan
+Língua: Poyanáwa
+Posição Geográfica: -7.46909 -73.0758
+Tronco: Pano-Tacanan
+Língua: Nukuini
+Posição Geográfica: -7.339 -73.5044
+Tronco: Pano-Tacanan
+Língua: Remo of the Jaquirana river
+Posição Geográfica: -6.679339 -73.235779
+Tronco: Pano-Tacanan
+Língua: Cashinahua
+Posição Geográfica: -9.72027 -71.1733
+Tronco: Pano-Tacanan
+Língua: Amahuaca
+Posição Geográfica: -10.2012 -72.3208
+Tronco: Pano-Tacanan
+Língua: Yaminahua
+Posição Geográfica: -9.8846 -71.5964
+Tronco: Pano-Tacanan
+Língua: Yawanawa
+Posição Geográfica: -8.87563 -71.8199
+Tronco: Pano-Tacanan
+Língua: Sharanahua
+Posição Geográfica: -9.8626 -71.1232
+Tronco: Pano-Tacanan
+Língua: Shanenawa
+Posição Geográfica: -8.00919 -73.3264
+Tronco: Pano-Tacanan
+Língua: Panoan Katukína
+Posição Geográfica: -7.97456 -71.56151
+Tronco: Pano-Tacanan
+Língua: Marúbo
+Posição Geográfica: -6.60703 -72.4027
+Tronco: Pano-Tacanan
+Língua: Karipuna
+Posição Geográfica: -10 -65.5
+Tronco: Pano-Tacanan
+Língua: Mayoruna-Tabatinga
+Posição Geográfica: -4.289992 -69.873963
+Tronco: Pano-Tacanan
+Língua: Matís
+Posição Geográfica: -4.3553 -70.2079
+Tronco: Pano-Tacanan
+Língua: Mayoruna-Jandiatuba
+Posição Geográfica: -4.979863 -70.038757
+Tronco: Pano-Tacanan
+Língua: Mayoruna-Amazon
+Posição Geográfica: -4.322858 -70.280457
+Tronco: Pano-Tacanan
+Língua: Kulina Pano
+Posição Geográfica: -6.17715 -72.0438
+Tronco: Pano-Tacanan
+Língua: Demushbo
+Posição Geográfica: -4.837565 -70.873718
+Tronco: Pano-Tacanan
+Língua: Matsés
+Posição Geográfica: -5.73914 -72.6281
+Tronco: Pano-Tacanan
+Língua: Korubo
+Posição Geográfica: -5.3655 -70.5094
+Tronco: Pano-Tacanan
+Língua: Aruá (Amazonas State)
+Posição Geográfica: -5.5 -67.98
+Tronco: Arawan
+Língua: Suruahá
+Posição Geográfica: -6.82525 -66.3146
+Tronco: Arawan
+Língua: Paumari
+Posição Geográfica: -5.78403 -64.2803
+Tronco: Arawan
+Língua: Madi
+Posição Geográfica: -7.62223 -66.5662
+Tronco: Arawan
+Língua: Deni
+Posição Geográfica: -6.74962 -67.5029
+Tronco: Arawan
+Língua: Culina
+Posição Geográfica: -8.55268 -70.6648
+Tronco: Arawan
+Língua: Banawa
+Posição Geográfica: -6.741 -64.89624
+Tronco: Arawan
+Língua: Ticuna
+Posição Geográfica: -3.66289 -69.8723
+Tronco: Ticuna-Yuri
+Língua: Truká
+Posição Geográfica: -8.49999 -39
+Tronco: Unattested
+Língua: Miarrã
+Posição Geográfica: -12.5 -53.42
+Tronco: Unattested
+Língua: Wakoná
+Posição Geográfica: -9.91666 -36.5
+Tronco: Unattested
+Língua: Wasu
+Posição Geográfica: -9.74999 -36.8333
+Tronco: Unattested
+Língua: Tremembé
+Posição Geográfica: -3.09359 -40.204
+Tronco: Unattested
+Língua: Pankararé
+Posição Geográfica: -9.08332 -39.6667
+Tronco: Unattested
+Língua: Marawan
+Posição Geográfica: 3.9 -51.8
+Tronco: Unattested
+Língua: Agavotaguerra
+Posição Geográfica: -13.29849 -53.43936
+Tronco: Unattested
+Língua: Karahawyana
+Posição Geográfica: -1.29991 -57.8716
+Tronco: Unattested
+Língua: Papavô
+Posição Geográfica: -9.5 -72
+Tronco: Unattested
+Língua: Pisabo
+Posição Geográfica: -6.32551 -73.3411
+Tronco: Unattested
+Língua: Xipináwa
+Posição Geográfica: -8.74999 -68.8333
+Tronco: Unattested
+Língua: Morerebi
+Posição Geográfica: -8.66822 -61.3858
+Tronco: Unattested
+Língua: Tukumanféd
+Posição Geográfica: -11.518 -61.42
+Tronco: Unattested
+Língua: Yalakalore
+Posição Geográfica: -13.2396 -59.9925
+Tronco: Unattested
+Língua: Alapmunte
+Posição Geográfica: -12.329886 -59.996702
+Tronco: Unattested
+Língua: Himarimã
+Posição Geográfica: -6.25217 -64.70047
+Tronco: Unattested
+Língua: Macuna
+Posição Geográfica: -0.14459 -70.0749
+Tronco: Tucanoan
+Língua: Cubeo
+Posição Geográfica: 1.32382 -70.1939
+Tronco: Tucanoan
+Língua: Siriano
+Posição Geográfica: 0.436515 -70.184
+Tronco: Tucanoan
+Língua: Desano
+Posição Geográfica: 0.58157 -69.4955
+Tronco: Tucanoan
+Língua: Carapana
+Posição Geográfica: 0.06168 -69.6465
+Tronco: Tucanoan
+Língua: Tuyuca
+Posição Geográfica: 0.39441 -70.043515
+Tronco: Tucanoan
+Língua: Yurutí
+Posição Geográfica: 0.735585 -69.6955
+Tronco: Tucanoan
+Língua: Wa'ikhana
+Posição Geográfica: 0.50714 -69.5032
+Tronco: Tucanoan
+Língua: Kotiria
+Posição Geográfica: 1.07554 -69.5705
+Tronco: Tucanoan
+Língua: Arapaso
+Posição Geográfica: 0.13727 -67.7282
+Tronco: Tucanoan
+Língua: Tucano
+Posição Geográfica: 0.579755 -69.5763
+Tronco: Tucanoan
+Língua: Waimaha
+Posição Geográfica: 0.30416 -70.1644
+Tronco: Tucanoan
+Língua: Miriti
+Posição Geográfica: 0.58896 -69.7432
+Tronco: Tucanoan
+Língua: Sabanê
+Posição Geográfica: -12.9857 -60.335
+Tronco: Nambiquaran
+Língua: Southern Nambikuára
+Posição Geográfica: -14.3707 -59.5187
+Tronco: Nambiquaran
+Língua: Mamaindé
+Posição Geográfica: -12.986439 -60.101072
+Tronco: Nambiquaran
+Língua: Lakondê
+Posição Geográfica: -13.2 -60.5
+Tronco: Nambiquaran
+Língua: Latundê
+Posição Geográfica: -12.608792 -60.422423
+Tronco: Nambiquaran
+Língua: Tawandê
+Posição Geográfica: -11.784632 -60.535032
+Tronco: Nambiquaran
+Língua: Macushi Sign Language
+Posição Geográfica: 4.59501 -60.16245
+Tronco: Sign Language
+Língua: Urubú-Kaapor Sign Language
+Posição Geográfica: -2.54091 -46.4213
+Tronco: Sign Language
+Língua: Maxakali Sign Language
+Posição Geográfica: -16.863682 -40.594224
+Tronco: Sign Language
+Língua: Papiu Yanomama Sign Language
+Posição Geográfica: 2.52366 -63.24581
+Tronco: Sign Language
+Língua: Marajo Sign Language
+Posição Geográfica: -0.962912 -49.641656
+Tronco: Sign Language
+Língua: Brazilian Sign Language
+Posição Geográfica: -15.5 -48
+Tronco: Sign Language
+Língua: Katawixi
+Posição Geográfica: -7.25015 -64.8319
+Tronco: Katukinan
+Língua: Katukína-Kanamarí
+Posição Geográfica: -6.45399 -68.7678
+Tronco: Katukinan
+Língua: Venetian
+Posição Geográfica: 45.503581 12.214167
+Tronco: Indo-European
+Língua: Uaçá Creole French
+Posição Geográfica: 3.42825 -51.6888
+Tronco: Indo-European
+Língua: Guianese Creole French
+Posição Geográfica: 4.94804 -52.7336
+Tronco: Indo-European
+Língua: Spanish
+Posição Geográfica: 40.4414 -1.11788
+Tronco: Indo-European
+Língua: Portuguese
+Posição Geográfica: 39.91 -8.1
+Tronco: Indo-European
+Língua: Cafundo
+Posição Geográfica: -23.0448 -43.6455
+Tronco: Indo-European
+Língua: Hunsrik
+Posição Geográfica: -29.3255 -51.7219
+Tronco: Indo-European
+Língua: Dutch
+Posição Geográfica: 52 5
+Tronco: Indo-European
+Língua: English
+Posição Geográfica: 53 -1
+Tronco: Indo-European
+Língua: Kadiwéu
+Posição Geográfica: -19.7222 -57.582
+Tronco: Guaicuruan
+Língua: Toba-Maskoy
+Posição Geográfica: -21.5474 -58.0158
+Tronco: Lengua-Mascoy
+Língua: Guana (Paraguay)
+Posição Geográfica: -21.9803 -58.0654
+Tronco: Lengua-Mascoy
+Língua: Palikúr
+Posição Geográfica: 3.63993 -51.6246
+Tronco: Arawakan
+Língua: Terena-Kinikinao-Chane
+Posição Geográfica: -20.6614 -56.0329
+Tronco: Arawakan
+Língua: Kinikinao
+Posição Geográfica: -19.1667 -54.0333
+Tronco: Arawakan
+Língua: Ucayali-Yurúa Ashéninka
+Posição Geográfica: -9.49424 -73.1836
+Tronco: Arawakan
+Língua: Apurinã
+Posição Geográfica: -8.21692 -66.7714
+Tronco: Arawakan
+Língua: Carari
+Posição Geográfica: -6.948358 -64.232247
+Tronco: Arawakan
+Língua: Machinere
+Posição Geográfica: -10.661655 -70.208108
+Tronco: Arawakan
+Língua: Yabaâna-Mainatari
+Posição Geográfica: 0.58332 -65.5
+Tronco: Arawakan
+Língua: Guinau
+Posição Geográfica: 4.797607 -64.73877
+Tronco: Arawakan
+Língua: Aruan
+Posição Geográfica: -0.608631 -50.123291
+Tronco: Arawakan
+Língua: Mapidian-Mawayana
+Posição Geográfica: 1.190187 -58.585983
+Tronco: Arawakan
+Língua: Parauana
+Posição Geográfica: 0.226462 -61.848628
+Tronco: Arawakan
+Língua: Aroaqui
+Posição Geográfica: -2.102167 -60.398433
+Tronco: Arawakan
+Língua: Atorada
+Posição Geográfica: 2.481 -60.286
+Tronco: Arawakan
+Língua: Wapishana
+Posição Geográfica: 2.58744 -59.8021
+Tronco: Arawakan
+Língua: Xiriâna
+Posição Geográfica: 0.83868 -63.452927
+Tronco: Arawakan
+Língua: Manao
+Posição Geográfica: -0.540066 -64.5186
+Tronco: Arawakan
+Língua: Cariay
+Posição Geográfica: -1.072848 -62.887131
+Tronco: Arawakan
+Língua: Baniva de Maroa
+Posição Geográfica: 1.80835 -66.922505
+Tronco: Arawakan
+Língua: Maragua
+Posição Geográfica: -3 -67.512818
+Tronco: Arawakan
+Língua: Araicu
+Posição Geográfica: -3.104315 -67.2052
+Tronco: Arawakan
+Língua: Uirina
+Posição Geográfica: 0.487142 -64.265915
+Tronco: Arawakan
+Língua: Mepuri
+Posição Geográfica: -1.150313 -68.248917
+Tronco: Arawakan
+Língua: Kaishana
+Posição Geográfica: -2.171598 -67.319199
+Tronco: Arawakan
+Língua: Tariana
+Posição Geográfica: 0.440205 -68.9042
+Tronco: Arawakan
+Língua: Baniwa do Icana
+Posição Geográfica: 2.17859 -67.7704
+Tronco: Arawakan
+Língua: Curripaco
+Posição Geográfica: 0.69618 -67.5028
+Tronco: Arawakan
+Língua: Mandahuaca
+Posição Geográfica: 1.48 -66.52
+Tronco: Arawakan
+Língua: Yucuna
+Posição Geográfica: -0.76075 -71.0033
+Tronco: Arawakan
+Língua: Passe
+Posição Geográfica: -2.596949 -68.468643
+Tronco: Arawakan
+Língua: Jumana
+Posição Geográfica: -1.930054 -68.295609
+Tronco: Arawakan
+Língua: Yawalapití
+Posição Geográfica: -12.5104 -53.4236
+Tronco: Arawakan
+Língua: Kustenau
+Posição Geográfica: -14.9 -53.15
+Tronco: Arawakan
+Língua: Waurá
+Posição Geográfica: -13.296 -53.6971
+Tronco: Arawakan
+Língua: Mehináku
+Posição Geográfica: -12.5364 -53.521
+Tronco: Arawakan
+Língua: Enawené-Nawé
+Posição Geográfica: -12.4302 -58.9802
+Tronco: Arawakan
+Língua: Parecís
+Posição Geográfica: -14.5929 -57.4059
+Tronco: Arawakan
+Língua: Saraveca
+Posição Geográfica: -16.07 -57.8
+Tronco: Arawakan
+Língua: Umotína
+Posição Geográfica: -15.5929 -57.4192
+Tronco: Bororoan
+Língua: Otuke
+Posição Geográfica: -15.2698 -59.6986
+Tronco: Bororoan
+Língua: Bororo
+Posição Geográfica: -16.6029 -55.2004
+Tronco: Bororoan
+Língua: Sikiana
+Posição Geográfica: 3.01294 -57.9221
+Tronco: Bookkeeping
+Língua: Karipuna do Amapa
+Posição Geográfica: -2.92 -52.42
+Tronco: Bookkeeping
+Língua: Salumá
+Posição Geográfica: 1.74782 -56.5107
+Tronco: Bookkeeping
+Língua: Nocamán
+Posição Geográfica: -8.91666 -73.1667
+Tronco: Bookkeeping
+Língua: Katukína
+Posição Geográfica: -8.19121 -70.3822
+Tronco: Bookkeeping
+Língua: Iapama
+Posição Geográfica: 0.97588 -53.3269
+Tronco: Bookkeeping
+Língua: Pokangá
+Posição Geográfica: 0.35794 -69.5607
+Tronco: Bookkeeping
+Língua: Tapeba
+Posição Geográfica: -4.99999 -40.3333
+Tronco: Bookkeeping
+Língua: Kabixí
+Posição Geográfica: -14.2403 -58.9931
+Tronco: Bookkeeping
+Língua: Kamba (Brazil)
+Posição Geográfica: -18.8333 -57.3333
+Tronco: Bookkeeping
+Língua: Tingui-Boto
+Posição Geográfica: -11.5816 -37.538
+Tronco: Bookkeeping
+Língua: Sanumá
+Posição Geográfica: 4.5 -64.5
+Tronco: Yanomamic
+Língua: Ninam
+Posição Geográfica: 4.03894 -62.7801
+Tronco: Yanomamic
+Língua: Yaroame
+Posição Geográfica: 1.720201 -62.230225
+Tronco: Yanomamic
+Língua: Yanomám
+Posição Geográfica: 2.48999 -62.8522
+Tronco: Yanomamic
+Língua: Yanomamö
+Posição Geográfica: 1.67967 -64.8781
+Tronco: Yanomamic
+Língua: Yãnoma
+Posição Geográfica: 1.3021 -62.3009
+Tronco: Yanomamic
+Língua: Unainuman
+Posição Geográfica: -2.99955208 -69.2247924
+Tronco: Unclassifiable
+Língua: Kambiwá
+Posição Geográfica: -8.6093993 -36.5993292
+Tronco: Unclassifiable
+Língua: Gamela of Viana
+Posição Geográfica: -3.2913381 -45.1835185
+Tronco: Unclassifiable
+Língua: Uamué
+Posição Geográfica: -8.49999 -38.75
+Tronco: Unclassifiable
+Língua: Uru-Pa-In
+Posição Geográfica: -11.2946 -62.7226
+Tronco: Unclassifiable
+Língua: Kapinawá
+Posição Geográfica: -8.49999 -38.3333
+Tronco: Unclassifiable
+Língua: Natú
+Posição Geográfica: -10.1856656 -36.8493409
+Tronco: Unclassifiable
+Língua: Baenan
+Posição Geográfica: -15.352491 -39.5552237
+Tronco: Unclassifiable
+Língua: Catuquinaru-Bach
+Posição Geográfica: -0.83471871 -70.8672126
+Tronco: Unclassifiable
+Língua: Kaimbé
+Posição Geográfica: -10.4795944 -39.0262926
+Tronco: Unclassifiable
+Língua: Tarairiu
+Posição Geográfica: -5.6988166 -36.1576346
+Tronco: Unclassifiable
+Língua: Karirí-Xocó
+Posição Geográfica: -9.84999 -36.3333
+Tronco: Unclassifiable
+Língua: Tembey
+Posição Geográfica: -26.4819663 -55.1291115
+Tronco: Unclassifiable
+Língua: Xoco
+Posição Geográfica: -7.633768 -38.6336387
+Tronco: Unclassifiable
+Língua: Apalaí
+Posição Geográfica: 1.49792 -54.7457
+Tronco: Cariban
+Língua: Palmela
+Posição Geográfica: -12.628898 -63.124168
+Tronco: Cariban
+Língua: Galibi Carib
+Posição Geográfica: 5.83772 -56.8323
+Tronco: Cariban
+Língua: Wayana
+Posição Geográfica: 2.77537 -54.4429
+Tronco: Cariban
+Língua: Ye'kwana
+Posição Geográfica: 4.70705 -64.3877
+Tronco: Cariban
+Língua: Wayumara
+Posição Geográfica: 3.133111 -61.210785
+Tronco: Cariban
+Língua: Trió
+Posição Geográfica: 2.53616 -55.7599
+Tronco: Cariban
+Língua: Pauxi
+Posição Geográfica: -1.690001 -55.558777
+Tronco: Cariban
+Língua: Pimenteira
+Posição Geográfica: -7.344019 -43.88325
+Tronco: Cariban
+Língua: Matipuhy
+Posição Geográfica: -12.0456 -53.3994
+Tronco: Cariban
+Língua: Kuikúro-Kalapálo
+Posição Geográfica: -12.3035 -53.2261
+Tronco: Cariban
+Língua: Bonari
+Posição Geográfica: -2.047516 -58.468488
+Tronco: Cariban
+Língua: Waimiri-Atroari
+Posição Geográfica: -0.61832 -60.4259
+Tronco: Cariban
+Língua: Pauxiana
+Posição Geográfica: 1.451688 -62.518616
+Tronco: Cariban
+Língua: Paravilhana
+Posição Geográfica: 3.116667 -60.483333
+Tronco: Cariban
+Língua: Sapara
+Posição Geográfica: 3.433437 -61.580544
+Tronco: Cariban
+Língua: Pemon
+Posição Geográfica: 4.97031 -61.4033
+Tronco: Cariban
+Língua: Macushi
+Posição Geográfica: 4.31861 -60.2209
+Tronco: Cariban
+Língua: Akawaio-Ingariko
+Posição Geográfica: 6.16277 -60.862
+Tronco: Cariban
+Língua: Patamona
+Posição Geográfica: 4.75826 -59.5772
+Tronco: Cariban
+Língua: Kaxuiâna
+Posição Geográfica: 2.17138 -55.9101
+Tronco: Cariban
+Língua: Hixkaryána
+Posição Geográfica: -0.16265 -58.80153
+Tronco: Cariban
+Língua: Waiwai
+Posição Geográfica: 1.50881 -59.1417
+Tronco: Cariban
+Língua: Bakairí
+Posição Geográfica: -14.2628 -54.7034
+Tronco: Cariban
+Língua: Apiaka-Tocantins
+Posição Geográfica: -6.5 -49.771729
+Tronco: Cariban
+Língua: Yarumá
+Posição Geográfica: -11.6333 -52.8
+Tronco: Cariban
+Língua: Pará Arára
+Posição Geográfica: -3.71263 -53.0657
+Tronco: Cariban
+Língua: Ikpeng
+Posição Geográfica: -11.37822 -53.49553
+Tronco: Cariban
