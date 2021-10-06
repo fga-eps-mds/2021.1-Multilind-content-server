@@ -1,0 +1,549 @@
+LINGUA: Agavotaguerra
+TAMBÉM CONHECIDA COMO: Agavotoküeng, AgavotoqüengAgavo-queng
+POSICAO GEOGRAFICA: -13.30 -53.44
+LINGUA: Aikanã
+TAMBÉM CONHECIDA COMO: Aikaná, Huarí, Warí, Masaká, Tubarão, Kasupá, Mundé, Corumbiara, Huari, Tubaro, Wari, Uari, Kolumbiara
+POSICAO GEOGRAFICA: -12.6666666667 -60.6666666667
+LINGUA: Akuntsú
+TAMBÉM CONHECIDA COMO: Akunsu, Akunts'u
+POSICAO GEOGRAFICA: -10.9 -63.6
+LINGUA: Amahuaca
+TAMBÉM CONHECIDA COMO: Amawaka, Ameuhaque, Sayaco, Ipitineri, Amaguaco, Amawaka language area
+POSICAO GEOGRAFICA: -10.5 -72.5
+LINGUA: Amanayé
+TAMBÉM CONHECIDA COMO: Amanajé, Manaze, Amanage, Manaxo, Manajo, Manazo, Amanyé, Anambé, Guajá, Urubú, Amanajé, Amanayé language area
+POSICAO GEOGRAFICA: -3.7327 -49.1088
+LINGUA: Anambé of Cairarí
+TAMBÉM CONHECIDA COMO: Anambé
+POSICAO GEOGRAFICA INVALIDA OU INDISPONIVEL
+LINGUA: Apalaí
+TAMBÉM CONHECIDA COMO: Apalai, Aparai, Apalay
+POSICAO GEOGRAFICA: 0.0 -54.0
+LINGUA: Apiaká
+TAMBÉM CONHECIDA COMO: Apiacá, Apiake
+POSICAO GEOGRAFICA: -11.1519 -57.3113
+LINGUA: Apinayé
+TAMBÉM CONHECIDA COMO: Apinage, Apinayé, Apinajé, Apinagé
+POSICAO GEOGRAFICA: -5.5 -48.0
+LINGUA: Apuriná
+TAMBÉM CONHECIDA COMO: Ipuriná, Kangite, Apurinã, Ipurina, Apurinã, Ipurinãn, Popengare, CangaitiCacharary
+POSICAO GEOGRAFICA: -9.0 -67.0
+LINGUA: Arapaso
+TAMBÉM CONHECIDA COMO: Arapaço, Araspaso, Koneá, Arapasso
+POSICAO GEOGRAFICA: 0 -66
+LINGUA: Arára of Mato Grosso
+TAMBÉM CONHECIDA COMO: Arara do Beiradão, Arara do Aripuanã, Arara, Arara do BeiradãoArara do Rio Branco
+POSICAO GEOGRAFICA INVALIDA OU INDISPONIVEL
+LINGUA: Araweté
+TAMBÉM CONHECIDA COMO: Bïde, Asuriní, Asuriní do Xingú, Asuriní do Coatinema, Awaeté
+POSICAO GEOGRAFICA: -5.1347 -52.3388
+LINGUA: Arikapú
+TAMBÉM CONHECIDA COMO: Arikapu, Aricapú, Aricapu, Maxubí, Mashubi
+POSICAO GEOGRAFICA: -12.0527 -64.7259
+LINGUA: Aruá
+TAMBÉM CONHECIDA COMO: Aruaxi, Aruashí, Cinta Larga, Gavião, Zoró
+POSICAO GEOGRAFICA: -12.0285 -64.7094
+LINGUA: Arutani
+TAMBÉM CONHECIDA COMO: Auaqué, Awaké, Auaké, Auake, Awake, Aoaqui, Oewaku, Uruak, Uruák, Urutani, Orotani, Ahuaqué, Oewacu
+POSICAO GEOGRAFICA INVALIDA OU INDISPONIVEL
+LINGUA: Asháninka
+TAMBÉM CONHECIDA COMO: Asháninga, Campa (Axininca), Asháninca,  Ashaninca, Asháninka, "Campa"
+POSICAO GEOGRAFICA INVALIDA OU INDISPONIVEL
+LINGUA: Ashéninka
+TAMBÉM CONHECIDA COMO: Ashéninga (Upper Perené, Ashéninka Perené, "Perené Campa", Ashéninca Perené), Ajyíninka (Ajyéninka, Apurucayali Campa, Ashaninca, Ashéninca Apurucayali, Axininka Campa), Pajonal (Ashéninca, Atsiri), Pichis Ashéninca (Pichis Campa), South Ucayali Ashéninka, Ucayali Ashéninca"Campa" (considered pejorative).
+POSICAO GEOGRAFICA: -10.933333 -75.266667
+LINGUA: Asuriní do Tocantins
+TAMBÉM CONHECIDA COMO: Asuriní, Assuriní, Assuriní do Tocantins, Asuriní do Trocará, Akwaya, Akuawa, Parakaná, Asurí, Mudjetire, Suru do Tocantins, Asurini, Tocantins Asuriní, Assurini, Asuriní do Tocantins, AkwáwaAsurini, Tocantins
+POSICAO GEOGRAFICA INVALIDA OU INDISPONIVEL
+LINGUA: Asuriní of Xingú 
+TAMBÉM CONHECIDA COMO: Asuriní de coatinema, Asurini do Xingu, Asuriní do Koatinema, Awaeté, Xingú AsuriníAssurinikin
+POSICAO GEOGRAFICA: -3.9095 -52.4707
+LINGUA: Auré
+TAMBÉM CONHECIDA COMO: Aurê, Aurá
+POSICAO GEOGRAFICA: -2.9649 -46.2084
+LINGUA: Avá
+TAMBÉM CONHECIDA COMO: Avá-Canoeiro, Canoeiros, Canoe, Canoa, Abá, Awana, Canoeiro, Ava-Canoeiro, Awana, Awá, Guajá, Awá Guajá, Ayaya, Wazaizara, Ava
+POSICAO GEOGRAFICA: -14.0847 -48.0418
+LINGUA: Awetí
+TAMBÉM CONHECIDA COMO: Awety, Awetö, Aueto, Aueti, Auiti, Auití, Aweti, Auetö
+POSICAO GEOGRAFICA: -12.20 -53.22
+LINGUA: Bakairí
+TAMBÉM CONHECIDA COMO: Bakairi, Kura, Bacairí, Kurâ
+POSICAO GEOGRAFICA: -14.0 -55.0
+LINGUA: Banawá
+TAMBÉM CONHECIDA COMO: Banawá Yafí, Baniwá-Jafí
+POSICAO GEOGRAFICA INVALIDA OU INDISPONIVEL
+LINGUA: Baniwa
+TAMBÉM CONHECIDA COMO: Baniwa, Baniva, Baniva do Içana, Suicí, Ualiperi, Siusi, Baniua do Içana, Maniba, Baniba, Issana, Dakenei, Karútana-Baniwa, Karútana-Baniva, Baniba, Baniua do Içana, Kohoroxitari
+POSICAO GEOGRAFICA: 2.66666666667 -66.8333333333
+LINGUA: Bará
+TAMBÉM CONHECIDA COMO: Waimaha, Waimaja, Bará, Northern Barasano, Barasano, WaípinõmakãBará-Tuyuka
+POSICAO GEOGRAFICA: 0.333333333333 -70.25
+LINGUA: Barasano
+TAMBÉM CONHECIDA COMO: Barasana, Southern Barasano, Paneroa, Banera yae, Come masa, Comematsa, Edulia, Eduria, Hanera oka, Janera, Taibano, TaiwaenoTaiwano
+POSICAO GEOGRAFICA: -0.166666666667 -70.6666666667
+LINGUA: Baré
+TAMBÉM CONHECIDA COMO: Bare, Mitua, Barauna, Barawana, Barauana, Ihini, Arihini, Maldavaca, Cunipusana, Yavita, Ihini, Balé, Bale
+POSICAO GEOGRAFICA: 1.0 -67.0
+LINGUA: Bora
+TAMBÉM CONHECIDA COMO: Imihita, Miranya, Boro, Meamuyna, Miriña, Miranha, Bora-Miranya
+POSICAO GEOGRAFICA: -2.16666666667 -72.3333333333
+LINGUA: Bororo
+TAMBÉM CONHECIDA COMO: Boe, Borôro, Bororo proper, Eastern Bororo, Western Bororo, Borro
+POSICAO GEOGRAFICA: -16.0 -57.0
+LINGUA: Canela
+TAMBÉM CONHECIDA COMO: Canela, Canela-Krahô, Timbira, Krenjé, Krahó, Pukobyé, Kanela
+POSICAO GEOGRAFICA: -7.0 -45.0
+LINGUA: Carapana
+TAMBÉM CONHECIDA COMO: Carapano, Mochda, Moxdoa, Karapaná, Karapano, Carapana-Tapuya, Carapanã, Mextã, Karapana, Miranya Carapana Tapuya, Mi tea, Mochda, MoxdoaMuxtea
+POSICAO GEOGRAFICA: 0.833333333333 -70.75
+LINGUA: Cashinahua
+TAMBÉM CONHECIDA COMO: Kashinawa, Kaxinawa, Tuxinawa, Caxinawa, Kashinawa Kaxinawá, Kaxinawá, Kaxynawa, Caxinawá, Cashinahuá, Kaxinauá, KaxinauaHãtxa Kuĩ (Huni Kuin)
+POSICAO GEOGRAFICA: -10.5 -71.8333333333
+LINGUA: Chaima
+TAMBÉM CONHECIDA COMO: Chaima: Chayma, Guaga-Tagare, Sayma, Warapiche, Kumaná, Cumaná, Cumanagoto
+POSICAO GEOGRAFICA: 8.4941 -64.0942
+LINGUA: Chamacoco
+TAMBÉM CONHECIDA COMO: Ebidoso, Tumraha, Chamakoko, Ishiro, Yshyro, Jeywo, Bahía Negra, Tumarahá, Tumerehã
+POSICAO GEOGRAFICA: -20.59 -58.20
+LINGUA: Chiquitano
+TAMBÉM CONHECIDA COMO: Chiquito, Tarapecosi, Tao, Chikitano, Besïro, Chiquit(an)o
+POSICAO GEOGRAFICA: -16.7 -61.4
+LINGUA: Cinta Larga
+TAMBÉM CONHECIDA COMO: nan
+POSICAO GEOGRAFICA: -11.4154 -59.7216
+LINGUA: Cocama-Cocamilla
+TAMBÉM CONHECIDA COMO: Cocama, Kokama, Kukama-Kukamiria, Ucayali, Xibitoana, Huallaga, Pampadeque, Pandequebo, Xibitaona, Kokama-Kokamilya, Kokáma-Omágwa, Kukama KukamiriaCocama Cocamilla
+POSICAO GEOGRAFICA: -4.000000 -74.000000
+LINGUA: Culina
+TAMBÉM CONHECIDA COMO: Culino, Culiña, Culinha, Kulino, Cuniba, Curina, Madiha, Kulína, Madihá, Madija, Corina, Kulina, Kulyna, Kurina, Kollina, Korina
+POSICAO GEOGRAFICA: -6.0 -70.5
+LINGUA: Curripaco
+TAMBÉM CONHECIDA COMO: Kurripako, Ipeka-Kurripako, Curipaco, Kuripaco, Koripako, Korispaso, Payualiene, Paiorience, Pacu
+POSICAO GEOGRAFICA: 2.5 -68.5
+LINGUA: Dâw
+TAMBÉM CONHECIDA COMO: Kamã, Kamã Makú, Kam, Kamán, Daw, Dow, Kamarada, Makú-Kamarada, Kaman
+POSICAO GEOGRAFICA: -0.25 -67.0833333333
+LINGUA: Dení
+TAMBÉM CONHECIDA COMO: Deni, Den, Dani
+POSICAO GEOGRAFICA: -6.0 -67.0
+LINGUA: Desano
+TAMBÉM CONHECIDA COMO: Desana, Desano, Desâna, Dessano, Wina, Uina, Wirã, Boleka, Oregu, Kusibi, Desána, Dessana, Desana-Siriana, KotediaWira
+POSICAO GEOGRAFICA: 0.272789 -69.761979
+LINGUA: Diahói
+TAMBÉM CONHECIDA COMO: Diahui, Jahoi, Jahui, Diarrui, Djiahúi
+POSICAO GEOGRAFICA: -7.9939 -62.1936
+LINGUA: Dyapá
+TAMBÉM CONHECIDA COMO: Southern Katukinan, Tshom-Djapá [Txunhuã-Djapá], Canamarí, Kanamarí) (perhaps the same as Tucundiapa (Tucano Dyapa, Hondiapa/Hon-Dyapá)])
+POSICAO GEOGRAFICA: -7.058333 -69.691667
+LINGUA: Enawené-Nawé
+TAMBÉM CONHECIDA COMO: Eneuene-Mare, Salumã
+POSICAO GEOGRAFICA: -12.5223 -59.7656
+LINGUA: Gavião
+TAMBÉM CONHECIDA COMO: Gavião do Jiparaná, Gavião do Rondônia, Digüt, Ikõrõ, Gavião
+POSICAO GEOGRAFICA: -10.6666666667 -62.0
+LINGUA: Gavião de Parã
+TAMBÉM CONHECIDA COMO: Pukobyé, Piokob, Bocobu, Gavião, Parã, Parakatêjê, Pukobjê, Canela, Kanela, Krenjé, Krahó
+POSICAO GEOGRAFICA: -5.3316 -46.7138
+LINGUA: Guajá
+TAMBÉM CONHECIDA COMO: Awá, Avá, Awá Guajá, Ayaya, Guaxare, Wazaizara
+POSICAO GEOGRAFICA: -3.4914 -46.2963
+LINGUA: Guajajára
+TAMBÉM CONHECIDA COMO: Guajajára, Guazazzara, Tenetehara, Tenetehára, Guajajara, Guajajra
+POSICAO GEOGRAFICA: -5.0 -46.0
+LINGUA: Guana (Brazil)
+TAMBÉM CONHECIDA COMO: Guaná, Etelena, Guaná, Chané, Kinikinao, Kinihinao, Kinikinau, Chuala, Chana, East Paraná, Equinao
+POSICAO GEOGRAFICA: -21.0685 -56.2765
+LINGUA: Guarequena
+TAMBÉM CONHECIDA COMO: Warekena, Arequena, Guarekena, Uerequema, Urequema, Warekéna, Werikena, GuarenquenaWarekena
+POSICAO GEOGRAFICA: 1.5 -67.5
+LINGUA: Guató
+TAMBÉM CONHECIDA COMO: Guato, 
+POSICAO GEOGRAFICA: -17.0 -58.0
+LINGUA: Harakmbut
+TAMBÉM CONHECIDA COMO: Harákmbut, Harakmbet, Hate, Ate, Tuyoneri, Harakmbut, Harakmbut, Amarakaeri, Amarakaéri, Amarakaire, Amaracaire, Mashco ("Mashco" is a derogatory term), Harakbut, Arazaeri, Arasairi, Huachipaeri, Huachipayri, Wacipairi, Kisamberi, Pukirieri, Puncuri, Toyoeri, Toioeri, ToyeriTuyune
+POSICAO GEOGRAFICA: 11.77 70.81
+LINGUA: Himarimã
+TAMBÉM CONHECIDA COMO: Hi-Merimã, Hi-Marimã, Maimã
+POSICAO GEOGRAFICA: -6.25 -64.70
+LINGUA: Hixkaryana
+TAMBÉM CONHECIDA COMO: Hishkariana, Hixkaryána, Hishcariana, Waiboi, Hixkariana, Hichkaryana, Sokaka, Faruaru, Xereu, Kumiyana, Parukoto-Charuma, Sherewyana, Wabui, Xerewyana, Parucutu, Chawiyana, Hishkaryana
+POSICAO GEOGRAFICA: -1.0 -59.0
+LINGUA: Hupda
+TAMBÉM CONHECIDA COMO: Hup, Hubde, Hupdë, Hupdá Makú, Jupdá Macú, Makú-Hupdá, Macú de Tucano, Ubdé, Hupdë
+POSICAO GEOGRAFICA: 0.166666666667 -69.25
+LINGUA: Ikpéng
+TAMBÉM CONHECIDA COMO: Txikāo, Ikpeng, Txicão, Txikân, Chikaon, Chicao, Tunuli, Tonore
+POSICAO GEOGRAFICA: -11.7376 -53.616
+LINGUA: Irantxe
+TAMBÉM CONHECIDA COMO: Iranshe, Iranxe, Irntxe, Iranche, Mynky, Münkü, Menki, Manoki, MykyIrántxe
+POSICAO GEOGRAFICA: -13.0 -58.0
+LINGUA: Isolado do Tanaru
+TAMBÉM CONHECIDA COMO: Isolado do Buraco
+POSICAO GEOGRAFICA INVALIDA OU INDISPONIVEL
+LINGUA: Jabutí
+TAMBÉM CONHECIDA COMO: Yabutí, Jabotí, Djeoromitxi, Jeoromitxi, KipiuQuipiu
+POSICAO GEOGRAFICA: -12.25 -62.25
+LINGUA: Jamamadí
+TAMBÉM CONHECIDA COMO: Yamamadi, Jamamadi, Yamadi, Yamamadí, Kanamanti, Canamanti, Madi
+POSICAO GEOGRAFICA: -7.5 -65.5
+LINGUA: Júma
+TAMBÉM CONHECIDA COMO: Arara, Kagwahibm, Kagwahiph, Kagwahiv, Kavahiva, Kawahip, Kawaib, Yumá
+POSICAO GEOGRAFICA: -7.5 -64.0
+LINGUA: Juruna
+TAMBÉM CONHECIDA COMO: Jurúna, Yurúna, Iuruna, Jaruna, Yudya, Yuruna, Jurna, Yudjá, Djudjá
+POSICAO GEOGRAFICA: -5.0 -54.5
+LINGUA: Kaapor
+TAMBÉM CONHECIDA COMO: Urubú-Kaapor, Urubú, Kaaporté, Caapor, Ka'apor, Anambé, Guajá, Urubú, Amanajé, Manaze, Amanage, Manaxo, Manajo, Manazo, Ka'apór, Urubú-Ka'apór
+POSICAO GEOGRAFICA: -2.33333333333 -46.5
+LINGUA: Kadiwéu
+TAMBÉM CONHECIDA COMO: Mbaya-Guaikuru, Caduveo, Ediu-Adig, Mbayá, Guaicuru, Mbaya, Mbayá-Guaycuru, Guaicurú
+POSICAO GEOGRAFICA: -20.0 -57.0
+LINGUA: Kaingang
+TAMBÉM CONHECIDA COMO: Kaingan, Bugre, Coroado, Coroados, Caingang, Kaingng
+POSICAO GEOGRAFICA: -26.0 -52.0
+LINGUA: Kaiwá
+TAMBÉM CONHECIDA COMO: Kaiwá, Caiwa, Caingua, Kaingwá, Cayua, Caiua, Kayova, Kaiowa, Kaiova, Chiripá, Nhandeva, Txiripá, Tsiripá, Ñandeva, Apytare, Kaiwá/Kayová, Kayowá, Kaiowá, Caiová, Caiguá, Pãi, Pãi-Tavyterã
+POSICAO GEOGRAFICA: -23.0 -55.0
+LINGUA: Kaixana
+TAMBÉM CONHECIDA COMO: Caixana
+POSICAO GEOGRAFICA INVALIDA OU INDISPONIVEL
+LINGUA: Kamayurá
+TAMBÉM CONHECIDA COMO: Kamaiurá, Camaiura, Kamayirá, Kamayura, Kamayur, Camaiurá
+POSICAO GEOGRAFICA: -12.0833333333 -52.5833333333
+LINGUA: Kapixaná
+TAMBÉM CONHECIDA COMO: Capixana, Kanoé, Kapishaná, Kapixaná/Kanoé
+POSICAO GEOGRAFICA: -10.790 -65.332
+LINGUA: Kapong
+TAMBÉM CONHECIDA COMO: Kapon, Ka'pong
+POSICAO GEOGRAFICA: 6.0 -59.5
+LINGUA: Karajá
+TAMBÉM CONHECIDA COMO: Karajá-Xambioá, Karaho, Caraja, Karaja, Xambioá, Chamboa, Ynã, Karaja-Shambioá, JavaéKarajá language area
+POSICAO GEOGRAFICA: -9.983486 -50.284753
+LINGUA: Kari'nja
+TAMBÉM CONHECIDA COMO: Kari'nya, Carib, Galibí, Galibi, Kalinya, Cariña, Caribe, Karínya, Kali'na, Kalihna, Maraworno, Marworno
+POSICAO GEOGRAFICA: 5.5 -56.0
+LINGUA: Karipuna
+TAMBÉM CONHECIDA COMO: Karipúna do Guaporé, Caripuna, Jau-Navo, Juanauo, Karipuná de Rondônia, Kagwahiva, Karipuna, Karipuna do Guapore, Parintintín/Tenharim/Juma, Kawahib/Paranawat/Pawaté-Wirafed, Tukumanfed, Diahoi [Jiahui, Djahui, Diarroi], Ah'e, Kagwahiva, Kari
+POSICAO GEOGRAFICA: -10.0 -65.0
+LINGUA: Karitiana
+TAMBÉM CONHECIDA COMO: Karitiâna, Caritiana, Karitiána
+POSICAO GEOGRAFICA: -9.5 -64.0
+LINGUA: Karo (Brazil)
+TAMBÉM CONHECIDA COMO: Arara, Urukú, Káro
+POSICAO GEOGRAFICA: -10.3333333333 -62.0
+LINGUA: Katawixi
+TAMBÉM CONHECIDA COMO: Catauisi, Catauichí, Catawixi, Catauixi, Catawishi, Catauichi, Hewadie, Katawishi, Katawishí, KatawishiQuatausi
+POSICAO GEOGRAFICA: -8.8416 -66.0937
+LINGUA: Katukina
+TAMBÉM CONHECIDA COMO: Catuquina, Pidádiapá, Catuquino, KatukínaKatukina do Jutaí
+POSICAO GEOGRAFICA: -5.6159 -68.7304
+LINGUA: Katukina do Acre
+TAMBÉM CONHECIDA COMO: Katukina, Katukína, Panoan, Catuquina, Kamanawa, Kamannaua, Katukina do JuruáWanninawa
+POSICAO GEOGRAFICA: -6.4899 -69.2578
+LINGUA: Katxúyana
+TAMBÉM CONHECIDA COMO: Kashuyana-Warikyana, Kaxuiana, Kaxuiâna, Kashuyana, Kashujana, Kachuana, Kaxuyâna, Kahyana, Kaxúyana, Katxúyana, Warikiana, Warikyana, Werikyana, Ingarïnyana, Ingarüna, Xikuyana, Txikuyana, Xikïyana, Txikïyana, Pauxi
+POSICAO GEOGRAFICA: 2.043 -55.4589
+LINGUA: Kawaiwete
+TAMBÉM CONHECIDA COMO: Kayabí, Kajabí, Caiabi, Parua, Maquiri, Caiabí, Paruá
+POSICAO GEOGRAFICA: -11.0 -55.5
+LINGUA: Kaxararí
+TAMBÉM CONHECIDA COMO: Cacharari, Kashararí, Kaxariri, Kaxarari
+POSICAO GEOGRAFICA: -9.5682 -66.1596
+LINGUA: Korubo
+TAMBÉM CONHECIDA COMO: Caceteiros, Chankuëshbo
+POSICAO GEOGRAFICA: -5.8346 -70.9277
+LINGUA: Krahô
+TAMBÉM CONHECIDA COMO: nan
+POSICAO GEOGRAFICA: -8.4071 -47.2851
+LINGUA: Kreen-Akarore
+TAMBÉM CONHECIDA COMO: Kren Akarore, Panará, Ipewí, Kren-Akarore, Creen-Acarore
+POSICAO GEOGRAFICA: -10.0 -55.0
+LINGUA: Krenak
+TAMBÉM CONHECIDA COMO: Botocudo, Aimoré, Nakrehé, Nakpié, Naknyanúk, Etwet, Minyãyirún, Yiporók, Pojitxá, Potén, Krekmún, Bakuén, Aranã, Batachoa, Crenaque
+POSICAO GEOGRAFICA: -15.5 -41.0
+LINGUA: Kreye
+TAMBÉM CONHECIDA COMO: Crengez, Krenjé, Crenge, Bacabal, Kremye, Kreye, Krem-Ye, Crange, Creye, Crenye, Taze, Tage, Canela, Kanela, Krahó, Pukobyé
+POSICAO GEOGRAFICA: -2.5644 -46.6589
+LINGUA: Krikatí
+TAMBÉM CONHECIDA COMO: Krinkati, Krikati-Timbira, Canela, Kanela, Krenjé, Krahó, Pukobyé, Krikati-Timbita
+POSICAO GEOGRAFICA INVALIDA OU INDISPONIVEL
+LINGUA: Kubeo
+TAMBÉM CONHECIDA COMO: Cubeo, Hahänana, Hehenawa, Cuveo, Kobeua, Kubwa, Kobewa, Pamiwa, Kubewa, Pamié, Cubeu, Kobéwa
+POSICAO GEOGRAFICA: 1.33333333333 -70.5
+LINGUA: Kuikuro
+TAMBÉM CONHECIDA COMO: Língua Karib do Alto Xingu, Kuikúro-Kalapálo, Kuikuru, Guicurú, Kurkuro, Cuicutl, Apalakiri, Apalaquiri, Kuikúru, Kalapalo, Calapalu, Amonap, Matipu, KuikuroSouthern Xingu Language
+POSICAO GEOGRAFICA: -12.4166666667 -53.0833333333
+LINGUA: Kulina
+TAMBÉM CONHECIDA COMO: Culina, Culino, Kulino
+POSICAO GEOGRAFICA: -5.6597 -71.5429
+LINGUA: Kuruaya
+TAMBÉM CONHECIDA COMO: Kuruáya, Caravare, Curuaia, Kuruaia
+POSICAO GEOGRAFICA: -5.0033 -53.9208
+LINGUA: Kwaza
+TAMBÉM CONHECIDA COMO: Koiyá, Koaiá, Quaiá, Arara
+POSICAO GEOGRAFICA: -12.651 -60.4138
+LINGUA: Macuna
+TAMBÉM CONHECIDA COMO: Erulia, Yeba, Buhagana, Makuna, Roea, Emoa, Ide, Suroa, Tabotiro Jejea, Umua, Wuhána, Paneroa, Jepa-Matsi, Yepá-Mahsá, Yebamasã, Yehpá Majsá, Baigana, Wahana, Makuna-Erulia, Buhágana, Yepá Maxsã
+POSICAO GEOGRAFICA: -0.333333333333 -70.1666666667
+LINGUA: Makurap
+TAMBÉM CONHECIDA COMO: Makuráp, Makurápi, Macuráp, Macurapi, Massaka, Kurateg, Makurape, MacurapMacurape
+POSICAO GEOGRAFICA: -12.1682 -63.0285
+LINGUA: Makushi
+TAMBÉM CONHECIDA COMO: Makushí, Macuxi, Teweya, Teueia, Macushi, Macusi, Makuxí, Macuxí, Makuxi, MacussiMakusi
+POSICAO GEOGRAFICA: 4.0 -60.0
+LINGUA: Mamaindé
+TAMBÉM CONHECIDA COMO: Northern Nambikwara, Mamainde, Northern Nambikuára, Northern Nambikuaran, Kithāulhú, Northern Nambiquara
+POSICAO GEOGRAFICA: -11.8028 -59.8095
+LINGUA: Mandahuaca
+TAMBÉM CONHECIDA COMO: Mitua, Mandauaca, Mandawaka, Ihini, Arihini, Maldavaca, Cunipusana, Yavita, Mandawáka, Mitua
+POSICAO GEOGRAFICA: 1.428 -66.9287
+LINGUA: Marubo
+TAMBÉM CONHECIDA COMO: Marobo, Marúbo, Maruba, Marova, Kaniuá, KatukínaMarubo of the Javari Basin
+POSICAO GEOGRAFICA: -6.0968 -70.2246
+LINGUA: Matís
+TAMBÉM CONHECIDA COMO: Matis, Mayoruna-Matsés
+POSICAO GEOGRAFICA: -4.41666666667 -70.25
+LINGUA: Matsés
+TAMBÉM CONHECIDA COMO: Mayoruna, Matse, Matís, Majoruna, Matsés, Maxuruna, Majuruna, Mayiruna, Maxirona, Magirona, Mayuzuna, Majoruna-Matsés
+POSICAO GEOGRAFICA: -5.283333 -73.15
+LINGUA: Mawayana
+TAMBÉM CONHECIDA COMO: Mahuayana, Madipian, Maiopitian, Maopityan
+POSICAO GEOGRAFICA: 1.5159 -58.4143
+LINGUA: Mawé
+TAMBÉM CONHECIDA COMO: Sateré-Mawé, Maué,  Mabue, Maragua, Sataré, Andira, Arapium, Maue, Andirá, SateréMawé-Sateré
+POSICAO GEOGRAFICA: -3.8642 -56.7773
+LINGUA: Maxakalí
+TAMBÉM CONHECIDA COMO: Caposho, Cumanasho, Macuni, Monaxo, Monocho
+POSICAO GEOGRAFICA: -18.0 -40.0
+LINGUA: Maxineri
+TAMBÉM CONHECIDA COMO: Manitenere, Mashineri, Machinere, Manchinere, Manchineri, Manitenerí, Manitenére, Maxinéri
+POSICAO GEOGRAFICA: -10.5742 -70.4882
+LINGUA: Mbyá
+TAMBÉM CONHECIDA COMO: Mbua, Mbiá, Bugre, Mbyá Guaraní, Mbü'a Guaraní, Guaraní language area
+POSICAO GEOGRAFICA: -26.5099 -55.2832
+LINGUA: Mebengokre
+TAMBÉM CONHECIDA COMO: Kayapó, Cayapo, Kokraimoro, Cayapó, Gorotire, Southern Cayapo, Mebêngokrê, XikrinPut Karot
+POSICAO GEOGRAFICA: -9.0 -52.0
+LINGUA: Mehináku
+TAMBÉM CONHECIDA COMO: Mehinacú, Minaco, Mehinacu, Mehináku, Mehinaco, Mahinaku, Mahinacu, Meinaku, Uara, Aura
+POSICAO GEOGRAFICA: -12.5423 -53.2403
+LINGUA: Mekéns
+TAMBÉM CONHECIDA COMO: Sakirabiát, Sakirabiá, Sakirabiáp, Sakiriabar, Sakirabiák, Sakirap, Amniapa, Sakurabiat, Mekens, Mekém, Mequens, Mekem, Mequem Amniapé, WaratégayaAmiapé
+POSICAO GEOGRAFICA: -12.5 -61.5
+LINGUA: Mirití
+TAMBÉM CONHECIDA COMO: Miriti-Tapuyo, Neenoá
+POSICAO GEOGRAFICA INVALIDA OU INDISPONIVEL
+LINGUA: Mondé
+TAMBÉM CONHECIDA COMO: Sanamaiká, Sanamaykã, Sanamaica, Salamãi, Salamaikã, Sanamaikã, Sanamaika, Monde, Sanamaí
+POSICAO GEOGRAFICA: -8.7602 -63.9074
+LINGUA: Mundurukú
+TAMBÉM CONHECIDA COMO: Mundurucu, Monjoroku, Weidyenye, Paiquize, Pari, Caras-Pretas, Mundurucú
+POSICAO GEOGRAFICA: -7.0 -58.0
+LINGUA: Nadëb
+TAMBÉM CONHECIDA COMO: Nadobo, Nadëb, Nadeb Macu, Makú Nadëb, Makunadöbö, Anodöub, Kabori, Kabari, Xiriwai, Xuriwai, Nadöbo, Kaburí language area, Kaburi
+POSICAO GEOGRAFICA: -1.0 -66.5
+LINGUA: Nambikwara
+TAMBÉM CONHECIDA COMO: Nambiquara, Southern Nambikwara
+POSICAO GEOGRAFICA: -13.0 -59.0
+LINGUA: Ñandeva
+TAMBÉM CONHECIDA COMO: Chiripá, Tsiripá, Txiripá, Nhandeva, Chiripa, Nhandéva
+POSICAO GEOGRAFICA: -22.0652 -54.7558
+LINGUA: Nheengatú
+TAMBÉM CONHECIDA COMO: Ñeengatú, Nhengatu, Yeral, Geral, Língua Geral, Nyengatú, Nyengato, Ñeegatú, Waengatu, Língua Jeral, Jeral, Língua Geral Amazônica, Nheengatú, Tapïhïya
+POSICAO GEOGRAFICA: 1.2303 -66.8408
+LINGUA: Ninam
+TAMBÉM CONHECIDA COMO: Yanam, Nimam, Xiriâna, Casapare, Kasrapai, Jawaperi, Crichana, Jawari, Shiriana, Shirianá, Samatari, Yanam-Ninam, Xirianá, Shiriana Casapare
+POSICAO GEOGRAFICA: 3.5 -62.8333333333
+LINGUA: Nipode
+TAMBÉM CONHECIDA COMO: Huitoto Muinane, Nïpode, Nüpode Huitoto, Huitoto Nipode, Witoto-Kaimo, Nüpode, Nipode Witoto, Muinane Huitoto
+POSICAO GEOGRAFICA: -2.34 -70.96
+LINGUA: Nukini
+TAMBÉM CONHECIDA COMO: Nuquini, Nucuini, Inukuini
+POSICAO GEOGRAFICA: -7.34 -73.50
+LINGUA: Ofayé
+TAMBÉM CONHECIDA COMO: Guachi, Opaie, Opaié-Shavante, Ofaié-Xavante, Opaye-Chavante, Opaye, Opayé, Ofayé-Xavante, Ofaié
+POSICAO GEOGRAFICA: -21.361 -52.0532
+LINGUA: Omagua
+TAMBÉM CONHECIDA COMO: Omagua-Yete, Ariana, Pariana, Anapia, Macanipa, Kambeba, Yhuata, Umaua, Cambeba, Campeba, Cambela, Cambeeba, Compeva, Canga-Peba, Agua, Omagua-Campeva, Omawa-Kampeva, Janbeba
+POSICAO GEOGRAFICA: -4.0 -73.5
+LINGUA: Orowari
+TAMBÉM CONHECIDA COMO: Oro Win, Pakaás-novos, Pacasnovas, Pacaha-novo, Uariwayo, Uomo, Jaru, Oro Wari
+POSICAO GEOGRAFICA: -11.6683 -65.1379
+LINGUA: Paiter
+TAMBÉM CONHECIDA COMO: Suruí do Jiparaná, Suruí de Rondônia, Paiter, Paitér, Surui Paiter
+POSICAO GEOGRAFICA: -11.1245 -61.3476
+LINGUA: Palikur
+TAMBÉM CONHECIDA COMO: Palicur, Palikúr, Palikr, Palijur, PalikourPaikwene, Palincur, Paricores, Paricuria, Parikurene, Parinkur-lene
+POSICAO GEOGRAFICA: 3.0 -51.0
+LINGUA: Parakanã
+TAMBÉM CONHECIDA COMO: Parakanân, Parocana, Awaeté, Paracana, Paracanã, Apiteréwa, Akwawa, Akuawa, Parakaná, Asurí, Mudjetire, Suru do Tocantins
+POSICAO GEOGRAFICA: -5.2441 -52.7014
+LINGUA: Paresí
+TAMBÉM CONHECIDA COMO: Parecís, Paressí, Ariti, Pareche, Paresi, Parecis, Haliti, ParetíArawak
+POSICAO GEOGRAFICA: -14.0 -57.0
+LINGUA: Paumarí
+TAMBÉM CONHECIDA COMO: Paumari, Pammarí, Curucuru, Purupurú, Pamarí, Palmarí, Pamari, Kurukuru, Purupuru
+POSICAO GEOGRAFICA: -6.0 -64.0
+LINGUA: Pemón
+TAMBÉM CONHECIDA COMO: Pemong, Pemon, Taulipang, Taurepang, Kamarakóto
+POSICAO GEOGRAFICA: 5.33333333333 -62.0
+LINGUA: Pirahã
+TAMBÉM CONHECIDA COMO: Pirahán, Piraha, Múra-Pirahã, Mura-Piraha, Pirahá
+POSICAO GEOGRAFICA: -7.0 -62.0
+LINGUA: Piratapuyo 
+TAMBÉM CONHECIDA COMO: Uaíana, Waíana, Uaicana, Waikino, Uainana, Waikina, Uaiana, Pira-Tapuya, Uaikena, Waikhara, Waina, Uiquina Wanano-Piratapuyo
+POSICAO GEOGRAFICA: 0.333333333333 -69.5
+LINGUA: Poyanawa
+TAMBÉM CONHECIDA COMO: Poyanáwa, Poianáua, Puinahua, PoyannawaPuyanawa
+POSICAO GEOGRAFICA: -7.6238 -73.2568
+LINGUA: Puruborá
+TAMBÉM CONHECIDA COMO: Puruba, Aurã, Pumbora, Puroborá, Burubora, Kuyubi, Cujubi, Migueleno, Miguelenho, Boruborá, Purubora
+POSICAO GEOGRAFICA: -12.3292 -64.2919
+LINGUA: Rikbaktsá
+TAMBÉM CONHECIDA COMO: Rikbaktsa, Erikbatsa, Aripaktsá, Eribatsa, Eripatsa, Canoeiro, Aripaktsa, Erikpatsa
+POSICAO GEOGRAFICA: -11.8333333333 -57.5
+LINGUA: Sabané
+TAMBÉM CONHECIDA COMO: Sabane, Sabanês, Sabones, Sabanê, Sabanés
+POSICAO GEOGRAFICA: -12.5277 -59.6859
+LINGUA: Sanumá
+TAMBÉM CONHECIDA COMO: Sanuma, Sanum, Sanɨma, Tsanuma, Sanema, Samatari, Guaika, Samatli, Xamatari, Shiriana, Sanemá, Sanima, Samatali, Chirichano, Sanma
+POSICAO GEOGRAFICA: 4.5 -64.6666666667
+LINGUA: Shanenawa
+TAMBÉM CONHECIDA COMO: Katukina Shanenawa
+POSICAO GEOGRAFICA: -8.1014 -70.2129
+LINGUA: Siriano
+TAMBÉM CONHECIDA COMO: Sirianó, Siriana, Desano-Siriano, Chiranga, Desano-Siriano, Siria-Masã, Sarirá, Cirnga, Si-Ra, Sura Masa, Siriane, Surianá, SuriráSuryana
+POSICAO GEOGRAFICA: 0.318919 -69.247622
+LINGUA: Suruí do Pará
+TAMBÉM CONHECIDA COMO: Suruí, Suruí do Tocantins, Akewere, Akewara, Aikewara, Mudjétire, "Mudjetíre", "Mudjetíre-Suruí", Suruí, Suruí do Tocantins, Mudjetíre
+POSICAO GEOGRAFICA: -5.2441 -52.7014
+LINGUA: Suyá
+TAMBÉM CONHECIDA COMO: Suya, KisêdjêSuiá
+POSICAO GEOGRAFICA: -10.5559 -53.0639
+LINGUA: Tapirapé
+TAMBÉM CONHECIDA COMO: Tapi'irape
+POSICAO GEOGRAFICA: -10.6606 -50.4602
+LINGUA: Tariana
+TAMBÉM CONHECIDA COMO: Tariano, Tarîna, Taliáseri
+POSICAO GEOGRAFICA: 1.0 -69.1666666667
+LINGUA: Taruma
+TAMBÉM CONHECIDA COMO: Aroaqui, Taruamá
+POSICAO GEOGRAFICA: 2.515 -59.5678
+LINGUA: Tembé
+TAMBÉM CONHECIDA COMO: Tenetehára, Tenetehára, Timbé
+POSICAO GEOGRAFICA: -2.6467 -46.7248
+LINGUA: Tenharín
+TAMBÉM CONHECIDA COMO: Tenharim, Tenharem, Tenharin, Tenharín, Parintintin
+POSICAO GEOGRAFICA: -8.4071 -61.1499
+LINGUA: Terena
+TAMBÉM CONHECIDA COMO: Tereno, Etelena, Terêna, Guaná, Chané, Kinikinao
+POSICAO GEOGRAFICA: -20.0 -56.0
+LINGUA: Tikuna
+TAMBÉM CONHECIDA COMO: Ticuna, Tucuna, Tukuna, Tukúna, Magüta
+POSICAO GEOGRAFICA: -4.0 -70.5
+LINGUA: Torá
+TAMBÉM CONHECIDA COMO: Tora, Toraz
+POSICAO GEOGRAFICA: -6.6646 -61.4135
+LINGUA: Trió
+TAMBÉM CONHECIDA COMO: Tiríyo, Tiriyó, Trio, Pianakoto, Tiriyo
+POSICAO GEOGRAFICA: 3.25 -55.75
+LINGUA: Trumai
+TAMBÉM CONHECIDA COMO: Trumaí, Tramalhy
+POSICAO GEOGRAFICA: -11.9166666667 -53.5833333333
+LINGUA: Tukano
+TAMBÉM CONHECIDA COMO: Tucano, Tukána, Tukana, Takuna, Daxsea, DaseaYe'pâ-masa,
+POSICAO GEOGRAFICA: 0.5 -69.1666666667
+LINGUA: Tuparí
+TAMBÉM CONHECIDA COMO: Tupari, 
+POSICAO GEOGRAFICA: -12.0876 -62.4792
+LINGUA: Tuyuka
+TAMBÉM CONHECIDA COMO: Tuyuca, DochkafuaraTejuca
+POSICAO GEOGRAFICA: 0.5 -70.0833333333
+LINGUA: Umutina
+TAMBÉM CONHECIDA COMO: Umotína, Umutina, Barbados, Barbado
+POSICAO GEOGRAFICA: -15.0425 -57.1026
+LINGUA: Urubú-Kaapor Sign Language
+TAMBÉM CONHECIDA COMO: Urubú Sign Language, 
+POSICAO GEOGRAFICA: -2.54 -46.42
+LINGUA: Uruewawau
+TAMBÉM CONHECIDA COMO: Uru-Eu-Wau-Wau, Uru-Eu-Uau-Uau, Eru-Eu-Wau-Wau, Kagwahiva, Wau Wau, Uruewawáu, Uru-eu-wau-wau, Uru-eu-uau-uau, Uruewauwau
+POSICAO GEOGRAFICA: -11.6852 -63.6547
+LINGUA: Waimirí-Atroarí
+TAMBÉM CONHECIDA COMO: Yawaperí, Atruahí, Atroarí, Atroahí, Krishaná, Atruahi, Atroaí, Atrowari, Ki'nya, Atroahy
+POSICAO GEOGRAFICA: -1.0985 -60.8203
+LINGUA: Waiwai
+TAMBÉM CONHECIDA COMO: Uaiuai, Wai Wai, Katawiana, Parukotó, Parukota, Uaieue, Ouayeone, WabuiUai Uai
+POSICAO GEOGRAFICA: 1.0 -59.0
+LINGUA: Wanano
+TAMBÉM CONHECIDA COMO: Uanana, Ananas, Wanana, Wanâna, Wanano, Anana, Kótedia, Kótirya, Uanano, Kotiria, Guanano, Kotedia, Wanana-Pirá, Piratapuyo, Waikena, Kotiria, WananaWanano-Piratapuyo
+POSICAO GEOGRAFICA: 0.833333333333 -69.5
+LINGUA: Wapixana
+TAMBÉM CONHECIDA COMO: Wapishana, Aruma, Upichana, Wapitxano, Vapidiana, Uapixana, Wapichan, Wapichana, Wapisana, Wapishiana, Wapishshiana, Wapitxana, Wapixiana, Wapixiána, Wapisiana
+POSICAO GEOGRAFICA: 2.66666666667 -60.0
+LINGUA: Wari'
+TAMBÉM CONHECIDA COMO: Yaru, Jaru, Ituarupa, Orowari, Pakaás-novos, Pacasnovas, Pacaha-novo, Uariwayo, Uomo, Oro Wari,  Pakaasnovos, Jarú, Urup, Pacas Novas, Pacahanovo, Wari', Pakasnovos, Pakaásnovos, Pakaanovas, Pacaas-Novos, Pakaanova, Wari
+POSICAO GEOGRAFICA: -11.3333333333 -65.0
+LINGUA: Waurá
+TAMBÉM CONHECIDA COMO: Waura, Uaurá, Aura, Waurá, Uaura, Uara, Mahinacu, Waurá-Meinaku
+POSICAO GEOGRAFICA: -13.0 -53.0
+LINGUA: Wayampí
+TAMBÉM CONHECIDA COMO: Wayampi, Oiampí, Oyapí, Oyampí, Wayãpi, Wayapi, Wajapi, Oiumpian, Emérillon, Karipuna, Guayapi, Guaiapi, Wajapae, Waiãpi, Waiampi, Wayapae, Oyampík, Oyanpík, Wajapuku, Wayampi (Amapari)/Wayampi (Oiapoque), Aipi, Oyampi, Wajãpi, Wayampí language area
+POSICAO GEOGRAFICA: 1.0 -52.0
+LINGUA: Wayana
+TAMBÉM CONHECIDA COMO: Northern Wayana, Oyana, Urukuyana, Upuruí, Ouayana, Wyandot, Oayana, Wajana, Uaiana, Oiana, Alukuyana, Upurui, Roucouyenne, Wayâna
+POSICAO GEOGRAFICA: 3.25 -54.1666666667
+LINGUA: Wayoró
+TAMBÉM CONHECIDA COMO: Ayurú, Wayurú, Ajurú, Uaiora, Wajaru, Wayru, Uaioró, Ajuru
+POSICAO GEOGRAFICA: -12.0178 -64.7534
+LINGUA: Xakriabá
+TAMBÉM CONHECIDA COMO: Chicriaba, Xacriabá, Chakriaba, Shacriaba, Chikriaba, Shakriabá
+POSICAO GEOGRAFICA: -14.5306 -44.0438
+LINGUA: Xavante
+TAMBÉM CONHECIDA COMO: Chavante, Xavánte, A'uwe Uptabi, Akuên, Akwen, A'we, Shavante, Crisca, Pusciti, Tapacua
+POSICAO GEOGRAFICA: -15.0 -52.5
+LINGUA: Xerente
+TAMBÉM CONHECIDA COMO: Xerénte, Sherenté, Xerenti, Sherente
+POSICAO GEOGRAFICA: -10.0 -48.1666666667
+LINGUA: Xetá
+TAMBÉM CONHECIDA COMO: Aré, Sheta, Cheta, Šetá, Shetá, Heta, Notobotocudo, Chetá, Setá, Ssetá, YvaparéBotocudo
+POSICAO GEOGRAFICA: -23.2867 -53.3935
+LINGUA: Xipaya
+TAMBÉM CONHECIDA COMO: Shipaja, Xipaia, Shipaya, Chipaia, Xipáya, Šipaya, Chipaya, Achipaie
+POSICAO GEOGRAFICA: -4.3902 -53.9648
+LINGUA: Xokleng
+TAMBÉM CONHECIDA COMO: Aweikoma, Botocudo, Bugre, Shocleng, Chocleng, Shokleng
+POSICAO GEOGRAFICA: -24.5 -50.0
+LINGUA: Yaminawa
+TAMBÉM CONHECIDA COMO: Yaminahua, Yawanawa, Morunahua, Jaminawá, Yuminahua, Yamanawa
+POSICAO GEOGRAFICA: -8.0 -73.0
+LINGUA: Yanomam
+TAMBÉM CONHECIDA COMO: Yanomami, Waiká, Yanoam, Yanomaé, Surara, Xurima, Parahuri, Central Waicá, Waicá, Yanam, Yanomaman language area, Yanomámi, Yanomamé
+POSICAO GEOGRAFICA: 2.650011 -63.15385
+LINGUA: Yanomamö
+TAMBÉM CONHECIDA COMO: Guaicá, Shamateri, Guaharibo, Guajaribo, Yanomamɨ, Yamomame, Guaica, Yanomaman language area, Yanomame, Yanomami, Shamatari, Cobari Kobali, Cobariwa, Yanomani, Yanomamï, Shamatri, Shaathari
+POSICAO GEOGRAFICA: 1.68 -64.88
+LINGUA: Yaté
+TAMBÉM CONHECIDA COMO: Fulnio, Fulino, Fulnió, Furniô, Carnijó, Fornió, Iatê, Yatê, Fórnio, Iaté, Yathé
+POSICAO GEOGRAFICA: -8.0 -37.5
+LINGUA: Yawalapití
+TAMBÉM CONHECIDA COMO: Jaulapiti, Yaulapiti, Yawalpití
+POSICAO GEOGRAFICA: -12.1702 -53.3365
+LINGUA: Yekuana
+TAMBÉM CONHECIDA COMO: Ye'kuana, Yecuana, Ye'cuana' Maquiritare, Maquiritari, Maiongong, Pawana, Pauana, Soto, MakiritareCunuana, De'cuana
+POSICAO GEOGRAFICA: 5.5 -65.0
+LINGUA: Yuhup
+TAMBÉM CONHECIDA COMO: Makú-Yahup, Yëhup, Yahup, Yahup Makú, “Maku”
+POSICAO GEOGRAFICA: -.5493 -69.9169
+LINGUA: Yurutí
+TAMBÉM CONHECIDA COMO: Yuruti, Juruti, Jurutí, Yuruti-Tapuya, Luruty-Tapuya Juriti, Juriti-Tapuia, Wayhara, Patsoka, Wajiaraye, Yuruti, Wajiara, Totsoca, Wadzana, Waikana, Waimasá, Yurutiye
+POSICAO GEOGRAFICA: 1.0 -70.4166666667
+LINGUA: Zo'é
+TAMBÉM CONHECIDA COMO: Zoé, Jo'é, Buré, Poturu, Poturujara, PuturTupí of Cuminapanema
+POSICAO GEOGRAFICA: .7909 -57.1289
+LINGUA: Zoró
+TAMBÉM CONHECIDA COMO: Zoró, Panginey, Cabeça SecaPageyn
+POSICAO GEOGRAFICA INVALIDA OU INDISPONIVEL
+LINGUA: Zuruahã
+TAMBÉM CONHECIDA COMO: Suruahá, Sorowahá, Suruwahá, Indios do CoxodoáZuruahá
+POSICAO GEOGRAFICA: -6.8828 -66.9726
