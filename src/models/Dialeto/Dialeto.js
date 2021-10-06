@@ -42,6 +42,7 @@ Dialeto.hasOne(Etnia, {
     onDelete: "RESTRICT",
     onUpdate: "RESTRICT",
     sourceKey: "id_etnia",
+    as: "etnia"
 });
 
 Dialeto.hasOne(Lingua, {
@@ -49,6 +50,7 @@ Dialeto.hasOne(Lingua, {
     onDelete: "RESTRICT",
     onUpdate: "RESTRICT",
     sourceKey: "id_lingua",
+    as: "lingua"
 });
 
 module.exports = Dialeto;

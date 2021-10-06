@@ -6,9 +6,7 @@ import {
   getAll
 } from "../../controllers/Dialeto";
 
-const idEtnia = "/:id_etnia";
-
-router.get(idEtnia, getAll);
+router.get("/", getAll);
 router.post("/", create);
 
 export default router;
