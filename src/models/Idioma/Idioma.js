@@ -13,15 +13,27 @@ const Idioma = sequelize.define(
       type: DataTypes.INTEGER,
       allowNull: false,
       primaryKey: true,
+      references: {
+        model: "Localidade",
+        key: "id_localidade",
+      },
     },
     id_lingua: {
       type: DataTypes.INTEGER,
       allowNull: false,
       primaryKey: true,
+      references: {
+        model: "Lingua",
+        key: "id_lingua",
+      },
     },
     id_conteudo: {
       type: DataTypes.INTEGER,
       allowNull: false,
+      references: {
+        model: "Conteduo",
+        key: "id_conteudo",
+      },
     },
   },
   {
@@ -36,21 +48,22 @@ Idioma.hasOne(Conteudo, {
   onUpdate: "CASCADE",
   sourceKey: "id_conteudo",
 });
-
-Idioma.hasOne(Localidade, {
-  foreignKey: "id_localidade",
-  onDelete: "RESTRICT",
-  onUpdate: "RESTRICT",
-  sourceKey: "id_localidade",
-  as: "localidade",
-});
-
-Idioma.hasOne(Lingua, {
+Lingua.belongsToMany(Localidade, {
   foreignKey: "id_lingua",
-  onDelete: "RESTRICT",
-  onUpdate: "RESTRICT",
-  sourceKey: "id_lingua",
-  as: "lingua",
+  through: "Idioma",
+  otherKey: "id_localidade",
 });
-
+Localidade.belongsToMany(Lingua, {
+  foreignKey: "id_localidade",
+  through: "Idioma",
+  otherKey: "id_lingua",
+});
+Idioma.belongsTo(Localidade, {
+  as: "localidade",
+  foreignKey: "id_localidade",
+});
+Idioma.belongsTo(Lingua, {
+  as: "lingua",
+  foreignKey: "id_lingua",
+});
 module.exports = Idioma;

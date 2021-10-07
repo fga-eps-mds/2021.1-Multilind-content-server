@@ -3,6 +3,7 @@ const Conteudo = require("../Conteudo");
 const LocalidadeModel = require("../Localidade/Localidade");
 const LinguaModel = require("../Lingua/Lingua");
 const TroncoModel = require("../Tronco/Tronco");
+const EtniaModel = require("../Etnia/Etnia");
 
 exports.getAll = async () => {
   return IdiomaModel.findAll({
@@ -23,12 +24,14 @@ exports.searchAll = async (query) => {
       {
         model: LinguaModel,
         as: "lingua",
+        attributes: ["id_lingua"],
         include: [
           {
             model: TroncoModel,
             as: "tronco",
             attributes: ["id_tronco", "nome"],
           },
+          { model: EtniaModel, as: "etnia" },
         ],
       },
     ],

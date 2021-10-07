@@ -16,10 +16,10 @@ exports.create = async (dialeto) => {
 exports.searchAll = async (query) => {
   return DialetoModel.findAll({
     where: query,
-    attributes: ["id_conteudo"],
+    attributes: [],
     include: [
-      { model: EtniaModel, as: "etnia" },
-      { model: LinguaModel, as: "lingua" },
+      { model: EtniaModel, as: "etnia", attributes: ["id_etnia", "nome"] },
+      { model: LinguaModel, as: "lingua", attributes: ["id_lingua", "nome"] },
     ],
   });
 };
