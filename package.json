@@ -19,6 +19,7 @@
         "pretest": "node src/__tests__/util/sync.js && NODE_ENV=test sequelize db:migrate",
         "test": "NODE_ENV=test jest",
         "lint": "eslint --ext .js,.ts,.tsx src/",
+        "lint:fix": "eslint --ext .js,.ts,.tsx src/ --fix",
         "build": "sucrase ./src -d ./build --transforms imports",
         "start:prod": "sequelize db:migrate && node build/server.js"
     },
