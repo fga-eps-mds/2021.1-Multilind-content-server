@@ -30,7 +30,6 @@ for language in languages:
     id_localidade = None
     if(family_name and family_name!="Unattested"):
         troncos = requests.get(f"{HOST}/tronco").json()
-        print(troncos)
         for tronco in troncos:
             if(tronco['nome'] == family_name):
                 id_tronco = tronco['id_tronco']
@@ -40,12 +39,12 @@ for language in languages:
     if(language_latitude and language_longitude):
         localidades = requests.get(f"{HOST}/localidade").json()
         for localidade in localidades:
-            print(localidade)
             if(localidade['latitude'] == language_latitude and localidade['longitude'] == language_longitude):
                 id_localidade = localidade['id_localidade']
         if(not id_localidade):
             create_localidade = requests.post(f"{HOST}/localidade", data=json.dumps({'latitude': language_latitude, 'longitude': language_longitude}), headers={'content-type': 'application/json'})
             id_localidade = create_localidade.json()['id_localidade']
-    create_lingua = requests.post(f"{HOST}/lingua", data=json.dumps({'nome': language_name, 'id_tronco': id_tronco}), headers={'content-type': 'application/json'})
-    print(create_lingua.json())
+    create_lingua = requests.post(f"{HOST}/lingua", data=json.dumps({'nome': language_name, 'id_tronco': id_tronco}), headers={'content-type': 'application/json'}).json()
+    create_idioma = requests.post(f"{HOST}/idioma", data=json.dumps({'id_localidade': id_localidade, 'id_lingua': create_lingua['id_lingua']}), headers={'content-type': 'application/json'})
+    print(create_idioma.text)
 
