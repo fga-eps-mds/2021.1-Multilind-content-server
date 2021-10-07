@@ -1,6 +1,7 @@
 const Falada = require("./Falada");
 const Localidade = require("../Localidade/Localidade");
 const Lingua = require("../Lingua/Lingua");
+const Tronco = require("../Tronco/Tronco");
 
 exports.create = async (body) => {
   return Falada.create(body);
@@ -17,7 +18,6 @@ exports.delete = async (id) => {
 exports.searchAll = async () => {
   return Falada.findAll({
     attributes: ["id_falada"],
-
     include: [
       {
         model: Localidade,
@@ -28,6 +28,13 @@ exports.searchAll = async () => {
         model: Lingua,
         as: "lingua",
         attributes: ["id_lingua", "nome"],
+        include: [
+          {
+            model: Tronco,
+            as: "tronco",
+            attributes: ["id_tronco", "nome"],
+          },
+        ],
       },
     ],
   });

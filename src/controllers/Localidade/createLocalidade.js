@@ -3,7 +3,6 @@ import { HttpException } from "../../error/HttpException";
 
 export async function create(request, response) {
   const { latitude, longitude } = request.body;
-  console.log(request.body);
   if (!latitude || !longitude) {
     throw new HttpException(
       400,
