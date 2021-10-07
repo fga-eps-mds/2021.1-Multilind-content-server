@@ -15,7 +15,7 @@ const Lingua = sequelize.define(
       allowNull: false,
     },
     id_tronco: {
-      type: Sequelize.DataTypes.INTEGER,
+      type: DataTypes.INTEGER,
       allowNull: true,
       references: {
         model: "Tronco",
@@ -27,6 +27,10 @@ const Lingua = sequelize.define(
     id_conteudo: {
       type: DataTypes.INTEGER,
       allowNull: false,
+      references: {
+        model: "Conteudo",
+        key: "id_conteudo",
+      },
     },
     nome: {
       type: DataTypes.STRING,

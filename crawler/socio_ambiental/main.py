@@ -1,6 +1,7 @@
 from bs4 import BeautifulSoup
 import re
-html = open('socio_ambiental.html')
+import requests
+html = requests.get('https://pib.socioambiental.org/pt/L%C3%ADnguas').text
 soup = BeautifulSoup(html, 'html.parser')
 tables = soup.find_all('table')
 for table in tables:

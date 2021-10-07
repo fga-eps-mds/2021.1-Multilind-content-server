@@ -1,5 +1,4 @@
 const databaseConfig = require("../../config/database");
-
 const { Sequelize, DataTypes } = require("sequelize");
 const sequelize = new Sequelize(databaseConfig);
 
@@ -26,5 +25,4 @@ const Localidade = sequelize.define(
     timestamps: false,
   }
 );
-
 module.exports = Localidade;
