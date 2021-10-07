@@ -1,16 +1,19 @@
-const Localidade = require("../../models/Localidade");
+import Localidade from "../../models/Localidade";
 import { HttpException } from "../../error/HttpException";
 
 export async function create(request, response) {
-  const { longitude, latitude } = request.body;
-  if (!longitude || !latitude) {
-    throw new HttpException(400, "Coordenadas obrigatórias");
+  const { latitude, longitude } = request.body;
+  console.log(request.body);
+  if (!latitude || !longitude) {
+    throw new HttpException(
+      400,
+      `Localidade inválida. Latitude: ${latitude}, Longitude: ${longitude}`
+    );
   }
-
   const localidade = await Localidade.create({
-    longitude,
     latitude,
+    longitude,
   });
 
-  response.json(localidade);
+  response.send(localidade);
 }
