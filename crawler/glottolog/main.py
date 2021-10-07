@@ -28,7 +28,7 @@ for language in languages:
                 print(f"Tronco: {family_details['name']}")
     id_tronco = None
     id_localidade = None
-    if(family_name and family_name!="Unattested"):
+    if(family_name and family_name!="Unattested" and family_name!="Unclassifiable"):
         troncos = requests.get(f"{HOST}/tronco").json()
         for tronco in troncos:
             if(tronco['nome'] == family_name):
