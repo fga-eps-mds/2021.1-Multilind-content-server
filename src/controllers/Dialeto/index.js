@@ -1,2 +1,2 @@
-export {create} from "./createDialeto";
-export {getAll} from "./getAllDialeto";
+export { create } from "./createDialeto";
+export { getAll } from "./getAllDialeto";

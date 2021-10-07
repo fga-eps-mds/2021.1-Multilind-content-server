@@ -14,5 +14,12 @@ exports.create = async (idioma) => {
   return IdiomaModel.create(idioma);
 };
 exports.searchAll = async (query) => {
-  return IdiomaModel.findAll({where: query, attributes: ['id_conteudo'], include: [{model: LocalidadeModel, as: 'localidade'}, {model: LinguaModel, as: 'lingua'}] });
+  return IdiomaModel.findAll({
+    where: query,
+    attributes: ["id_conteudo"],
+    include: [
+      { model: LocalidadeModel, as: "localidade" },
+      { model: LinguaModel, as: "lingua" },
+    ],
+  });
 };
