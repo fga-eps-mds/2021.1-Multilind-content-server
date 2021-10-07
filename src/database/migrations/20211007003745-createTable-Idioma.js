@@ -9,7 +9,7 @@ module.exports = {
           type: Sequelize.DataTypes.INTEGER,
           allowNull: false,
           references: {
-            model: "localidade",
+            model: "Localidade",
             key: "id_localidade",
           },
           onUpdate: "RESTRICT",
