@@ -21,14 +21,15 @@ exports.searchAll = async (query) => {
     include: [
       { model: LocalidadeModel, as: "localidade" },
       {
-        model: LinguaModel, as: "lingua",
+        model: LinguaModel,
+        as: "lingua",
         include: [
           {
             model: TroncoModel,
             as: "tronco",
             attributes: ["id_tronco", "nome"],
           },
-        ]
+        ],
       },
     ],
   });
