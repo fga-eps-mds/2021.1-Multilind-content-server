@@ -8,6 +8,6 @@ module.exports = {
   database: process.env.POSTGRES_DB,
   storage: "./database.sqlite",
   define: {
-    timestamps: true,
+    timestamps: false,
   },
 };
