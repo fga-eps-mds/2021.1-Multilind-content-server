@@ -32,7 +32,24 @@ describe("\n## TESTES LINGUA\n", () => {
   });
   describe("Atualização de Lingua", () => {
     it("Atualizando lingua, com o metodo editById(1) na tupla de ID = 1", async () => {
-      await modelLingua.editById({ nome: "Aikanã" }, 1);
+      const result = await modelLingua.editById({ nome: "Aikanã" }, 1);
+      expect(result).toEqual([1]);
+    });
+    it("Atualizando lingua, com o metodo editById(2) na tupla de ID = 2", async () => {
+      const result = await modelLingua.editById({ nome: "Aikewara" }, 2);
+      expect(result).toEqual([1]);
+    });
+  });
+  describe("Listando Linguas após atualização", () => {
+    it("Listando com metodo searchByName('Aikanã')", async () => {
+      const lingua = await modelLingua.searchByName("Aikanã");
+      expect(lingua).toMatchObject({
+        id_lingua: 1,
+        id_conteudo: 3,
+        nome: "Aikanã",
+      });
+    });
+    it("Listando com metodo searchByID(1)", async () => {
       const lingua = await modelLingua.searchById(1);
       expect(lingua).toMatchObject({
         id_lingua: 1,
@@ -41,8 +58,7 @@ describe("\n## TESTES LINGUA\n", () => {
         tronco: null,
       });
     });
-    it("Atualizando lingua, com o metodo editById(2) na tupla de ID = 2", async () => {
-      await modelLingua.editById({ nome: "Aikewara" }, 2);
+    it("Listando com metodo searchByID(2)", async () => {
       const lingua = await modelLingua.searchById(2);
       expect(lingua).toMatchObject({
         id_lingua: 2,
