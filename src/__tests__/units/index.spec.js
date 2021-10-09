@@ -4,3 +4,4 @@ require("./Palavra");
 require("./Tronco");
 require("./Localidade");
 require("./Dialeto");
+require("./Idioma");
