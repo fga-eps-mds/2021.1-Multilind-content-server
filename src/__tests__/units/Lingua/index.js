@@ -1,5 +1,4 @@
 const modelLingua = require("../../../models/Lingua");
-require("../../../database");
 
 describe("\n## TESTES LINGUA\n", () => {
   describe("Listagem de Lingua", () => {
