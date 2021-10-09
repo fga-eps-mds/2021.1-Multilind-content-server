@@ -68,14 +68,8 @@ describe("\n## TESTES ETNIA\n", () => {
   });
   describe("Deleção de Etnia", () => {
     it("Deletando Etnia, com o metodo delete(1) na tupla de ID - 1", async () => {
-      await modelEtnia.delete(1);
-      const etnia = await modelEtnia.searchById(1);
-      expect(etnia).toEqual(null);
-    });
-    it("Deletando Etnia, com o metodo delete(2) na tupla de ID - 2", async () => {
-      await modelEtnia.delete(2);
-      const etnia = await modelEtnia.searchById(2);
-      expect(etnia).toEqual(null);
+      const result = await modelEtnia.delete(1);
+      expect(result).toEqual(1);
     });
   });
 });
