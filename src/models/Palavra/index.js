@@ -12,11 +12,12 @@ exports.getOne = async (idPalavra) => {
     where: { id_palavra: idPalavra },
   });
 };
-exports.searchByName = async (nome, idLingua) => {
+exports.searchByName = async (nome, idLingua, significado) => {
   return PalavraModel.findOne({
     where: {
       nome,
       id_lingua: idLingua,
+      significado,
     },
   });
 };
