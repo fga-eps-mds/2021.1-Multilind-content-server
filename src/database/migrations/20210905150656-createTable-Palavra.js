@@ -1,16 +1,11 @@
-"use strict";
+const { PrimaryKey, StringNotNull } = require("../Object");
 
 module.exports = {
   up: async (queryInterface, Sequelize) => {
     const transaction = await queryInterface.sequelize.transaction();
     try {
       await queryInterface.createTable("Palavra", {
-        id_palavra: {
-          type: Sequelize.DataTypes.INTEGER,
-          autoIncrement: true,
-          primaryKey: true,
-          allowNull: false,
-        },
+        id_palavra: PrimaryKey(Sequelize),
         id_lingua: {
           type: Sequelize.DataTypes.INTEGER,
           allowNull: false,
@@ -31,14 +26,8 @@ module.exports = {
           onUpdate: "CASCADE",
           onDelete: "CASCADE",
         },
-        nome: {
-          type: Sequelize.DataTypes.STRING,
-          allowNull: false,
-        },
-        significado: {
-          type: Sequelize.DataTypes.STRING,
-          allowNull: false,
-        },
+        nome: StringNotNull(Sequelize),
+        significado: StringNotNull(Sequelize),
       });
       await transaction.commit();
     } catch (err) {
