@@ -10,7 +10,7 @@ export async function getOne(request, response) {
     );
   }
 
-  const { id_palavra } = request.body;
+  const { id_palavra } = request.params;
   if (!id_palavra) {
     throw new HttpException(400, `ID inválido - Palavra - ID ${id_palavra}`);
   }
