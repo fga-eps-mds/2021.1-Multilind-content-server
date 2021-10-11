@@ -19,7 +19,7 @@ exports.searchAll = async (query) => {
       {
         model: LinguaModel,
         as: "lingua",
-        attributes: ["id_lingua"],
+        attributes: ["id_lingua", "nome"],
         include: [
           {
             model: TroncoModel,
