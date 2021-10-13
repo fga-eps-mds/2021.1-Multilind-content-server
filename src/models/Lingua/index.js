@@ -2,11 +2,6 @@ const LinguaModel = require("./Lingua");
 const TroncoModel = require("../Tronco/Tronco");
 const Conteudo = require("../Conteudo");
 
-exports.getAll = async () => {
-  return LinguaModel.findAll({
-    raw: true,
-  });
-};
 exports.searchByName = async (nome) => {
   return LinguaModel.findOne({
     where: {
@@ -33,7 +28,17 @@ exports.searchById = async (id) => {
   });
 };
 exports.searchAll = async () => {
-  return LinguaModel.findAll();
+  return LinguaModel.findAll({
+    raw: true,
+    nest: true,
+    include: [
+      {
+        model: TroncoModel,
+        as: "tronco",
+        attributes: ["id_tronco", "nome"],
+      },
+    ],
+  });
 };
 exports.delete = async (id) => {
   return LinguaModel.destroy({

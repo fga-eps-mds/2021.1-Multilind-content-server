@@ -5,11 +5,6 @@ const LinguaModel = require("../Lingua/Lingua");
 const TroncoModel = require("../Tronco/Tronco");
 const EtniaModel = require("../Etnia/Etnia");
 
-exports.getAll = async () => {
-  return IdiomaModel.findAll({
-    raw: true,
-  });
-};
 exports.create = async (idioma) => {
   const conteudoCreated = await Conteudo.create();
   idioma.id_conteudo = conteudoCreated.id_conteudo;
@@ -24,7 +19,7 @@ exports.searchAll = async (query) => {
       {
         model: LinguaModel,
         as: "lingua",
-        attributes: ["id_lingua"],
+        attributes: ["id_lingua", "nome"],
         include: [
           {
             model: TroncoModel,
