@@ -2,11 +2,6 @@ const PalavraModel = require("./Palavra");
 const LinguaModel = require("../Lingua/Lingua");
 const Conteudo = require("../Conteudo");
 
-exports.getAll = async () => {
-  return PalavraModel.findAll({
-    raw: true,
-  });
-};
 exports.getOne = async (idPalavra) => {
   return PalavraModel.findOne({
     where: { id_palavra: idPalavra },
