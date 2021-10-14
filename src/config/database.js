@@ -7,7 +7,7 @@ module.exports = {
   password: process.env.POSTGRES_PASSWORD,
   database: process.env.POSTGRES_DB,
   storage: "./database.sqlite",
-  dialectOptions: {
+  dialectOptions: process.env.NODE_ENV !== 'dev' && {
     ssl: {
       require: true,
       rejectUnauthorized: false,

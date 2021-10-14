@@ -1,8 +1,10 @@
+from os import error
 import requests
 import shutil
 import os.path as path
 import pandas as pd
 import json
+import time
 
 if(not path.exists("huntergatherer-master")):
     download_url = "https://github.com/lexibank/huntergatherer/archive/refs/heads/master.zip"
@@ -11,9 +13,10 @@ if(not path.exists("huntergatherer-master")):
     open(filename, 'wb').write(response.content)
     shutil.unpack_archive(filename, './')
 languages_dir = 'languages.csv'
-linguas = requests.get('http://localhost:8000/lingua').json()
+linguas = requests.get('https://multilind-content-stagging.herokuapp.com/lingua').json()
 languages_csv = pd.read_csv(languages_dir, delimiter=',')
 jsons_dir = "huntergatherer-master/raw/"
+results = pd.read_csv('result.csv')
 for lingua in linguas:
     found = languages_csv[languages_csv.Glottolog_Name == lingua['nome']]
     if(not found.empty):
@@ -35,6 +38,17 @@ for lingua in linguas:
                     split_palavras = row[significado_index].lower().split(', ')
                     print(split_palavras)
                     for split in split_palavras:
-                        palavra_response = requests.post(f"http://localhost:8000/palavra/{lingua['id_lingua']}", data=json.dumps({'nome': row[palavra_index].lower(), 'significado': split.strip()}), headers={'content-type': 'application/json'})
-                        print(palavra_response.text)
+                        found = results[results['nome']==row[palavra_index].lower()][results['significado'] == split.strip()][results['id_lingua'] == lingua['id_lingua']]
+                        if (found.empty):
+                            while(True):
+                                try:
+                                    palavra_response = requests.post(f"https://multilind-content-stagging.herokuapp.com/palavra/{lingua['id_lingua']}", data=json.dumps({'nome': row[palavra_index].lower(), 'significado': split.strip()}), headers={'content-type': 'application/json'})
+                                    print(palavra_response.text)
+                                    break
+                                except(error):
+                                    print('ERRO: ')
+                                    print(error)
+                                    time.sleep(10)
+                        else:
+                            print('Já existe')
     
