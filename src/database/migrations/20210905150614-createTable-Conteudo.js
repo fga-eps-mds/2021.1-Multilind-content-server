@@ -1,4 +1,4 @@
-"use strict";
+const { PrimaryKey, DateNowNotNull } = require("../Object");
 
 module.exports = {
   up: async (queryInterface, Sequelize) => {
@@ -7,12 +7,7 @@ module.exports = {
       await queryInterface.createTable(
         "Conteudo",
         {
-          id_conteudo: {
-            type: Sequelize.DataTypes.INTEGER,
-            autoIncrement: true,
-            primaryKey: true,
-            allowNull: false,
-          },
+          id_conteudo: PrimaryKey(Sequelize),
           status: {
             type: Sequelize.DataTypes.ENUM([
               "aprovado",
@@ -23,11 +18,7 @@ module.exports = {
             allowNull: false,
             enumName: "enum_Conteudo_status",
           },
-          data_submissao: {
-            type: Sequelize.DataTypes.DATE,
-            defaultValue: Sequelize.DataTypes.NOW,
-            allowNull: false,
-          },
+          data_submissao: DateNowNotNull(Sequelize),
         },
         { transaction }
       );

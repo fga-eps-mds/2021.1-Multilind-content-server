@@ -1,7 +1,7 @@
 const databaseConfig = require("../../config/database");
-import Conteudo from "../Conteudo/Conteudo";
-import Etnia from "../Etnia/Etnia";
-import Lingua from "../Lingua/Lingua";
+const Conteudo = require("../Conteudo/Conteudo");
+const Etnia = require("../Etnia/Etnia");
+const Lingua = require("../Lingua/Lingua");
 
 const { Sequelize, DataTypes } = require("sequelize");
 const sequelize = new Sequelize(databaseConfig);

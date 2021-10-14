@@ -32,7 +32,16 @@ describe("\n## TESTES ETNIA\n", () => {
   });
   describe("Atualização de Etnia", () => {
     it("Atualizando etnia, com o metodo editById(1) na tupla de ID = 1", async () => {
-      await modelEtnia.editById({ nome: "Aikanã" }, 1);
+      const result = await modelEtnia.editById({ nome: "Aikanã" }, 1);
+      expect(result).toEqual([1]);
+    });
+    it("Atualizando etnia, com o metodo editById(2) na tupla de ID = 2", async () => {
+      const result = await modelEtnia.editById({ nome: "Aikewara" }, 2);
+      expect(result).toEqual([1]);
+    });
+  });
+  describe("Listagem de etnia após a atualização", () => {
+    it("Listando com metodo searchByID(1)", async () => {
       const etnia = await modelEtnia.searchById(1);
       expect(etnia).toMatchObject({
         id_conteudo: 1,
@@ -40,9 +49,16 @@ describe("\n## TESTES ETNIA\n", () => {
         nome: "Aikanã",
       });
     });
-    it("Atualizando etnia, com o metodo editById(2) na tupla de ID = 2", async () => {
-      await modelEtnia.editById({ nome: "Aikewara" }, 2);
+    it("Listando com metodo searchByID(2)", async () => {
       const etnia = await modelEtnia.searchById(2);
+      expect(etnia).toMatchObject({
+        id_conteudo: 2,
+        id_etnia: 2,
+        nome: "Aikewara",
+      });
+    });
+    it("Listando com metodo searchByName('Aikewara')", async () => {
+      const etnia = await modelEtnia.searchByName("Aikewara");
       expect(etnia).toMatchObject({
         id_conteudo: 2,
         id_etnia: 2,
@@ -52,14 +68,8 @@ describe("\n## TESTES ETNIA\n", () => {
   });
   describe("Deleção de Etnia", () => {
     it("Deletando Etnia, com o metodo delete(1) na tupla de ID - 1", async () => {
-      await modelEtnia.delete(1);
-      const etnia = await modelEtnia.searchById(1);
-      expect(etnia).toEqual(null);
-    });
-    it("Deletando Etnia, com o metodo delete(2) na tupla de ID - 2", async () => {
-      await modelEtnia.delete(2);
-      const etnia = await modelEtnia.searchById(2);
-      expect(etnia).toEqual(null);
+      const result = await modelEtnia.delete(1);
+      expect(result).toEqual(1);
     });
   });
 });

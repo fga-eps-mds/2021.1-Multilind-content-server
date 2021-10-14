@@ -19,6 +19,7 @@ exports.searchByName = async (nome, idLingua, significado) => {
       id_lingua: idLingua,
       significado,
     },
+    attributes: ["id_palavra", "id_conteudo", "nome", "significado"],
   });
 };
 exports.create = async (body) => {

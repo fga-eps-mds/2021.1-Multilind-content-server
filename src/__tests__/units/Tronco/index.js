@@ -1,7 +1,6 @@
 const modelTronco = require("../../../models/Tronco");
 const modelLingua = require("../../../models/Lingua");
 const modelConteudo = require("../../../models/Conteudo");
-require("../../../database");
 
 describe("\n## TESTES TRONCO\n", () => {
   const troncoName = "Macro-Jê123";
@@ -36,8 +35,17 @@ describe("\n## TESTES TRONCO\n", () => {
     });
   });
   describe("Atualização de Tronco", () => {
-    it("Atualizando tronco, com o metodo searchById(1)", async () => {
-      await modelTronco.editById({ nome: "Macro-Jê12" }, 1);
+    it("Atualizando tronco, com o metodo editById({}, 1)", async () => {
+      const result = await modelTronco.editById({ nome: "Macro-Jê12" }, 1);
+      expect(result).toEqual([1]);
+    });
+    it("Atualizando tronco, com o metodo editById({}, 2)", async () => {
+      const result = await modelTronco.editById({ nome: troncoName }, 2);
+      expect(result).toEqual([1]);
+    });
+  });
+  describe("Listando após a Atualização de Tronco", () => {
+    it("listando tronco, com o metodo searchById(1)", async () => {
       const tronco = await modelTronco.searchById(1);
       expect(tronco).toMatchObject({
         id_tronco: 1,
@@ -46,8 +54,7 @@ describe("\n## TESTES TRONCO\n", () => {
         linguas: [],
       });
     });
-    it("Atualizando tronco, com o metodo searchById(2)", async () => {
-      await modelTronco.editById({ nome: troncoName }, 2);
+    it("Listando tronco, com o metodo searchById(2)", async () => {
       const tronco = await modelTronco.searchById(2);
       expect(tronco).toMatchObject({
         id_tronco: 2,
@@ -56,12 +63,19 @@ describe("\n## TESTES TRONCO\n", () => {
         linguas: [],
       });
     });
+    it("Listando tronco, com o metodo searchByName('Macro-Jê123')", async () => {
+      const tronco = await modelTronco.searchByName("Macro-Jê123");
+      expect(tronco).toMatchObject({
+        id_tronco: 2,
+        nome: troncoName,
+        id_conteudo: 9,
+      });
+    });
   });
   describe("Deleção de Tronco", () => {
     it("Deletando Tronco, com o metodo delete(8) através do conteudo", async () => {
-      await modelConteudo.delete(8);
-      const tronco = await modelTronco.searchById(1);
-      expect(tronco).toEqual(null);
+      const result = await modelConteudo.delete(8);
+      expect(result).toEqual(1);
     });
   });
   describe("Relacionamento Lingua e Tronco", () => {
