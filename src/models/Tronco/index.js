@@ -53,9 +53,6 @@ exports.searchById = async (idTronco) => {
     ],
   });
 };
-exports.searchAll = async () => {
-  return TroncoModel.findAll();
-};
 exports.editById = async (body, idTronco) => {
   return TroncoModel.update(body, {
     where: {

@@ -1,16 +1,11 @@
-"use strict";
+const { PrimaryKey, StringNotNull } = require("../Object");
 
 module.exports = {
   up: async (queryInterface, Sequelize) => {
     const transaction = await queryInterface.sequelize.transaction();
     try {
       await queryInterface.createTable("Lingua", {
-        id_lingua: {
-          type: Sequelize.DataTypes.INTEGER,
-          autoIncrement: true,
-          primaryKey: true,
-          allowNull: false,
-        },
+        id_lingua: PrimaryKey(Sequelize),
         id_conteudo: {
           type: Sequelize.DataTypes.INTEGER,
           allowNull: false,
@@ -31,10 +26,7 @@ module.exports = {
           onUpdate: "RESTRICT",
           onDelete: "RESTRICT",
         },
-        nome: {
-          type: Sequelize.DataTypes.STRING,
-          allowNull: false,
-        },
+        nome: StringNotNull(Sequelize),
       });
       await transaction.commit();
     } catch (err) {

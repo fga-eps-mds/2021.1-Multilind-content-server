@@ -1,24 +1,13 @@
-"use strict";
+const { PrimaryKey, FloatNotNull } = require("../Object");
 
 module.exports = {
   up: async (queryInterface, Sequelize) => {
     const transaction = await queryInterface.sequelize.transaction();
     try {
       await queryInterface.createTable("Localidade", {
-        id_localidade: {
-          type: Sequelize.DataTypes.INTEGER,
-          autoIncrement: true,
-          primaryKey: true,
-          allowNull: false,
-        },
-        longitude: {
-          type: Sequelize.DataTypes.FLOAT,
-          allowNull: false,
-        },
-        latitude: {
-          type: Sequelize.DataTypes.FLOAT,
-          allowNull: false,
-        },
+        id_localidade: PrimaryKey(Sequelize),
+        longitude: FloatNotNull(Sequelize),
+        latitude: FloatNotNull(Sequelize),
       });
       await transaction.commit();
     } catch (err) {
