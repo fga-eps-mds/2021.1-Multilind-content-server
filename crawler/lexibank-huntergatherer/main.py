@@ -6,6 +6,7 @@ import pandas as pd
 import json
 import time
 
+HOST = 'https://multilind-content-stagging.herokuapp.com'
 if(not path.exists("huntergatherer-master")):
     download_url = "https://github.com/lexibank/huntergatherer/archive/refs/heads/master.zip"
     filename = 'master.zip'
@@ -13,10 +14,9 @@ if(not path.exists("huntergatherer-master")):
     open(filename, 'wb').write(response.content)
     shutil.unpack_archive(filename, './')
 languages_dir = 'languages.csv'
-linguas = requests.get('https://multilind-content-stagging.herokuapp.com/lingua').json()
+linguas = requests.get(f'{HOST}/lingua').json()
 languages_csv = pd.read_csv(languages_dir, delimiter=',')
 jsons_dir = "huntergatherer-master/raw/"
-results = pd.read_csv('result.csv')
 for lingua in linguas:
     found = languages_csv[languages_csv.Glottolog_Name == lingua['nome']]
     if(not found.empty):
@@ -38,17 +38,15 @@ for lingua in linguas:
                     split_palavras = row[significado_index].lower().split(', ')
                     print(split_palavras)
                     for split in split_palavras:
-                        found = results[results['nome']==row[palavra_index].lower()][results['significado'] == split.strip()][results['id_lingua'] == lingua['id_lingua']]
-                        if (found.empty):
+                        
+                        if(split.strip() in ['lingua', 'pessoa', 'canção', 'dançar', 'chocalho', 'pajé', 'velho', 'criança', 'forte', 'bater', 'viver', 'terra', 'territorio', 'roça', 'mata', 'arvore', 'lago', 'fogo', 'espirito', 'espirito','vento', 'sol', 'lua', 'dia', 'noite', 'passaro', 'bem-te-vi', 'gavião', 'agua', 'onca', 'cobra', 'sucuri', 'jararaca', 'flecha', 'nao-indigena']):
                             while(True):
                                 try:
-                                    palavra_response = requests.post(f"https://multilind-content-stagging.herokuapp.com/palavra/{lingua['id_lingua']}", data=json.dumps({'nome': row[palavra_index].lower(), 'significado': split.strip()}), headers={'content-type': 'application/json'})
+                                    palavra_response = requests.post(f"{HOST}/palavra/{lingua['id_lingua']}", data=json.dumps({'nome': row[palavra_index].lower(), 'significado': split.strip()}), headers={'content-type': 'application/json'})
                                     print(palavra_response.text)
                                     break
                                 except(error):
                                     print('ERRO: ')
                                     print(error)
                                     time.sleep(10)
-                        else:
-                            print('Já existe')
     
