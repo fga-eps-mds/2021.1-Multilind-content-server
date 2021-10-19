@@ -1,11 +1,6 @@
 const EtniaModel = require("./Etnia");
 const Conteudo = require("../Conteudo");
 
-exports.getAll = async () => {
-  return EtniaModel.findAll({
-    raw: true,
-  });
-};
 exports.searchByName = async (nome) => {
   return EtniaModel.findOne({
     where: {
@@ -21,8 +16,8 @@ exports.create = async (etnia) => {
 exports.searchById = async (id) => {
   return EtniaModel.findByPk(id);
 };
-exports.searchAll = async () => {
-  return EtniaModel.findAll();
+exports.searchAll = async (query = {}) => {
+  return EtniaModel.findAll(query);
 };
 exports.delete = async (id) => {
   return EtniaModel.destroy({

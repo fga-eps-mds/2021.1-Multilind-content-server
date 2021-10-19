@@ -15,5 +15,5 @@ export async function getAll(request, response) {
     throw new HttpException(404, "Nenhuma palavra encontrada");
   }
 
-  response.send(palavraEncontrada);
+  response.send(palavraEncontrada[0]);
 }

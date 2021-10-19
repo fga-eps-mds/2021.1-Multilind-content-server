@@ -5,3 +5,4 @@ build
 postgres
 yarn.lock
 package-lock.json
+database.sqlite
