@@ -30,7 +30,7 @@ def create_browser():
     return browser
 
 
-HOST = "http://localhost:8000"
+HOST = "https://multilind-content-stagging.herokuapp.com"
 
 
 #mudar pra http se der problema
@@ -49,7 +49,7 @@ ids_funai = []
 for link in links:
     funai_id = re.match(r"povos\((\d+)\);", link.get_attribute('onclick')).group(1)
     ids_funai.append(funai_id)
-
+ids_funai = list(dict.fromkeys(ids_funai))
 for funai_id in ids_funai:
     #mudar pra http se der problema
     etnia_url = f"http://sii.funai.gov.br/funai_sii/informacoes_indigenas/visao/povos_indigenas.wsp?tmp.edt.etnia_codigo={funai_id}"
