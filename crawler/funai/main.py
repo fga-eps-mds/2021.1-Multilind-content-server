@@ -34,7 +34,7 @@ HOST = "https://multilind-content-stagging.herokuapp.com"
 
 
 #mudar pra http se der problema
-main_url = "http://sii.funai.gov.br/funai_sii/index.wsp"
+main_url = "https://sii.funai.gov.br/funai_sii/index.wsp"
 saiba_mais_url = "informacoes_indigenas/visao/visao_povos_indigenas.wsp"
 browser = create_browser()
 browser.set_window_size(1440,900)
@@ -52,7 +52,7 @@ for link in links:
 ids_funai = list(dict.fromkeys(ids_funai))
 for funai_id in ids_funai:
     #mudar pra http se der problema
-    etnia_url = f"http://sii.funai.gov.br/funai_sii/informacoes_indigenas/visao/povos_indigenas.wsp?tmp.edt.etnia_codigo={funai_id}"
+    etnia_url = f"https://sii.funai.gov.br/funai_sii/informacoes_indigenas/visao/povos_indigenas.wsp?tmp.edt.etnia_codigo={funai_id}"
     browser.get(etnia_url)
     time.sleep(1)
     etnia_regex = r"<td>\n+\s+([A-Za-záàâãéèêíïóôõöúçñÁÀÂÃÉÈÍÏÓÔÕÖÚÇÑ\s´^~äëïöüÄËÏÖÜ-]+)\n+\s+<\/td>"
