@@ -7,6 +7,7 @@ import {
   getAll,
   update,
   deleteOne,
+  getAllPages,
 } from "../../controllers/Palavra";
 
 const idLingua = "/:id_lingua";
@@ -17,5 +18,6 @@ router.get(`/all${idLingua}`, getAll);
 router.post(idLingua, create);
 router.put(idLingua, update);
 router.delete(idLingua, deleteOne);
+router.get(`/pages${idLingua}`, getAllPages);
 
 export default router;
