@@ -109,7 +109,7 @@ describe("\n## TESTES PALAVRA\n", () => {
       });
     });
     it("Listando com metodo searchByName(nomePalavra = 'teste123', lingua = 3)", async () => {
-      const lingua = await modelPalavra.searchByName("teste123", 3);
+      const lingua = await modelPalavra.searchByName("teste123", 3, "Test");
       expect(lingua).toMatchObject({
         id_palavra: 2,
         id_conteudo: 7,
