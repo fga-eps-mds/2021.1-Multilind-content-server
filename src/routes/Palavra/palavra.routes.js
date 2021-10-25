@@ -18,6 +18,6 @@ router.get(`/all${idLingua}`, getAll);
 router.post(idLingua, create);
 router.put(idLingua, update);
 router.delete(idLingua, deleteOne);
-router.get(`/pages${idLingua}`, getAllPages);
+router.get(`/pages${idLingua}/:page/:rowsPerPage`, getAllPages);
 
 export default router;

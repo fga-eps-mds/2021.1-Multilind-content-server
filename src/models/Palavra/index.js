@@ -47,9 +47,18 @@ exports.searchAllperPage = async (params) => {
     where: {
       id_lingua: params.id_lingua,
     },
-    attributes: ["id_lingua", "id_conteudo", "nome"],
+    attributes: [
+      "id_lingua",
+      "id_conteudo",
+      "nome",
+      // [
+      //   Sequelize.fn("COUNT", Sequelize.col("Palavra.id_palavra")),
+      //   "PalavraCount",
+      // ],
+    ],
     include: [
       {
+        required: true,
         limit: params.limit,
         offset: params.offset,
         model: PalavraModel,

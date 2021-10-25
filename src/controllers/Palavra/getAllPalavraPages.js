@@ -9,9 +9,9 @@ export async function getAllPages(request, response) {
       `ID inválido - Palavra - ID Lingua ${id_lingua}`
     );
   }
-  let page = request.body.page || 1;
-  let limit = request.body.rowsPerPage || 6;
-  let offset = limit * (page - 1);
+  let pages = request.params.page || 1;
+  let limit = request.params.rowsPerPage || 6;
+  let offset = limit * (pages - 1);
 
   const palavrasEncontradas = await Palavra.searchAllperPage({
     limit,
