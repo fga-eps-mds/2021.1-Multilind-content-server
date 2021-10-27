@@ -15,7 +15,7 @@ export async function create(request, response) {
   const lingua = await Lingua.create({
     nome,
     id_tronco,
-    glottocode
+    glottocode,
   });
 
   response.send(lingua);

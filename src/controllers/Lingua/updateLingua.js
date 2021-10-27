@@ -4,10 +4,10 @@ import { HttpException } from "../../error/HttpException";
 export async function update(request, response) {
   const { nome, glottocode } = request.body;
   let to_update = {};
-  if(nome){
+  if (nome) {
     to_update.nome = nome;
   }
-  if(glottocode){
+  if (glottocode) {
     to_update.glottocode = glottocode;
   }
   if (!nome && !glottocode) {
