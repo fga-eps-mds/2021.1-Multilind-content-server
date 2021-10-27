@@ -18,3 +18,17 @@ exports.searchAll = async (query) => {
     ],
   });
 };
+exports.searchAllEthnicity = async (id_lingua) => {
+  return DialetoModel.findAll({
+    where: {
+      id_lingua
+    },
+    include: [
+      {
+        model: EtniaModel,
+        as: "etnia",
+        attributes: ["id_etnia", "nome"]
+      }
+    ]
+  })
+}
