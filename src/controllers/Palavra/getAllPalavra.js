@@ -11,9 +11,5 @@ export async function getAll(request, response) {
   }
 
   const palavraEncontrada = await Palavra.searchAll(id_lingua);
-  if (!palavraEncontrada.length) {
-    throw new HttpException(404, "Nenhuma palavra encontrada");
-  }
-
   response.send(palavraEncontrada[0]);
 }
