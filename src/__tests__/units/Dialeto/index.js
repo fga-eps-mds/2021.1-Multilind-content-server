@@ -37,7 +37,7 @@ describe("\n## TESTES DIALETO\n", () => {
         },
         id_conteudo: 12,
         id_etnia: 2,
-        id_lingua: 3, 
+        id_lingua: 3,
       }]);
     });
   });

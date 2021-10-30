@@ -18,10 +18,10 @@ exports.searchAll = async (query) => {
     ],
   });
 };
-exports.searchAllEthnicity = async (id_lingua) => {
+exports.searchAllEthnicity = async (idLingua) => {
   return DialetoModel.findAll({
     where: {
-      id_lingua,
+      id_lingua: idLingua,
     },
     include: [
       {

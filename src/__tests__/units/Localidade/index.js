@@ -84,5 +84,4 @@ describe("\n## TESTES LOCALIDADE\n", () => {
       ]);
     });
   });
-  
 });
