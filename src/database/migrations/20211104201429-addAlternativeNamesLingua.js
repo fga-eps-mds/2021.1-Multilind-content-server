@@ -2,7 +2,11 @@
 
 module.exports = {
   up: function (queryInterface, Sequelize) {
-    return queryInterface.addColumn("Lingua", "nomes_alternativos", Sequelize.STRING);
+    return queryInterface.addColumn(
+      "Lingua",
+      "nomes_alternativos",
+      Sequelize.STRING
+    );
   },
 
   down: function (queryInterface) {
