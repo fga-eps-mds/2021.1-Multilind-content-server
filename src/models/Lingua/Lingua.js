@@ -36,6 +36,14 @@ const Lingua = sequelize.define(
       type: DataTypes.STRING,
       allowNull: false,
     },
+    glottocode: {
+      type: DataTypes.STRING,
+      allowNull: true,
+    },
+    nomes_alternativos: {
+      type: DataTypes.STRING,
+      allowNull: true,
+    },
   },
   {
     tableName: "Lingua",

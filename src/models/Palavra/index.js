@@ -41,6 +41,40 @@ exports.searchById = async (idPalavra, idLingua) => {
     ],
   });
 };
+
+exports.searchAllperPage = async (params) => {
+  const result = await LinguaModel.findAndCountAll({
+    where: {
+      id_lingua: params.id_lingua,
+    },
+    attributes: [
+      "id_lingua",
+      "id_conteudo",
+      "nome",
+      // [
+      //   Sequelize.fn("COUNT", Sequelize.col("Palavra.id_palavra")),
+      //   "PalavraCount",
+      // ],
+    ],
+    include: [
+      {
+        required: true,
+        limit: params.limit,
+        offset: params.offset,
+        model: PalavraModel,
+        as: "palavras",
+        attributes: ["id_palavra", "id_conteudo", "nome", "significado"],
+      },
+    ],
+  });
+
+  let finalResult = { rows: result.rows };
+  finalResult.count = result.rows[0].palavras.length;
+  finalResult.pages = Math.ceil(finalResult.count / params.limit);
+
+  return finalResult;
+};
+
 exports.searchAll = async (idLingua) => {
   return LinguaModel.findAll({
     where: {
