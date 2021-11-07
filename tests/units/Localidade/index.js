@@ -1,4 +1,4 @@
-const modelLocalidade = require("../../../models/Localidade");
+const modelLocalidade = require("../../../src/models/Localidade");
 
 describe("\n## TESTES LOCALIDADE\n", () => {
   describe("Criação de Localidade", () => {

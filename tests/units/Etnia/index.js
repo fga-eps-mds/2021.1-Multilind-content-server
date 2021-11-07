@@ -1,5 +1,5 @@
-const modelEtnia = require("../../../models/Etnia");
-require("../../../database");
+const modelEtnia = require("../../../src/models/Etnia");
+require("../../../src/database");
 
 describe("\n## TESTES ETNIA\n", () => {
   describe("Listagem de Etnia", () => {

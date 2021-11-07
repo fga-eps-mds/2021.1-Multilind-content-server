@@ -12,5 +12,5 @@ module.exports = {
   coveragePathIgnorePatterns: ["/node_modules/"],
   coverageProvider: "v8",
   coverageReporters: ["json", "text", "lcov", "clover"],
-  testMatch: ["**/__tests__/**/index.spec.js"],
+  testMatch: ["**/tests/**/index.spec.js"],
 };

@@ -1,6 +1,6 @@
-const modelLingua = require("../../../models/Lingua");
-const modelPalavra = require("../../../models/Palavra");
-const modelConteudo = require("../../../models/Conteudo");
+const modelLingua = require("../../../src/models/Lingua");
+const modelPalavra = require("../../../src/models/Palavra");
+const modelConteudo = require("../../../src/models/Conteudo");
 
 describe("\n## TESTES PALAVRA\n", () => {
   describe("Criação de lingua para cadastrar palavras", () => {
