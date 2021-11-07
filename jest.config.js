@@ -8,7 +8,7 @@ module.exports = {
   testResultsProcessor: "jest-sonar-reporter",
   collectCoverage: true,
   collectCoverageFrom: ["src/models/**/*.js"],
-  coverageDirectory: "./public/coverage",
+  coverageDirectory: "./coverage",
   coveragePathIgnorePatterns: ["/node_modules/"],
   coverageProvider: "v8",
   coverageReporters: ["json", "text", "lcov", "clover"],
