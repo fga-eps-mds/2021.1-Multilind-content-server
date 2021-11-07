@@ -1,3 +1,5 @@
+/* istanbul ignore file */
+
 export { create } from "./createLingua";
 export { getOne } from "./getOneLingua";
 export { getAll } from "./getAllLingua";

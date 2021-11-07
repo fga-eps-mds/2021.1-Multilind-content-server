@@ -1,3 +1,5 @@
+/* istanbul ignore file */
+
 import Palavra from "../../models/Palavra";
 import { HttpException } from "../../error/HttpException";
 import Conteudo from "../../models/Conteudo";

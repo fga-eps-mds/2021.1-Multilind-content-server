@@ -1,3 +1,5 @@
+/* istanbul ignore file */
+
 export { create } from "./createTronco";
 export { getOne } from "./getOneTronco";
 export { getAll } from "./getAllTronco";

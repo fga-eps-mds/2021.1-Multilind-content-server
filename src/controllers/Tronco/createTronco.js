@@ -1,3 +1,4 @@
+/* istanbul ignore file */
 import Tronco from "../../models/Tronco";
 import { HttpException } from "../../error/HttpException";
 

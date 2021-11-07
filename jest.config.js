@@ -7,7 +7,6 @@ module.exports = {
   clearMocks: true,
   testResultsProcessor: "jest-sonar-reporter",
   collectCoverage: true,
-  collectCoverageFrom: ["src/models/**/*.js"],
   coverageDirectory: "./coverage",
   coveragePathIgnorePatterns: ["/node_modules/"],
   coverageProvider: "v8",

@@ -1,6 +1,8 @@
 import Etnia from "../../models/Etnia";
 import { HttpException } from "../../error/HttpException";
 
+/* istanbul ignore file */
+
 export async function create(request, response) {
   const { nome } = request.body;
   if (!nome) {

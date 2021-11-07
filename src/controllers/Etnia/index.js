@@ -1,3 +1,5 @@
+/* istanbul ignore file */
+
 export { create } from "./createEtnia";
 export { getOne } from "./getOneEtnia";
 export { getAll } from "./getAllEtnia";

@@ -1,3 +1,5 @@
+/* istanbul ignore file */
+
 const { PrimaryKey, FloatNotNull } = require("../Object");
 
 module.exports = {

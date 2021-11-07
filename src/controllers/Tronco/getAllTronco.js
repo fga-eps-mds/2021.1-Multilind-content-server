@@ -1,3 +1,5 @@
+/* istanbul ignore file */
+
 import Tronco from "../../models/Tronco";
 
 export async function getAll(request, response) {
