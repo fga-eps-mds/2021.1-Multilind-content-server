@@ -1,4 +1,5 @@
 "use strict";
+/* istanbul ignore file */
 
 module.exports = {
   up: function (queryInterface, Sequelize) {

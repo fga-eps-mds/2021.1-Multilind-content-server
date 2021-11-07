@@ -1,4 +1,6 @@
 "use strict";
+/* istanbul ignore file */
+
 const statusArray = [];
 const qtd = 27;
 for (var it = 0; it < qtd; ++it) {

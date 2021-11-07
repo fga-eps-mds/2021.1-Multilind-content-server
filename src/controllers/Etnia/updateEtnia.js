@@ -1,3 +1,5 @@
+/* istanbul ignore file */
+
 import Etnia from "../../models/Etnia";
 import { HttpException } from "../../error/HttpException";
 

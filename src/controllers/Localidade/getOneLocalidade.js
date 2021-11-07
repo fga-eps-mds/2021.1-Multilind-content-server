@@ -1,3 +1,5 @@
+/* istanbul ignore file */
+
 import Localidade from "../../models/Localidade";
 import { HttpException } from "../../error/HttpException";
 

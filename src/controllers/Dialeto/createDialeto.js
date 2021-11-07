@@ -1,3 +1,5 @@
+/* istanbul ignore file */
+
 import Dialeto from "../../models/Dialeto";
 import { HttpException } from "../../error/HttpException";
 
