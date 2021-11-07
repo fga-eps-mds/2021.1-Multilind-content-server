@@ -1,6 +1,6 @@
-const modelTronco = require("../../../models/Tronco");
-const modelLingua = require("../../../models/Lingua");
-const modelConteudo = require("../../../models/Conteudo");
+const modelTronco = require("../../../src/models/Tronco");
+const modelLingua = require("../../../src/models/Lingua");
+const modelConteudo = require("../../../src/models/Conteudo");
 
 describe("\n## TESTES TRONCO\n", () => {
   const troncoName = "Macro-Jê123";

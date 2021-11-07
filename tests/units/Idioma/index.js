@@ -1,4 +1,4 @@
-const modelIdioma = require("../../../models/Idioma");
+const modelIdioma = require("../../../src/models/Idioma");
 
 describe("\n## TESTES IDIOMA\n", () => {
   describe("Criação de Idioma", () => {
