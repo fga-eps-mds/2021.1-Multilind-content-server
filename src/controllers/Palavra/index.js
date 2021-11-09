@@ -1,3 +1,5 @@
+/* istanbul ignore file */
+
 export { create } from "./createPalavra";
 export { getOne } from "./getOnePalavra";
 export { getAll } from "./getAllPalavra";

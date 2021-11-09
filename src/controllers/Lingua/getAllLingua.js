@@ -1,3 +1,5 @@
+/* istanbul ignore file */
+
 import Lingua from "../../models/Lingua";
 
 export async function getAll(request, response) {

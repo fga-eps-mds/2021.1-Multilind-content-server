@@ -1,3 +1,5 @@
+/* istanbul ignore file */
+
 import Localidade from "../../models/Localidade";
 
 export async function getAll(request, response) {

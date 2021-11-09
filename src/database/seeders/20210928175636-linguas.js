@@ -1,4 +1,5 @@
 "use strict";
+/* istanbul ignore file */
 
 module.exports = {
   up: async (queryInterface) => {

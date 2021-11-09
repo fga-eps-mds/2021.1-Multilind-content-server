@@ -1,3 +1,5 @@
+/* istanbul ignore file */
+
 import Etnia from "../../models/Etnia";
 
 export async function getAll(request, response) {

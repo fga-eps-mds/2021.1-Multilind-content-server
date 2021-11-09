@@ -1,3 +1,5 @@
+/* istanbul ignore file */
+
 import Idioma from "../../models/Idioma";
 
 export async function getAll(request, response) {

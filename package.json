@@ -16,8 +16,8 @@
         "seed:revert": "sequelize db:seed:undo",
         "seed:revertAll": "sequelize db:seed:undo:all",
         "start": "sequelize db:migrate && nodemon --exec sucrase-node src/server.js",
-        "pretest": "node src/__tests__/util/sync.js && NODE_ENV=test sequelize db:migrate",
-        "test": "NODE_ENV=test jest",
+        "pretest": "node tests/util/sync.js && NODE_ENV=test sequelize db:migrate",
+        "test": "NODE_ENV=test jest --coverage",
         "lint": "eslint --ext .js,.ts,.tsx src/",
         "lint:fix": "eslint --ext .js,.ts,.tsx src/ --fix",
         "build": "sucrase ./src -d ./build --transforms imports",
@@ -39,6 +39,7 @@
         "eslint-config-prettier": "^8.3.0",
         "eslint-plugin-prettier": "^4.0.0",
         "jest": "^27.1.0",
+        "jest-sonar-reporter": "^2.0.0",
         "node-pre-gyp": "^0.17.0",
         "nodemon": "^2.0.12",
         "prettier": "^2.3.2",
@@ -46,5 +47,8 @@
         "sqlite3": "^5.0.2",
         "sucrase": "^3.20.1",
         "supertest": "^6.1.6"
+    },
+    "jestSonar": {
+        "reportPath": "coverage"
     }
 }

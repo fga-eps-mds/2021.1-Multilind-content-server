@@ -1,4 +1,4 @@
-const modelDialeto = require("../../../models/Dialeto");
+const modelDialeto = require("../../../src/models/Dialeto");
 
 describe("\n## TESTES DIALETO\n", () => {
   describe("Criação de Dialeto", () => {

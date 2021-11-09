@@ -1,3 +1,5 @@
+/* istanbul ignore file */
+
 import Idioma from "../../models/Idioma";
 import { HttpException } from "../../error/HttpException";
 
