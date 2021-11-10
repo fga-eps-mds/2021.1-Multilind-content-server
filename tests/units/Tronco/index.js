@@ -72,12 +72,12 @@ describe("\n## TESTES TRONCO\n", () => {
       });
     });
   });
-  describe("Deleção de Tronco", () => {
-    it("Deletando Tronco, com o metodo delete(8) através do conteudo", async () => {
-      const result = await modelConteudo.delete(8);
-      expect(result).toEqual(1);
-    });
-  });
+  // describe("Deleção de Tronco", () => {
+  //   it("Deletando Tronco, com o metodo delete(8) através do conteudo", async () => {
+  //     const result = await modelConteudo.delete(8);
+  //     expect(result).toEqual(1);
+  //   });
+  // });
   describe("Relacionamento Lingua e Tronco", () => {
     it("Criando lingua com um tronco - 1", async () => {
       const linguas = await modelLingua.create({

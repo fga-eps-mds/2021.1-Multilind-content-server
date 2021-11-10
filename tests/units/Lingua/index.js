@@ -67,16 +67,16 @@ describe("\n## TESTES LINGUA\n", () => {
       });
     });
   });
-  describe("Deleção de Lingua", () => {
-    it("Deletando Lingua, com o metodo delete(1) na tupla de ID - 1", async () => {
-      await modelLingua.delete(1);
-      const lingua = await modelLingua.searchById(1);
-      expect(lingua).toEqual(null);
-    });
-    it("Deletando Lingua, com o metodo delete(2) na tupla de ID - 2", async () => {
-      await modelLingua.delete(2);
-      const lingua = await modelLingua.searchById(2);
-      expect(lingua).toEqual(null);
-    });
-  });
+  // describe("Deleção de Lingua", () => {
+  //   it("Deletando Lingua, com o metodo delete(1) na tupla de ID - 1", async () => {
+  //     await modelLingua.delete(1);
+  //     const lingua = await modelLingua.searchById(1);
+  //     expect(lingua).toEqual(null);
+  //   });
+  //   it("Deletando Lingua, com o metodo delete(2) na tupla de ID - 2", async () => {
+  //     await modelLingua.delete(2);
+  //     const lingua = await modelLingua.searchById(2);
+  //     expect(lingua).toEqual(null);
+  //   });
+  // });
 });

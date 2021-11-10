@@ -19,7 +19,11 @@ export async function update(request, response) {
     }
   }
 
-  const nameAlreadyExists = await Palavra.searchByName(nome, id_lingua);
+  const nameAlreadyExists = await Palavra.searchByName(
+    nome,
+    id_lingua,
+    significado
+  );
   if (nameAlreadyExists) {
     throw new HttpException(400, `Palavra já existente - Palavra ${nome}`);
   }

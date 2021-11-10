@@ -12,4 +12,9 @@ module.exports = {
   coverageProvider: "v8",
   coverageReporters: ["json", "text", "lcov", "clover"],
   testMatch: ["**/tests/**/index.spec.js"],
+  preset: "ts-jest",
+  transform: {
+    "^.+\\.(ts|tsx)?$": "ts-jest",
+    "^.+\\.(js|jsx)$": "babel-jest",
+  },
 };
