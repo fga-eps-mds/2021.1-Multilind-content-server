@@ -1,9 +1,8 @@
 require("core-js/stable");
 require("regenerator-runtime/runtime");
-require("./Etnia");
 require("./Lingua");
+require("./Etnia");
 require("./Palavra");
-require("./Tronco");
+require("./tronco");
 require("./Localidade");
-require("./Dialeto");
 require("./Idioma");
