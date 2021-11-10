@@ -1,21 +1,31 @@
 const supertest = require("supertest");
-const app = require("../../../src/app");
+import app from '../../../src/app';
+const modelLingua = require("../../../src/models/Lingua");
+const modelLocalidade = require("../../../src/models/Localidade");
+
 
 describe("Testes Idioma", () => {
+  let lingua; 
+  let localidade; 
+
+  beforeAll(async () => {
+    lingua = await modelLingua.create({ nome: "tupi-guarani" });
+    localidade = await modelLocalidade.create({
+      latitude: 123.5,
+      longitude: 456.9,
+    });
+  });
+
   describe("Testes de criação de Idioma", () => {
     it("Idioma - 200 - Criado com sucesso", async () => {
       const data = {
-        id_localidade: 2,
-        id_lingua: 2,
+        id_localidade: localidade.id_localidade,
+        id_lingua: lingua.id_lingua,
       };
       const result = await supertest(app).post("/idioma").send(data);
-      expect(result.status).toStrictEqual(200);
-      const dataResult = {
-        id_conteudo: 9,
-        id_localidade: 2,
-        id_lingua: 2,
-      };
-      expect(result.body).toMatchObject(dataResult);
+      expect(result.status).toStrictEqual(200);  
+      expect(result.body).toBeTruthy();
+
     });
   });
 
@@ -27,21 +37,7 @@ describe("Testes Idioma", () => {
       });
 
       expect(result.status).toStrictEqual(200);
-      expect(result.body).toMatchObject([
-        {
-          id_conteudo: 9,
-          lingua: {
-            etnia: [],
-            id_lingua: 2,
-            tronco: null,
-          },
-          localidade: {
-            id_localidade: 2,
-            longitude: 456.934,
-            latitude: 123.53,
-          },
-        },
-      ]);
+      expect(result.body.length).toBeTruthy()
     });
   });
 });
